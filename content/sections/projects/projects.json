@@ -1,0 +1,38 @@
+{
+    "projects": [
+        {
+            "visible": true,
+            "category": "🪙 TRANSACTIONS, CASH FLOW, DEBT AND TAXES",
+            "title": "Business Intelligence",
+            "description": "Including the study of statistical methods, insights engines, decision science, disparate data, descriptive, predictive, and prescriptive analytics, target market selection, new product introductions, customer retention, pricing, segmentation, promotion, data warehouses, data lakes, cloud computing, machine learning and artifical intelligence",
+            "tags": ["Data Analytics", "Experimental Design", "Business Strategy", "Interactive Reporting"],
+            "image": {
+                "src": "../../images/brandon-morgan-3qucB7U2l7I-unsplash.jpg",
+                "alt": "Quick Setup",
+                "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+            },
+            "links": [
+
+            ]
+        },
+        {
+            "visible": true,
+            "category": "🌐 SENDING AND RECEIVING INFORMATION",
+            "title": "Software Engineering",
+            "description": "Including the study of software, coding infrastructure, downloading/uploading, cryptography, data communications, blockchains, open-source software, software as a service (SaaS), content management, user interfaces, client-side scripting, server-side scripting, network connectivity, network security, web mail, e-commerce, progressive web applications, short-term memory, long-term memory, storage and cloud services",
+            "tags": ["Front End", "Back End", "Blockchain", "Dev Sec Ops", "OSI Model"],
+            "image": {
+                "src": "../../images/joshua-sortino-LqKhnDzSF-8-unsplash.jpg",
+                "alt": "Extendable Layout"
+            },
+            "links": [
+
+            ]
+        }
+    ],
+    "button": {
+        "visible": true,
+        "label": "Visit Me on Github",
+        "url": "https://github.com/towardsuffering"
+    }
+}

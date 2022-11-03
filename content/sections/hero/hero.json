@@ -1,0 +1,28 @@
+{
+    "intro": "",
+    "heroPhoto": {
+        "src": "../../images/rotten_carot.png",
+        "alt": "My Photo"
+    },
+    "image": {
+        "src": "",
+        "alt": ""
+    },
+    "title": "Chris Rotunno",
+    "subtitle": {
+        "prefix": "",
+        "highlight": "Business Strategist",
+        "suffix": ""
+    },
+    "description": "Personal landing page and blog",
+    "socialProfiles": {
+        "from": ["LinkedIn", "Medium", "Github", "Mail"],
+        "showIcons": false
+            },
+    "calendly": {
+        "label": "Schedule Free Zoom Appointment",
+        "username": "christopher-a-rotunno",
+        "colorText": "#FFFFFF",
+        "colorButton": "#0069FF"
+    }
+}

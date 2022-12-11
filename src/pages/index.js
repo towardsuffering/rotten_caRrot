@@ -17,10 +17,10 @@ export default function IndexPage() {
             <Page useSplashScreenAnimation>
                 <HeroSection sectionId="hero" />
                 <ArticlesSection sectionId="blog" heading="Blog" sources={['Medium']} />
-                <AboutSection sectionId="about" heading="Profile" />
-                <InterestsSection sectionId="tools" heading="Tools (ordered by most to least proficient)" />
-                <ProjectsSection sectionId="interests" heading="Areas of Expertise" />
-                <ContactSection sectionId="contact" heading="Contact Me" />
+                <AboutSection sectionId="about" heading="About" />
+                <InterestsSection sectionId="tools" heading="Tools" />
+                <ProjectsSection sectionId="interests" heading="Interests" />
+                <ContactSection sectionId="contact" heading="Contact" />
             </Page>
         </>
     );

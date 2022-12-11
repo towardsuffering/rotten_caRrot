@@ -3229,7 +3229,7 @@ function ArticleTemplate(props) {
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"allSettingsJson":{"settings":[{"siteConfiguration":{"featureToggles":{"useCookieBar":false,"useDarkModeAsDefault":false,"useDarkModeBasedOnUsersPreference":true},"logo":{"text":"@rotten_caRot"},"navigation":{"ctaButton":{"label":"Resume","openNewTab":true,"url":"/Rotunno_Christopher_Resume.pdf"},"footer":[{"label":"Privacy","url":"/privacy"},{"label":"Imprint","url":"/imprint"}],"header":[{"label":"About","url":"/#about"},{"label":"Blog","url":"/blog"},{"label":"Features","url":"/#features"},{"label":"Github","url":"/#github"}]}}}]}}}');
+module.exports = JSON.parse('{"data":{"allSettingsJson":{"settings":[{"siteConfiguration":{"featureToggles":{"useCookieBar":false,"useDarkModeAsDefault":false,"useDarkModeBasedOnUsersPreference":true},"logo":{"text":"@rotten_caRot"},"navigation":{"ctaButton":{"label":"Resume","openNewTab":true,"url":"/Rotunno_Christopher_Resume.pdf"},"footer":[{"label":"Privacy","url":"/privacy"},{"label":"Imprint","url":"/imprint"}],"header":[{"label":"About","url":"/#about"},{"label":"Blog","url":"/#blog"},{"label":"Tools","url":"/#tools"},{"label":"Interests","url":"/#interests"},{"label":"Contact","url":"/#contact"}]}}}]}}}');
 
 /***/ }),
 

@@ -1,357 +1,94 @@
-exports.id = "component---src-pages-privacy-js";
-exports.ids = ["component---src-pages-privacy-js"];
+exports.id = 844;
+exports.ids = [844];
 exports.modules = {
 
-/***/ "../gatsby-theme-portfolio-minimal/src/components/ArticleCard/style.module.css":
-/*!*************************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/ArticleCard/style.module.css ***!
-  \*************************************************************************************/
+/***/ 8177:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Banner": () => (/* binding */ Banner),
-/* harmony export */   "Card": () => (/* binding */ Card),
-/* harmony export */   "Category": () => (/* binding */ Category),
-/* harmony export */   "DescriptionWrapper": () => (/* binding */ DescriptionWrapper),
-/* harmony export */   "Details": () => (/* binding */ Details),
-/* harmony export */   "Image": () => (/* binding */ Image),
-/* harmony export */   "ImageWrapper": () => (/* binding */ ImageWrapper),
-/* harmony export */   "ReadingTime": () => (/* binding */ ReadingTime),
-/* harmony export */   "Title": () => (/* binding */ Title)
+/* harmony export */   "default": () => (/* binding */ PrivacyPage)
 /* harmony export */ });
-// Exports
-var Card = "style-module--Card--zjw4X";
-var Banner = "style-module--Banner--fewpW";
-var ImageWrapper = "style-module--ImageWrapper--CqJs4";
-var Image = "style-module--Image--4UULb";
-var DescriptionWrapper = "style-module--DescriptionWrapper--f9FGw";
-var Category = "style-module--Category--5zSuD";
-var Title = "style-module--Title--f48PK";
-var Details = "style-module--Details--okfYh";
-var ReadingTime = "style-module--ReadingTime--q4344";
-
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9266);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1835);
+function PrivacyPage(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment),null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__/* .Seo */ .pQ,{title:"Privacy Policy",useTitleTemplate:true,noIndex:true}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__/* .Page */ .T3,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__/* .LegalSection */ .Ek,{sectionId:"privacy",heading:"Privacy Policy"})));}
 
 /***/ }),
 
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Button/style.module.css":
-/*!********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Button/style.module.css ***!
-  \********************************************************************************/
+/***/ 1835:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Button": () => (/* binding */ Button)
-/* harmony export */ });
-// Exports
-var Button = "style-module--Button--YIkYT";
 
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "ez": () => (/* reexport */ AboutSection),
+  "q6": () => (/* reexport */ ArticlesSection),
+  "U0": () => (/* reexport */ ContactSection),
+  "DH": () => (/* reexport */ HeroSection),
+  "aS": () => (/* reexport */ InterestsSection),
+  "Ek": () => (/* reexport */ LegalSection),
+  "T3": () => (/* reexport */ Page/* Page */.T),
+  "Au": () => (/* reexport */ ProjectsSection),
+  "pQ": () => (/* reexport */ Seo/* Seo */.p)
+});
 
-/***/ }),
+// UNUSED EXPORTS: Animation, Section
 
-/***/ "../gatsby-theme-portfolio-minimal/src/components/CookieBar/style.module.css":
-/*!***********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/CookieBar/style.module.css ***!
-  \***********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "CookieBar": () => (/* binding */ CookieBar)
-/* harmony export */ });
-// Exports
-var CookieBar = "style-module--CookieBar--azLEs";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Footer/style.module.css":
-/*!********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Footer/style.module.css ***!
-  \********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ContentWrapper": () => (/* binding */ ContentWrapper),
-/* harmony export */   "Footer": () => (/* binding */ Footer),
-/* harmony export */   "Links": () => (/* binding */ Links)
-/* harmony export */ });
-// Exports
-var Footer = "style-module--Footer--WLcWY";
-var ContentWrapper = "style-module--ContentWrapper--zSC2F";
-var Links = "style-module--Links--QzZQK";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Header/style.module.css":
-/*!********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Header/style.module.css ***!
-  \********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Blurred": () => (/* binding */ Blurred),
-/* harmony export */   "Burger": () => (/* binding */ Burger),
-/* harmony export */   "ContentWrapper": () => (/* binding */ ContentWrapper),
-/* harmony export */   "CtaButton": () => (/* binding */ CtaButton),
-/* harmony export */   "Header": () => (/* binding */ Header),
-/* harmony export */   "NavLink": () => (/* binding */ NavLink),
-/* harmony export */   "SideBarBackdrop": () => (/* binding */ SideBarBackdrop),
-/* harmony export */   "SideBarWrapper": () => (/* binding */ SideBarWrapper),
-/* harmony export */   "SideNavigationBar": () => (/* binding */ SideNavigationBar),
-/* harmony export */   "TopNavigationBar": () => (/* binding */ TopNavigationBar)
-/* harmony export */ });
-// Exports
-var Header = "style-module--Header--g3NKu";
-var ContentWrapper  = "style-module--ContentWrapper --qZa71";
-var Burger = "style-module--Burger--xUXdY";
-var TopNavigationBar = "style-module--TopNavigationBar--jx232";
-var NavLink = "style-module--NavLink--qIn2s";
-var CtaButton = "style-module--CtaButton--FDb7c";
-var SideBarWrapper = "style-module--SideBarWrapper--L9fAO";
-var SideNavigationBar = "style-module--SideNavigationBar--yAH+u";
-var SideBarBackdrop = "style-module--SideBarBackdrop--dccCn";
-var Blurred = "style-module--Blurred--Tr24V";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Layout/style.module.css":
-/*!********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Layout/style.module.css ***!
-  \********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Layout": () => (/* binding */ Layout)
-/* harmony export */ });
-// Exports
-var Layout = "style-module--Layout--mDVMH";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Logo/style.module.css":
-/*!******************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Logo/style.module.css ***!
-  \******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Logo": () => (/* binding */ Logo)
-/* harmony export */ });
-// Exports
-var Logo = "style-module--Logo--eB7C0";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Project/style.module.css":
-/*!*********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Project/style.module.css ***!
-  \*********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Category": () => (/* binding */ Category),
-/* harmony export */   "Details": () => (/* binding */ Details),
-/* harmony export */   "Links": () => (/* binding */ Links),
-/* harmony export */   "Project": () => (/* binding */ Project),
-/* harmony export */   "ProjectImage": () => (/* binding */ ProjectImage),
-/* harmony export */   "ProjectImageWrapper": () => (/* binding */ ProjectImageWrapper),
-/* harmony export */   "Tags": () => (/* binding */ Tags),
-/* harmony export */   "Title": () => (/* binding */ Title)
-/* harmony export */ });
-// Exports
-var Project = "style-module--Project--LtV1h";
-var Details = "style-module--Details--vmqqH";
-var Category = "style-module--Category--ETQm4";
-var Title = "style-module--Title--oIFbn";
-var Tags = "style-module--Tags--ry3yL";
-var Links = "style-module--Links--hvqrq";
-var ProjectImageWrapper = "style-module--ProjectImageWrapper--hp34+";
-var ProjectImage = "style-module--ProjectImage--V8z6b";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Section/style.module.css":
-/*!*********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Section/style.module.css ***!
-  \*********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ContentWrapper": () => (/* binding */ ContentWrapper),
-/* harmony export */   "Heading": () => (/* binding */ Heading),
-/* harmony export */   "Section": () => (/* binding */ Section)
-/* harmony export */ });
-// Exports
-var Section = "style-module--Section--L+VCq";
-var Heading = "style-module--Heading--4EzNI";
-var ContentWrapper  = "style-module--ContentWrapper --NbMhq";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Slider/style.module.css":
-/*!********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Slider/style.module.css ***!
-  \********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "SlideContainer": () => (/* binding */ SlideContainer)
-/* harmony export */ });
-// Exports
-var SlideContainer = "style-module--SlideContainer--NKY0y";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/style.module.css":
-/*!****************************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/style.module.css ***!
-  \****************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Profile": () => (/* binding */ Profile)
-/* harmony export */ });
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/components/Page/index.tsx + 13 modules
+var Page = __webpack_require__(1061);
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/components/Seo/index.tsx
+var Seo = __webpack_require__(4434);
+// EXTERNAL MODULE: external "/home/carot/gatsby-theme-portfolio-minimal/node_modules/react/index.js"
+var index_js_ = __webpack_require__(9266);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js
+var gatsby_image_module = __webpack_require__(6650);
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx + 2 modules
+var Animation = __webpack_require__(4550);
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 4 modules
+var gatsby_browser_entry = __webpack_require__(1946);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/hooks/useCalendlyWidget.tsx
+const useCalendlyWidget=options=>{const useCalendlyIntegration=options===null||options===void 0?void 0:options.username;(0,index_js_.useEffect)(()=>{if(!useCalendlyIntegration)return;setTimeout(()=>{var _Calendly,_options$label,_options$colorButton,_options$colorText;(_Calendly=Calendly)===null||_Calendly===void 0?void 0:_Calendly.initBadgeWidget({url:`https://calendly.com/${options===null||options===void 0?void 0:options.username}`,text:(_options$label=options===null||options===void 0?void 0:options.label)!==null&&_options$label!==void 0?_options$label:'Schedule time with me',color:(_options$colorButton=options===null||options===void 0?void 0:options.colorButton)!==null&&_options$colorButton!==void 0?_options$colorButton:'#0069ff',textColor:(_options$colorText=options===null||options===void 0?void 0:options.colorText)!==null&&_options$colorText!==void 0?_options$colorText:'#ffffff'});},1000);},[]);return useCalendlyIntegration?/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement("link",{href:"https://assets.calendly.com/assets/external/widget.css",rel:"stylesheet"}),/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Script,{id:"calendlyScript",src:"https://assets.calendly.com/assets/external/widget.js",type:"text/javascript",async:true})):/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null);};
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx + 1 modules
+var Section = __webpack_require__(6919);
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata.tsx
+var useSiteMetadata = __webpack_require__(493);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/IconBehance.tsx
+function IconBehance(props){return/*#__PURE__*/index_js_default().createElement("svg",{version:"1.1",role:"img",fill:props.color||'var(--primary-color)',xmlns:"http://www.w3.org/2000/svg",x:"0px",y:"0px",width:"430.123px",height:"430.123px",viewBox:"0 0 430.123 430.123"},/*#__PURE__*/index_js_default().createElement("g",null,/*#__PURE__*/index_js_default().createElement("path",{id:"Behance",d:"M388.432,119.12H280.659V92.35h107.782v26.77H388.432z M208.912,228.895 c6.954,10.771,10.429,23.849,10.429,39.203c0,15.878-3.918,30.122-11.889,42.704c-5.071,8.326-11.367,15.359-18.932,21.021 c-8.52,6.548-18.607,11.038-30.203,13.437c-11.633,2.403-24.224,3.617-37.787,3.617H0V81.247h129.25 c32.579,0.53,55.676,9.969,69.315,28.506c8.184,11.369,12.239,25.011,12.239,40.868c0,16.362-4.104,29.454-12.368,39.401 c-4.597,5.577-11.388,10.65-20.378,15.229C191.675,210.236,202.007,218.086,208.912,228.895z M61.722,186.76h56.632 c11.638,0,21.046-2.212,28.292-6.634c7.241-4.415,10.854-12.263,10.854-23.531c0-12.449-4.784-20.712-14.375-24.689 c-8.244-2.763-18.792-4.186-31.591-4.186H61.722V186.76z M162.953,264.275c0-13.902-5.682-23.513-17.023-28.67 c-6.342-2.931-15.29-4.429-26.763-4.536H61.722v71.322h56.556c11.619,0,20.612-1.521,27.102-4.694 C157.084,291.863,162.953,280.76,162.953,264.275z M428.419,220.736c1.302,8.756,1.891,21.46,1.652,38.065H290.493 c0.77,19.266,7.421,32.739,20.035,40.449c7.607,4.835,16.83,7.196,27.63,7.196c11.388,0,20.67-2.879,27.815-8.797 c3.893-3.137,7.327-7.565,10.296-13.152h51.16c-1.34,11.379-7.5,22.92-18.57,34.648c-17.151,18.641-41.205,27.988-72.097,27.988 c-25.52,0-48.011-7.883-67.533-23.592C249.772,307.777,240,282.211,240,246.746c0-33.257,8.773-58.712,26.378-76.43 c17.67-17.751,40.474-26.586,68.583-26.586c16.661,0,31.68,2.978,45.079,8.965c13.357,5.993,24.396,15.425,33.09,28.388 C420.998,192.499,426.058,205.699,428.419,220.736z M378.062,225.73c-0.938-13.322-5.386-23.405-13.395-30.296 c-7.943-6.91-17.866-10.379-29.706-10.379c-12.886,0-22.836,3.708-29.906,10.996c-7.118,7.273-11.547,17.161-13.362,29.68H378.062 L378.062,225.73z"})));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/IconExternal.tsx
+function IconExternal(props){return/*#__PURE__*/index_js_default().createElement("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 194.818 194.818",x:"0px",y:"0px",role:"img",fill:props.color||'var(--primary-color)',width:"194.818px",height:"194.818px"},/*#__PURE__*/index_js_default().createElement("g",null,/*#__PURE__*/index_js_default().createElement("path",{d:"M185.8,2.2l-56.6,0c-4.8,0-9,3.6-9.3,8.4c-0.3,5.2,3.8,9.6,9,9.6h13.5c8.1,0,12.1,9.7,6.4,15.4L78,106.2 c-3.6,3.6-3.8,9.6-0.1,13.1c1.7,1.7,4,2.5,6.2,2.5c2.3,0,4.6-0.9,6.4-2.6l70.9-70.9c5.7-5.7,15.4-1.7,15.4,6.4v13.1 c0,4.8,3.6,9,8.4,9.3c5.2,0.3,9.6-3.8,9.6-9v-57C194.8,6.2,190.8,2.2,185.8,2.2z"}),/*#__PURE__*/index_js_default().createElement("path",{d:"M147.7,77.3c-4.5,0.6-7.7,4.7-7.7,9.2c0,14.6,0,59.7,0,79.1c0,5-4.1,9-9,9H27c-5,0-9-4.1-9-9V61.7c0-5,4.1-9,9-9l84.4,0 c4.8,0,9-3.6,9.3-8.4c0.3-5.2-3.8-9.6-9-9.6H9c-5,0-9,4.1-9,9v139.9c0,5,4.1,9,9,9H149c5,0,9-4.1,9-9V86.2 C158,80.8,153.2,76.5,147.7,77.3z"})));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/IconGithub.tsx
+function IconGithub(props){return/*#__PURE__*/index_js_default().createElement("svg",{version:"1.1",role:"img",fill:props.color||'var(--primary-color)',xmlns:"http://www.w3.org/2000/svg",x:"0px",y:"0px",viewBox:"262 -262 1024 1024"},/*#__PURE__*/index_js_default().createElement("path",{d:"M774-249.4c-282.9,0-512,229.1-512,512c0,226.6,146.6,417.9,350.1,485.8c25.6,4.5,35.2-10.9,35.2-24.3 c0-12.2-0.6-52.5-0.6-95.4c-128.6,23.7-161.9-31.4-172.2-60.2c-5.8-14.7-30.7-60.2-52.5-72.3c-17.9-9.6-43.5-33.3-0.6-33.9 c40.3-0.6,69.1,37.1,78.7,52.5c46.1,77.4,119.7,55.7,149.1,42.2c4.5-33.3,17.9-55.7,32.6-68.5c-113.9-12.8-233-57-233-252.8 c0-55.7,19.8-101.8,52.5-137.6c-5.1-12.8-23-65.3,5.1-135.7c0,0,42.9-13.4,140.8,52.5c41-11.5,84.5-17.3,128-17.3 c43.5,0,87,5.8,128,17.3c97.9-66.6,140.8-52.5,140.8-52.5c28.2,70.4,10.2,122.9,5.1,135.7c32.6,35.8,52.5,81.3,52.5,137.6 c0,196.5-119.7,240-233.6,252.8c18.6,16,34.6,46.7,34.6,94.7c0,68.5-0.6,123.5-0.6,140.8c0,13.4,9.6,29.4,35.2,24.3 c202.2-67.8,348.8-259.8,348.8-485.8C1286-20.2,1056.9-249.4,774-249.4z"}));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/IconHashnode.tsx
+function IconHashnode(props){return/*#__PURE__*/index_js_default().createElement("svg",{viewBox:"0 0 24 24",height:"48",width:"48",focusable:"false",role:"img",fill:props.color||'var(--primary-color)',xmlns:"http://www.w3.org/2000/svg"},/*#__PURE__*/index_js_default().createElement("path",{d:"m22.351 8.019-6.37-6.37a5.63 5.63 0 0 0-7.962 0l-6.37 6.37a5.63 5.63 0 0 0 0 7.962l6.37 6.37a5.63 5.63 0 0 0 7.962 0l6.37-6.37a5.63 5.63 0 0 0 0-7.962zM12 15.953a3.953 3.953 0 1 1 0-7.906 3.953 3.953 0 0 1 0 7.906z"}));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/IconLinkedIn.tsx
+function IconLinkedIn(props){return/*#__PURE__*/index_js_default().createElement("svg",{version:"1.1",xmlns:"http://www.w3.org/2000/svg",role:"img",fill:props.color||'var(--primary-color)',x:"0px",y:"0px",width:"430.117px",height:"430.117px",viewBox:"0 0 430.117 430.117"},/*#__PURE__*/index_js_default().createElement("g",null,/*#__PURE__*/index_js_default().createElement("path",{d:"M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707 c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21 v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824 C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463 c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z M5.477,420.56h92.184v-277.32H5.477V420.56z"})));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/IconMail.tsx
+function IconMail(props){return/*#__PURE__*/index_js_default().createElement("svg",{version:"1.1",id:"Mail",fill:props.color||'var(--primary-color)',xmlns:"http://www.w3.org/2000/svg",x:"0px",y:"0px",viewBox:"0 0 433.664 433.664"},/*#__PURE__*/index_js_default().createElement("g",null,/*#__PURE__*/index_js_default().createElement("g",null,/*#__PURE__*/index_js_default().createElement("path",{d:"M229.376,271.616c-4.096,2.56-8.704,3.584-12.8,3.584s-8.704-1.024-12.8-3.584L0,147.2v165.376c0,35.328,28.672,64,64,64 h305.664c35.328,0,64-28.672,64-64V147.2L229.376,271.616z"}))),/*#__PURE__*/index_js_default().createElement("g",null,/*#__PURE__*/index_js_default().createElement("g",null,/*#__PURE__*/index_js_default().createElement("path",{d:"M369.664,57.088H64c-30.208,0-55.808,21.504-61.952,50.176l215.04,131.072l214.528-131.072 C425.472,78.592,399.872,57.088,369.664,57.088z"}))));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/IconMedium.tsx
+function IconMedium(props){return/*#__PURE__*/index_js_default().createElement("svg",{version:"1.1",xmlns:"http://www.w3.org/2000/svg",role:"img",fill:props.color||'var(--primary-color)',x:"0px",y:"0px",viewBox:"-237 239 24 24"},/*#__PURE__*/index_js_default().createElement("path",{d:"M-234.2,245.9c0-0.3-0.1-0.6-0.3-0.8l-2.2-2.7V242h7l5.4,11.8l4.7-11.8h6.6v0.4l-1.9,1.8c-0.2,0.1-0.2,0.3-0.2,0.5v13.5 c0,0.2,0,0.4,0.2,0.5l1.9,1.8v0.4h-9.4v-0.4l1.9-1.9c0.2-0.2,0.2-0.2,0.2-0.5v-10.9l-5.4,13.7h-0.7l-6.3-13.7v9.2 c-0.1,0.4,0.1,0.8,0.3,1.1l2.5,3.1v0.4h-7.1v-0.4l2.5-3.1c0.3-0.3,0.4-0.7,0.3-1.1C-234.2,256.5-234.2,245.9-234.2,245.9z"}));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/IconTwitter.tsx
+function IconTwitter(props){return/*#__PURE__*/index_js_default().createElement("svg",{version:"1.1",id:"Mail",fill:props.color||'var(--primary-color)',xmlns:"http://www.w3.org/2000/svg",x:"0px",y:"0px",viewBox:"0 0 310 310"},/*#__PURE__*/index_js_default().createElement("g",{id:"XMLID_826_"},/*#__PURE__*/index_js_default().createElement("path",{id:"XMLID_827_",d:"M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73 c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783 c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598 C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467 c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977 c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889 c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597 c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961 c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895 c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367 c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998 C307.394,57.037,305.009,56.486,302.973,57.388z"})));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Icon/index.tsx
+function Icon(props){switch(props.name.toLowerCase()){case'external':return/*#__PURE__*/index_js_default().createElement(IconExternal,{color:props.color});case'behance':return/*#__PURE__*/index_js_default().createElement(IconBehance,{color:props.color});case'github':return/*#__PURE__*/index_js_default().createElement(IconGithub,{color:props.color});case'linkedin':return/*#__PURE__*/index_js_default().createElement(IconLinkedIn,{color:props.color});case'mail':return/*#__PURE__*/index_js_default().createElement(IconMail,{color:props.color});case'medium':return/*#__PURE__*/index_js_default().createElement(IconMedium,{color:props.color});case'twitter':return/*#__PURE__*/index_js_default().createElement(IconTwitter,{color:props.color});case'hashnode':return/*#__PURE__*/index_js_default().createElement(IconHashnode,{color:props.color});default:return null;}}
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/components/Slider/index.tsx + 1 modules
+var Slider = __webpack_require__(815);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/configuration.ts
+const socialProfileLabels={behance:'Behance',github:'GitHub',medium:'Medium',linkedin:'LinkedIn',mail:'Mail',twitter:'Twitter',hashnode:'Hashnode'};
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/style.module.css
 // Exports
 var Profile = "style-module--Profile--lX1+r";
 
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/SplashScreen/style.module.css":
-/*!**************************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/SplashScreen/style.module.css ***!
-  \**************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Backdrop": () => (/* binding */ Backdrop),
-/* harmony export */   "LogoWrapper": () => (/* binding */ LogoWrapper),
-/* harmony export */   "SplashScreen": () => (/* binding */ SplashScreen)
-/* harmony export */ });
-// Exports
-var SplashScreen = "style-module--SplashScreen--H2xCu";
-var LogoWrapper = "style-module--LogoWrapper--6nH2+";
-var Backdrop = "style-module--Backdrop--yhMVc";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/About/style.module.css":
-/*!*****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/About/style.module.css ***!
-  \*****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "About": () => (/* binding */ About),
-/* harmony export */   "Description": () => (/* binding */ Description),
-/* harmony export */   "Image": () => (/* binding */ Image),
-/* harmony export */   "ImageWrapper": () => (/* binding */ ImageWrapper)
-/* harmony export */ });
-// Exports
-var About = "style-module--About--uvSmy";
-var Description = "style-module--Description--iQhUV";
-var ImageWrapper = "style-module--ImageWrapper--oWCCa";
-var Image = "style-module--Image--NCV2j";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Articles/style.module.css":
-/*!********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Articles/style.module.css ***!
-  \********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Articles": () => (/* binding */ Articles)
-/* harmony export */ });
-// Exports
-var Articles = "style-module--Articles--UOHqr";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Contact/style.module.css":
-/*!*******************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Contact/style.module.css ***!
-  \*******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Avatar": () => (/* binding */ Avatar),
-/* harmony export */   "Contact": () => (/* binding */ Contact),
-/* harmony export */   "ContactDetails": () => (/* binding */ ContactDetails),
-/* harmony export */   "Description": () => (/* binding */ Description),
-/* harmony export */   "Name": () => (/* binding */ Name),
-/* harmony export */   "Profile": () => (/* binding */ Profile)
-/* harmony export */ });
-// Exports
-var Contact = "style-module--Contact--wduKF";
-var Description = "style-module--Description--OgXY+";
-var Profile = "style-module--Profile--pvzDd";
-var Avatar = "style-module--Avatar--Nrdsj";
-var ContactDetails = "style-module--ContactDetails--jx8Ck";
-var Name = "style-module--Name--bVtsV";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Hero/style.module.css":
-/*!****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Hero/style.module.css ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Hero": () => (/* binding */ Hero),
-/* harmony export */   "HeroContainer": () => (/* binding */ HeroContainer),
-/* harmony export */   "Image": () => (/* binding */ Image),
-/* harmony export */   "ImagePrefix": () => (/* binding */ ImagePrefix),
-/* harmony export */   "Intro": () => (/* binding */ Intro),
-/* harmony export */   "Subtitle": () => (/* binding */ Subtitle),
-/* harmony export */   "Title": () => (/* binding */ Title),
-/* harmony export */   "heroImage": () => (/* binding */ heroImage),
-/* harmony export */   "heroImageCont": () => (/* binding */ heroImageCont)
-/* harmony export */ });
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/index.tsx
+let SocialProfile;(function(SocialProfile){SocialProfile["Behance"]="behance";SocialProfile["GitHub"]="github";SocialProfile["Medium"]="medium";SocialProfile["Mail"]="mail";SocialProfile["LinkedIn"]="linkedin";SocialProfile["Twitter"]="twitter";SocialProfile["Hashnode"]="hashnode";})(SocialProfile||(SocialProfile={}));function SocialProfiles(props){const siteMetadata=(0,useSiteMetadata/* useSiteMetadata */.$)();// Enrich the social profile with data from the display name configuration file
+// as well as the site metadata from settings.json
+const shownProfiles=props.from.map(profile=>{const normalizedProfileId=profile.toLowerCase();if(Object.values(SocialProfile).includes(normalizedProfileId)){return{id:normalizedProfileId,label:socialProfileLabels[normalizedProfileId],url:siteMetadata.social[normalizedProfileId]};}else{throw new Error(`Unknown social profile ${profile}.`);}});return/*#__PURE__*/index_js_default().createElement(Slider/* Slider */.i,null,shownProfiles.map((profile,key)=>{const completeProfileData=profile.label&&profile.url;return!completeProfileData?null:/*#__PURE__*/index_js_default().createElement("a",{key:key,className:Profile,href:profile.url,target:"_blank",rel:"nofollow noopener noreferrer","aria-label":profile.label,style:props.showIcon?{padding:'0.5rem 1.25rem'}:undefined},props.showIcon?/*#__PURE__*/index_js_default().createElement(Icon,{name:profile.id}):undefined," ",profile.label);}));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Hero/data.tsx
+const useLocalDataSource=()=>{return (0,gatsby_browser_entry.useStaticQuery)("3525841079");};
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Hero/style.module.css
 // Exports
 var HeroContainer = "style-module--HeroContainer--R7vL1";
 var Hero = "style-module--Hero--MwbmZ";
@@ -363,3625 +100,556 @@ var Image = "style-module--Image--v2AXz";
 var heroImageCont = "style-module--heroImageCont--V0YfZ";
 var heroImage = "style-module--heroImage--Wp5ko";
 
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Interests/style.module.css":
-/*!*********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Interests/style.module.css ***!
-  \*********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Icon": () => (/* binding */ Icon),
-/* harmony export */   "Interest": () => (/* binding */ Interest),
-/* harmony export */   "Interests": () => (/* binding */ Interests)
-/* harmony export */ });
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Hero/index.tsx
+function HeroSection(props){var _data$heroPhoto,_data$image;const response=useLocalDataSource();const data=response.allHeroJson.sections[0];const CalendlyWidget=useCalendlyWidget(data.calendly);return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeUp",delay:400},CalendlyWidget,/*#__PURE__*/index_js_default().createElement(Section/* Section */.$,{anchor:props.sectionId,additionalClasses:[HeroContainer]},((_data$heroPhoto=data.heroPhoto)===null||_data$heroPhoto===void 0?void 0:_data$heroPhoto.src)&&/*#__PURE__*/index_js_default().createElement("div",{className:heroImageCont},/*#__PURE__*/index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{className:heroImage,image:data.heroPhoto.src.childImageSharp.gatsbyImageData,alt:data.heroPhoto.alt||`Profile Image`,loading:"eager"})),/*#__PURE__*/index_js_default().createElement("div",{className:Hero},/*#__PURE__*/index_js_default().createElement("div",{className:Intro},data.intro&&/*#__PURE__*/index_js_default().createElement("span",{className:ImagePrefix},data.intro),((_data$image=data.image)===null||_data$image===void 0?void 0:_data$image.src)&&/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{className:Image,type:"waving-hand",duration:2500,iterationCount:3},/*#__PURE__*/index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{image:data.image.src.childImageSharp.gatsbyImageData,alt:data.image.alt||`Intro Image`,loading:"eager"}))),/*#__PURE__*/index_js_default().createElement("h1",{className:Title},data.title),/*#__PURE__*/index_js_default().createElement("h2",{className:Subtitle},data.subtitle.prefix,/*#__PURE__*/index_js_default().createElement("u",null,data.subtitle.highlight),data.subtitle.suffix),/*#__PURE__*/index_js_default().createElement("p",null,data.description),/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeLeft",delay:600},data.socialProfiles&&/*#__PURE__*/index_js_default().createElement(SocialProfiles,{from:data.socialProfiles.from,showIcon:data.socialProfiles.showIcons})))));}
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/components/ArticleCard/index.tsx + 2 modules
+var ArticleCard = __webpack_require__(5972);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Articles/data.tsx
+/* provided dependency */ var fetch = __webpack_require__(3109);
+async function useMediumFeed(profileUrl){let mediumArticleList=[];const feedUrl=constructMediumFeedUrl(profileUrl);try{const res=await fetch(feedUrl,{headers:{Accept:'application/json'}});const data=await res.json();// The Medium RSS feed provides not only articles but comments as well. Here, we filter
+// for items that have at least one category. This is our trivial approach to select
+// only articles (because comments can't have any categories) ¯\_(ツ)_/¯
+const dataWithArticlesOnly=data.items.filter(item=>item.categories.length!==0);mediumArticleList=[...dataWithArticlesOnly];}catch(error){console.warn('Fetching Medium Feed failed.',error);}return mediumArticleList;}function constructMediumFeedUrl(profileUrl){const RSS_2_JSON_API='https://api.rss2json.com/v1/api.json?rss_url=';// Remove trailing slashes from mediumProfile, append /feed, and make it URL friendly
+return RSS_2_JSON_API+encodeURIComponent(profileUrl.replace(/\/+$/,'')+'/feed');}const data_useLocalDataSource=()=>{return (0,gatsby_browser_entry.useStaticQuery)("540466502");};
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Articles/style.module.css
 // Exports
-var Interests = "style-module--Interests--ppDJY";
-var Interest = "style-module--Interest--iu889";
-var Icon = "style-module--Icon--LdPYs";
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Projects/style.module.css":
-/*!********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Projects/style.module.css ***!
-  \********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "MoreProjects": () => (/* binding */ MoreProjects),
-/* harmony export */   "Projects": () => (/* binding */ Projects)
-/* harmony export */ });
-// Exports
-var Projects = "style-module--Projects--l0368";
-var MoreProjects = "style-module--MoreProjects--3KEBL";
-
-
-/***/ }),
-
-/***/ "./src/pages/privacy.js":
-/*!******************************!*\
-  !*** ./src/pages/privacy.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ PrivacyPage)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby-theme-portfolio-minimal */ "../gatsby-theme-portfolio-minimal/index.js");
-
-
-function PrivacyPage() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__.Seo, {
-    title: "Privacy Policy",
-    useTitleTemplate: true,
-    noIndex: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__.Page, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__.LegalSection, {
-    sectionId: "privacy",
-    heading: "Privacy Policy"
-  })));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/index.js":
-/*!**************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/index.js ***!
-  \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AboutSection": () => (/* reexport safe */ _src_sections_About__WEBPACK_IMPORTED_MODULE_4__.AboutSection),
-/* harmony export */   "Animation": () => (/* reexport safe */ _src_components_Animation__WEBPACK_IMPORTED_MODULE_10__.Animation),
-/* harmony export */   "ArticlesSection": () => (/* reexport safe */ _src_sections_Articles__WEBPACK_IMPORTED_MODULE_3__.ArticlesSection),
-/* harmony export */   "ContactSection": () => (/* reexport safe */ _src_sections_Contact__WEBPACK_IMPORTED_MODULE_7__.ContactSection),
-/* harmony export */   "HeroSection": () => (/* reexport safe */ _src_sections_Hero__WEBPACK_IMPORTED_MODULE_2__.HeroSection),
-/* harmony export */   "InterestsSection": () => (/* reexport safe */ _src_sections_Interests__WEBPACK_IMPORTED_MODULE_5__.InterestsSection),
-/* harmony export */   "LegalSection": () => (/* reexport safe */ _src_sections_Legal__WEBPACK_IMPORTED_MODULE_8__.LegalSection),
-/* harmony export */   "Page": () => (/* reexport safe */ _src_components_Page__WEBPACK_IMPORTED_MODULE_0__.Page),
-/* harmony export */   "ProjectsSection": () => (/* reexport safe */ _src_sections_Projects__WEBPACK_IMPORTED_MODULE_6__.ProjectsSection),
-/* harmony export */   "Section": () => (/* reexport safe */ _src_components_Section__WEBPACK_IMPORTED_MODULE_9__.Section),
-/* harmony export */   "Seo": () => (/* reexport safe */ _src_components_Seo__WEBPACK_IMPORTED_MODULE_1__.Seo)
-/* harmony export */ });
-/* harmony import */ var _src_components_Page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/components/Page */ "../gatsby-theme-portfolio-minimal/src/components/Page/index.tsx");
-/* harmony import */ var _src_components_Seo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Seo */ "../gatsby-theme-portfolio-minimal/src/components/Seo/index.tsx");
-/* harmony import */ var _src_sections_Hero__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/sections/Hero */ "../gatsby-theme-portfolio-minimal/src/sections/Hero/index.tsx");
-/* harmony import */ var _src_sections_Articles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./src/sections/Articles */ "../gatsby-theme-portfolio-minimal/src/sections/Articles/index.tsx");
-/* harmony import */ var _src_sections_About__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/sections/About */ "../gatsby-theme-portfolio-minimal/src/sections/About/index.tsx");
-/* harmony import */ var _src_sections_Interests__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/sections/Interests */ "../gatsby-theme-portfolio-minimal/src/sections/Interests/index.tsx");
-/* harmony import */ var _src_sections_Projects__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/sections/Projects */ "../gatsby-theme-portfolio-minimal/src/sections/Projects/index.tsx");
-/* harmony import */ var _src_sections_Contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./src/sections/Contact */ "../gatsby-theme-portfolio-minimal/src/sections/Contact/index.tsx");
-/* harmony import */ var _src_sections_Legal__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./src/sections/Legal */ "../gatsby-theme-portfolio-minimal/src/sections/Legal/index.tsx");
-/* harmony import */ var _src_components_Section__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./src/components/Section */ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx");
-/* harmony import */ var _src_components_Animation__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./src/components/Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js":
-/*!************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/helper.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-exports.validGATrackingId = function (options) {
-  return options.trackingId && options.trackingId.trim() !== "";
-};
-exports.validGTMTrackingId = function (options) {
-  return options.trackingId && options.trackingId.trim() !== "";
-};
-exports.validFbPixelId = function (options) {
-  return options.pixelId && options.pixelId.trim() !== "";
-};
-exports.validTikTokPixelId = function (options) {
-  return options.pixelId && options.pixelId.trim() !== "";
-};
-exports.validHotjarId = function (options) {
-  return options.hjid && options.hjid.trim() !== "" && options.hjsv && options.hjsv.trim() !== "";
-};
-exports.validChatwootConfig = function (options) {
-  return options.baseUrl && options.baseUrl.trim() !== "" && options.websiteToken && options.websiteToken.trim() !== "";
-};
-exports.validLinkedinTrackingId = function (options) {
-  return options.trackingId && options.trackingId.trim() !== "";
-};
-exports.getCookie = function (name) {
-  var v = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
-  return v ? v[2] : null;
-};
-exports.isEnvironmentValid = function (environments) {
-  var currentEnvironment = ({}).ENV || "development" || 0;
-  return environments.includes(currentEnvironment);
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/index.js":
-/*!***********************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/index.js ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ./services */ "../node_modules/gatsby-plugin-gdpr-cookies/services/index.js"),
-  initializeAndTrackGoogleAnalytics = _require.initializeAndTrackGoogleAnalytics,
-  initializeAndTrackGoogleTagManager = _require.initializeAndTrackGoogleTagManager,
-  initializeAndTrackFacebookPixel = _require.initializeAndTrackFacebookPixel,
-  initializeAndTrackTikTokPixel = _require.initializeAndTrackTikTokPixel,
-  initializeAndTrackHotjar = _require.initializeAndTrackHotjar,
-  initializeChatwoot = _require.initializeChatwoot,
-  initializeLinkedin = _require.initializeLinkedin;
-var _require2 = __webpack_require__(/*! ./helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  isEnvironmentValid = _require2.isEnvironmentValid;
-exports.initializeAndTrack = function (location) {
-  var options = window.gatsbyPluginGDPRCookiesOptions;
-  if (isEnvironmentValid(options.environments)) {
-    if (location === undefined || location === null) {
-      console.error('Please provide a reach router location to the initializeAndTrack function.');
-    } else {
-      initializeAndTrackGoogleAnalytics(options.googleAnalytics, location);
-      initializeAndTrackGoogleTagManager(options.googleTagManager, location);
-      initializeAndTrackFacebookPixel(options.facebookPixel);
-      initializeAndTrackTikTokPixel(options.tikTokPixel);
-      initializeAndTrackHotjar(options.hotjar);
-      initializeChatwoot(options.chatwoot);
-      initializeLinkedin(options.linkedin);
-    }
-  }
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/services/chatwoot.js":
-/*!***********************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/services/chatwoot.js ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ../helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  validChatwootConfig = _require.validChatwootConfig,
-  getCookie = _require.getCookie;
-exports.addChatwoot = function (options) {
-  return new Promise(function (resolve, reject) {
-    if (window.gatsbyPluginGDPRCookiesChatwootAdded) return resolve(true);
-    /* eslint-disable */
-
-    !function (d, t) {
-      var BASE_URL = options.baseUrl;
-      var g = d.createElement(t),
-        s = d.getElementsByTagName(t)[0];
-      g.src = BASE_URL + "/packs/js/sdk.js";
-      g.defer = true;
-      g.async = true;
-      s.parentNode.insertBefore(g, s);
-      g.onload = function () {
-        window.chatwootSDK.run({
-          websiteToken: options.websiteToken,
-          baseUrl: BASE_URL
-        });
-      };
-    }(document, "script");
-    /* eslint-enable */
-
-    window.gatsbyPluginGDPRCookiesChatwootAdded = true;
-    resolve(true);
-  });
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/services/facebook.js":
-/*!***********************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/services/facebook.js ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ../helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  validFbPixelId = _require.validFbPixelId,
-  getCookie = _require.getCookie;
-exports.addFacebookPixel = function () {
-  return new Promise(function (resolve, reject) {
-    if (window.gatsbyPluginGDPRCookiesFacebookPixelAdded) return resolve(true);
-    /* eslint-disable */
-
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return;
-      n = f.fbq = function () {
-        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-      };
-      if (!f._fbq) f._fbq = n;
-      n.push = n;
-      n.loaded = !0;
-      n.version = '2.0';
-      n.queue = [];
-      t = b.createElement(e);
-      t.async = !0;
-      t.src = v;
-      s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s);
-    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-    /* eslint-enable */
-
-    window.gatsbyPluginGDPRCookiesFacebookPixelAdded = true;
-    resolve(true);
-  });
-};
-exports.initializeFacebookPixel = function (options) {
-  if (!window.gatsbyPluginGDPRCookiesFacebookPixelInitialized && getCookie(options.cookieName) === "true" && validFbPixelId(options)) {
-    window.fbq("init", options.pixelId);
-    window.gatsbyPluginGDPRCookiesFacebookPixelInitialized = true;
-  }
-};
-exports.trackFacebookPixel = function (options) {
-  if (getCookie(options.cookieName) === "true" && validFbPixelId(options) && typeof window.fbq === "function") {
-    window.fbq("track", "PageView");
-  }
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/services/google-analytics.js":
-/*!*******************************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/services/google-analytics.js ***!
-  \*******************************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ../helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  validGATrackingId = _require.validGATrackingId,
-  getCookie = _require.getCookie;
-exports.addGoogleAnalytics = function (_ref) {
-  var trackingId = _ref.trackingId;
-  return new Promise(function (resolve, reject) {
-    if (window.gatsbyPluginGDPRCookiesGoogleAnalyticsAdded) return resolve(true);
-    var head = document.getElementsByTagName('head')[0];
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.onload = function () {
-      window.gatsbyPluginGDPRCookiesGoogleAnalyticsAdded = true;
-      resolve(true);
-    };
-    script.src = "https://www.googletagmanager.com/gtag/js?id=" + trackingId;
-    head.appendChild(script);
-  });
-};
-exports.initializeGoogleAnalytics = function (options) {
-  if (!window.gatsbyPluginGDPRCookiesGoogleAnalyticsInitialized && getCookie(options.cookieName) === "true" && validGATrackingId(options)) {
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () {
-      window.dataLayer.push(arguments);
-    };
-    window.gtag('js', new Date());
-    var gaAnonymize = options.anonymize;
-    var gaAllowAdFeatures = options.allowAdFeatures;
-    gaAnonymize = gaAnonymize !== undefined ? gaAnonymize : true;
-    gaAllowAdFeatures = gaAllowAdFeatures !== undefined ? gaAllowAdFeatures : true;
-    window.gtag('config', options.trackingId, {
-      'anonymize_ip': gaAnonymize,
-      'allow_google_signals': gaAllowAdFeatures
-    });
-    window.gatsbyPluginGDPRCookiesGoogleAnalyticsInitialized = true;
-  }
-};
-exports.trackGoogleAnalytics = function (options, location) {
-  if (getCookie(options.cookieName) === "true" && validGATrackingId(options) && typeof window.gtag === "function") {
-    var pagePath = location ? location.pathname + location.search + location.hash : undefined;
-    window.gtag("event", "page_view", {
-      page_path: pagePath
-    });
-  }
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/services/google-tag-manager.js":
-/*!*********************************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/services/google-tag-manager.js ***!
-  \*********************************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ../helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  validGTMTrackingId = _require.validGTMTrackingId,
-  getCookie = _require.getCookie;
-exports.addGoogleTagManager = function (_ref, environmentParamStr) {
-  var trackingId = _ref.trackingId,
-    dataLayerName = _ref.dataLayerName;
-  return new Promise(function (resolve, reject) {
-    if (window.gatsbyPluginGDPRCookiesGoogleTagManagerAdded) return resolve(true);
-    /* eslint-disable */
-
-    !function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        "gtm.start": new Date().getTime(),
-        event: "gtm.js"
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != "dataLayer" ? "&l=" + l : "";
-      j.async = true;
-      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl + environmentParamStr;
-      f.parentNode.insertBefore(j, f);
-    }(window, document, "script", dataLayerName, trackingId);
-    /* eslint-enable */
-
-    var iframe = document.createElement("iframe");
-    iframe.key = "gatsby-plugin-gdpr-cookies-google-tagmanager-iframe";
-    iframe.src = "https://www.googletagmanager.com/ns.html?id=" + trackingId + environmentParamStr;
-    iframe.height = 0;
-    iframe.width = 0;
-    iframe.style = "display: none; visibility: hidden";
-    document.body.insertBefore(iframe, document.body.firstChild);
-    window.gatsbyPluginGDPRCookiesGoogleTagManagerAdded = true;
-    resolve(true);
-  });
-};
-exports.initializeGoogleTagManager = function (options) {
-  // console.log(`initing tag manager`)
-  if (!window.gatsbyPluginGDPRCookiesGoogleTagManagerInitialized && getCookie(options.cookieName) === "true" && validGTMTrackingId(options)) {
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () {
-      window.dataLayer.push(arguments);
-    };
-    window.gtag("js", new Date());
-    var gaAnonymize = options.anonymize;
-    var gaAllowAdFeatures = options.allowAdFeatures;
-    gaAnonymize = gaAnonymize !== undefined ? gaAnonymize : true;
-    gaAllowAdFeatures = gaAllowAdFeatures !== undefined ? gaAllowAdFeatures : true;
-    window.gtag("config", options.trackingId, {
-      anonymize_ip: gaAnonymize,
-      allow_google_signals: gaAllowAdFeatures
-    });
-  }
-};
-exports.trackGoogleTagManager = function (options, location) {
-  // console.log(`tracking tag manager`)
-  if (getCookie(options.cookieName) === "true" && validGTMTrackingId(options) && typeof window.gtag === "function") {
-    var pagePath = location ? location.pathname + location.search + location.hash : undefined;
-    window.gtag("event", "page_view", {
-      page_path: pagePath
-    });
-  }
-  setTimeout(function () {
-    var data = options.dataLayerName ? window[options.dataLayerName] : window.dataLayer;
-    if (typeof data === "object") {
-      var eventName = options.routeChangeEvent || "gatsbyRouteChange";
-      data.push({
-        event: eventName
-      });
-    }
-  }, 50);
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/services/hotjar.js":
-/*!*********************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/services/hotjar.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ../helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  validHotjarId = _require.validHotjarId,
-  getCookie = _require.getCookie;
-exports.addHotjar = function (options) {
-  return new Promise(function (resolve, reject) {
-    if (window.gatsbyPluginGDPRCookiesHotjarAdded) return resolve(true);
-    /* eslint-disable */
-
-    !function (h, o, t, j, a, r) {
-      h.hj = h.hj || function () {
-        (h.hj.q = h.hj.q || []).push(arguments);
-      };
-      h._hjSettings = {
-        hjid: options.hjid,
-        hjsv: options.hjsv
-      };
-      a = o.getElementsByTagName('head')[0];
-      r = o.createElement('script');
-      r.async = 1;
-      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-      a.appendChild(r);
-    }(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    /* eslint-enable */
-
-    window.gatsbyPluginGDPRCookiesHotjarAdded = true;
-    resolve(true);
-  });
-};
-exports.initializeHotjar = function (options) {
-  if (!window.gatsbyPluginGDPRCookiesHotjarInitialized && getCookie(options.cookieName) === "true" && validHotjarId(options)) {
-    window.gatsbyPluginGDPRCookiesHotjarInitialized = true;
-  }
-};
-exports.trackHotjar = function (options) {// this is supposed to so nothing
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/services/index.js":
-/*!********************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/services/index.js ***!
-  \********************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ../helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  validGATrackingId = _require.validGATrackingId,
-  validGTMTrackingId = _require.validGTMTrackingId,
-  validFbPixelId = _require.validFbPixelId,
-  validTikTokPixelId = _require.validTikTokPixelId,
-  validHotjarId = _require.validHotjarId,
-  validChatwootConfig = _require.validChatwootConfig,
-  validLinkedinTrackingId = _require.validLinkedinTrackingId,
-  getCookie = _require.getCookie;
-var _require2 = __webpack_require__(/*! ./google-analytics */ "../node_modules/gatsby-plugin-gdpr-cookies/services/google-analytics.js"),
-  addGoogleAnalytics = _require2.addGoogleAnalytics,
-  initializeGoogleAnalytics = _require2.initializeGoogleAnalytics,
-  trackGoogleAnalytics = _require2.trackGoogleAnalytics;
-var _require3 = __webpack_require__(/*! ./google-tag-manager */ "../node_modules/gatsby-plugin-gdpr-cookies/services/google-tag-manager.js"),
-  addGoogleTagManager = _require3.addGoogleTagManager,
-  initializeGoogleTagManager = _require3.initializeGoogleTagManager,
-  trackGoogleTagManager = _require3.trackGoogleTagManager;
-var _require4 = __webpack_require__(/*! ./facebook */ "../node_modules/gatsby-plugin-gdpr-cookies/services/facebook.js"),
-  addFacebookPixel = _require4.addFacebookPixel,
-  initializeFacebookPixel = _require4.initializeFacebookPixel,
-  trackFacebookPixel = _require4.trackFacebookPixel;
-var _require5 = __webpack_require__(/*! ./tiktok */ "../node_modules/gatsby-plugin-gdpr-cookies/services/tiktok.js"),
-  addTikTokPixel = _require5.addTikTokPixel,
-  initializeTikTokPixel = _require5.initializeTikTokPixel,
-  trackTikTokPixel = _require5.trackTikTokPixel;
-var _require6 = __webpack_require__(/*! ./hotjar */ "../node_modules/gatsby-plugin-gdpr-cookies/services/hotjar.js"),
-  addHotjar = _require6.addHotjar,
-  initializeHotjar = _require6.initializeHotjar,
-  trackHotjar = _require6.trackHotjar;
-var _require7 = __webpack_require__(/*! ./chatwoot */ "../node_modules/gatsby-plugin-gdpr-cookies/services/chatwoot.js"),
-  addChatwoot = _require7.addChatwoot;
-var _require8 = __webpack_require__(/*! ./linkedin */ "../node_modules/gatsby-plugin-gdpr-cookies/services/linkedin.js"),
-  addLinkedin = _require8.addLinkedin,
-  initializeLinkedin = _require8.initializeLinkedin;
-exports.initializeAndTrackGoogleAnalytics = function (options, location) {
-  if (getCookie(options.cookieName) === "true" && validGATrackingId(options)) {
-    addGoogleAnalytics(options).then(function (status) {
-      if (status) {
-        initializeGoogleAnalytics(options);
-        trackGoogleAnalytics(options, location);
-      }
-    });
-  }
-};
-exports.initializeAndTrackGoogleTagManager = function (options, location) {
-  if (getCookie(options.cookieName) === "true" && validGTMTrackingId(options)) {
-    var environmentParamStr = "";
-    if (options.gtmAuth && options.gtmPreview) {
-      environmentParamStr = "&gtm_auth=" + options.gtmAuth + "&gtm_preview=" + options.gtmPreview + "&gtm_cookies_win=x";
-    }
-    addGoogleTagManager(options, environmentParamStr).then(function (status) {
-      if (status) {
-        initializeGoogleTagManager(options);
-        trackGoogleTagManager(options, location);
-      }
-    });
-  }
-};
-exports.initializeAndTrackFacebookPixel = function (options) {
-  if (getCookie(options.cookieName) === "true" && validFbPixelId(options)) {
-    addFacebookPixel().then(function (status) {
-      if (status) {
-        initializeFacebookPixel(options);
-        trackFacebookPixel(options);
-      }
-    });
-  }
-};
-exports.initializeAndTrackTikTokPixel = function (options) {
-  if (getCookie(options.cookieName) === "true" && validTikTokPixelId(options)) {
-    addTikTokPixel().then(function (status) {
-      if (status) {
-        initializeTikTokPixel(options);
-        trackTikTokPixel(options);
-      }
-    });
-  }
-};
-exports.initializeAndTrackHotjar = function (options) {
-  if (getCookie(options.cookieName) === "true" && validHotjarId(options)) {
-    addHotjar(options).then(function (status) {
-      if (status) {
-        initializeHotjar(options);
-        trackHotjar(options);
-      }
-    });
-  }
-};
-exports.initializeLinkedin = function (options) {
-  if (getCookie(options.cookieName) === "true" && validLinkedinTrackingId(options)) {
-    addLinkedin(options).then(function (status) {
-      if (status) {
-        initializeLinkedin(options);
-      }
-    });
-  }
-};
-exports.initializeChatwoot = function (options) {
-  if (getCookie(options.cookieName) === "true" && validChatwootConfig(options)) {
-    addChatwoot(options).then(function (status) {
-      if (status) {
-        console.info('Chat is added and running');
-      }
-    });
-  }
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/services/linkedin.js":
-/*!***********************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/services/linkedin.js ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ../helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  validLinkedinTrackingId = _require.validLinkedinTrackingId,
-  getCookie = _require.getCookie;
-exports.addLinkedin = function (options) {
-  return new Promise(function (resolve, reject) {
-    if (window.gatsbyPluginGDPRCookiesLinkedinAdded) return resolve(true);
-    /* eslint-disable */
-    // LINKED IN SPECIFIC CODE HERE
-
-    _linkedin_partner_id = options.trackingId;
-    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-    /* eslint-enable */
-
-    window.gatsbyPluginGDPRCookiesLinkedinAdded = true;
-    resolve(true);
-  });
-};
-exports.initializeLinkedin = function (options) {
-  if (!window.gatsbyPluginGDPRCookiesLinkedinInitialized && getCookie(options.cookieName) === "true" && validLinkedinTrackingId(options)) {
-    // (function(){
-    var s = document.getElementsByTagName("script")[0];
-    var b = document.createElement("script");
-    b.type = "text/javascript";
-    b.async = true;
-    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-    s.parentNode.insertBefore(b, s); // })();
-
-    window.gatsbyPluginGDPRCookiesLinkedinInitialized = true;
-  }
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-gdpr-cookies/services/tiktok.js":
-/*!*********************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-gdpr-cookies/services/tiktok.js ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
-
-var _require = __webpack_require__(/*! ../helper */ "../node_modules/gatsby-plugin-gdpr-cookies/helper.js"),
-  validTikTokPixelId = _require.validTikTokPixelId,
-  getCookie = _require.getCookie;
-exports.addTikTokPixel = function () {
-  return new Promise(function (resolve, reject) {
-    if (window.gatsbyPluginGDPRCookiesTikTokPixelAdded) return resolve(true);
-    /* eslint-disable */
-
-    !function (w, d, t) {
-      w.TiktokAnalyticsObject = t;
-      var ttq = w[t] = w[t] || [];
-      ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie"], ttq.setAndDefer = function (t, e) {
-        t[e] = function () {
-          t.push([e].concat(Array.prototype.slice.call(arguments, 0)));
-        };
-      };
-      for (var i = 0; i < ttq.methods.length; i++) {
-        ttq.setAndDefer(ttq, ttq.methods[i]);
-      }
-      ttq.instance = function (t) {
-        for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) {
-          ttq.setAndDefer(e, ttq.methods[n]);
-        }
-        return e;
-      }, ttq.load = function (e, n) {
-        var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
-        ttq._i = ttq._i || {}, ttq._i[e] = [], ttq._i[e]._u = i, ttq._t = ttq._t || {}, ttq._t[e] = +new Date(), ttq._o = ttq._o || {}, ttq._o[e] = n || {};
-        n = document.createElement("script");
-        n.type = "text/javascript", n.async = !0, n.src = i + "?sdkid=" + e + "&lib=" + t;
-        e = document.getElementsByTagName("script")[0];
-        e.parentNode.insertBefore(n, e);
-      };
-    }(window, document, 'ttq');
-    /* eslint-enable */
-
-    window.gatsbyPluginGDPRCookiesTikTokPixelAdded = true;
-    resolve(true);
-  });
-};
-exports.initializeTikTokPixel = function (options) {
-  if (!window.gatsbyPluginGDPRCookiesTikTokPixelInitialized && getCookie(options.cookieName) === "true" && validTikTokPixelId(options)) {
-    window.ttq.load(options.pixelId);
-    window.gatsbyPluginGDPRCookiesTikTokPixelInitialized = true;
-  }
-};
-exports.trackTikTokPixel = function (options) {
-  if (getCookie(options.cookieName) === "true" && validTikTokPixelId(options) && typeof window.fbq === "function") {
-    window.fbq("track", "PageView");
-    window.ttq.page();
-  }
-};
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js":
-/*!***********************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "GatsbyImage": () => (/* binding */ B),
-/* harmony export */   "MainImage": () => (/* binding */ z),
-/* harmony export */   "Placeholder": () => (/* binding */ O),
-/* harmony export */   "StaticImage": () => (/* binding */ V),
-/* harmony export */   "generateImageData": () => (/* binding */ f),
-/* harmony export */   "getImage": () => (/* binding */ M),
-/* harmony export */   "getImageData": () => (/* binding */ x),
-/* harmony export */   "getLowResolutionImageURL": () => (/* binding */ m),
-/* harmony export */   "getSrc": () => (/* binding */ S),
-/* harmony export */   "getSrcSet": () => (/* binding */ N),
-/* harmony export */   "withArtDirection": () => (/* binding */ I)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var camelcase__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! camelcase */ "../node_modules/gatsby-plugin-image/node_modules/camelcase/index.js");
-/* harmony import */ var camelcase__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(camelcase__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "../node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-
-function n() {
-  return n = Object.assign || function (e) {
-    for (var t = 1; t < arguments.length; t++) {
-      var a = arguments[t];
-      for (var i in a) Object.prototype.hasOwnProperty.call(a, i) && (e[i] = a[i]);
-    }
-    return e;
-  }, n.apply(this, arguments);
-}
-function o(e, t) {
-  if (null == e) return {};
-  var a,
-    i,
-    r = {},
-    n = Object.keys(e);
-  for (i = 0; i < n.length; i++) t.indexOf(a = n[i]) >= 0 || (r[a] = e[a]);
-  return r;
-}
-var s = [.25, .5, 1, 2],
-  l = [750, 1080, 1366, 1920],
-  d = [320, 654, 768, 1024, 1366, 1600, 1920, 2048, 2560, 3440, 3840, 4096],
-  u = function (e) {
-    return console.warn(e);
-  },
-  c = function (e, t) {
-    return e - t;
-  },
-  h = function (e) {
-    return e.map(function (e) {
-      return e.src + " " + e.width + "w";
-    }).join(",\n");
-  };
-function g(e) {
-  var t = e.lastIndexOf(".");
-  if (-1 !== t) {
-    var a = e.slice(t + 1);
-    if ("jpeg" === a) return "jpg";
-    if (3 === a.length || 4 === a.length) return a;
-  }
-}
-function p(e) {
-  var t = e.layout,
-    i = void 0 === t ? "constrained" : t,
-    r = e.width,
-    o = e.height,
-    s = e.sourceMetadata,
-    l = e.breakpoints,
-    d = e.aspectRatio,
-    u = e.formats,
-    c = void 0 === u ? ["auto", "webp"] : u;
-  return c = c.map(function (e) {
-    return e.toLowerCase();
-  }), i = camelcase__WEBPACK_IMPORTED_MODULE_1___default()(i), r && o ? n({}, e, {
-    formats: c,
-    layout: i,
-    aspectRatio: r / o
-  }) : (s.width && s.height && !d && (d = s.width / s.height), "fullWidth" === i ? (r = r || s.width || l[l.length - 1], o = o || Math.round(r / (d || 1.3333333333333333))) : (r || (r = o && d ? o * d : s.width ? s.width : o ? Math.round(o / 1.3333333333333333) : 800), d && !o ? o = Math.round(r / d) : d || (d = r / o)), n({}, e, {
-    width: r,
-    height: o,
-    aspectRatio: d,
-    layout: i,
-    formats: c
-  }));
-}
-function m(e, t) {
-  var a;
-  return void 0 === t && (t = 20), null == (a = (0, (e = p(e)).generateImageSource)(e.filename, t, Math.round(t / e.aspectRatio), e.sourceMetadata.format || "jpg", e.fit, e.options)) ? void 0 : a.src;
-}
-function f(e) {
-  var t,
-    a = (e = p(e)).pluginName,
-    i = e.sourceMetadata,
-    r = e.generateImageSource,
-    o = e.layout,
-    d = e.fit,
-    c = e.options,
-    m = e.width,
-    f = e.height,
-    b = e.filename,
-    E = e.reporter,
-    k = void 0 === E ? {
-      warn: u
-    } : E,
-    M = e.backgroundColor,
-    S = e.placeholderURL;
-  if (a || k.warn('[gatsby-plugin-image] "generateImageData" was not passed a plugin name'), "function" != typeof r) throw new Error("generateImageSource must be a function");
-  i && (i.width || i.height) ? i.format || (i.format = g(b)) : i = {
-    width: m,
-    height: f,
-    format: (null == (t = i) ? void 0 : t.format) || g(b) || "auto"
-  };
-  var N = new Set(e.formats);
-  (0 === N.size || N.has("auto") || N.has("")) && (N.delete("auto"), N.delete(""), N.add(i.format)), N.has("jpg") && N.has("png") && (k.warn("[" + a + "] Specifying both 'jpg' and 'png' formats is not supported. Using 'auto' instead"), N.delete("jpg" === i.format ? "png" : "jpg"));
-  var x = function (e) {
-      var t = e.filename,
-        a = e.layout,
-        i = void 0 === a ? "constrained" : a,
-        r = e.sourceMetadata,
-        o = e.reporter,
-        d = void 0 === o ? {
-          warn: u
-        } : o,
-        c = e.breakpoints,
-        h = void 0 === c ? l : c,
-        g = Object.entries({
-          width: e.width,
-          height: e.height
-        }).filter(function (e) {
-          var t = e[1];
-          return "number" == typeof t && t < 1;
-        });
-      if (g.length) throw new Error("Specified dimensions for images must be positive numbers (> 0). Problem dimensions you have are " + g.map(function (e) {
-        return e.join(": ");
-      }).join(", "));
-      return "fixed" === i ? function (e) {
-        var t = e.filename,
-          a = e.sourceMetadata,
-          i = e.width,
-          r = e.height,
-          n = e.fit,
-          o = void 0 === n ? "cover" : n,
-          l = e.outputPixelDensities,
-          d = e.reporter,
-          c = void 0 === d ? {
-            warn: u
-          } : d,
-          h = a.width / a.height,
-          g = v(void 0 === l ? s : l);
-        if (i && r) {
-          var p = y(a, {
-            width: i,
-            height: r,
-            fit: o
-          });
-          i = p.width, r = p.height, h = p.aspectRatio;
-        }
-        i ? r || (r = Math.round(i / h)) : i = r ? Math.round(r * h) : 800;
-        var m = i;
-        if (a.width < i || a.height < r) {
-          var f = a.width < i ? "width" : "height";
-          c.warn("\nThe requested " + f + ' "' + ("width" === f ? i : r) + 'px" for the image ' + t + " was larger than the actual image " + f + " of " + a[f] + "px. If possible, replace the current image with a larger one."), "width" === f ? (i = a.width, r = Math.round(i / h)) : i = (r = a.height) * h;
-        }
-        return {
-          sizes: g.filter(function (e) {
-            return e >= 1;
-          }).map(function (e) {
-            return Math.round(e * i);
-          }).filter(function (e) {
-            return e <= a.width;
-          }),
-          aspectRatio: h,
-          presentationWidth: m,
-          presentationHeight: Math.round(m / h),
-          unscaledWidth: i
-        };
-      }(e) : "constrained" === i ? w(e) : "fullWidth" === i ? w(n({
-        breakpoints: h
-      }, e)) : (d.warn("No valid layout was provided for the image at " + t + ". Valid image layouts are fixed, fullWidth, and constrained. Found " + i), {
-        sizes: [r.width],
-        presentationWidth: r.width,
-        presentationHeight: r.height,
-        aspectRatio: r.width / r.height,
-        unscaledWidth: r.width
-      });
-    }(n({}, e, {
-      sourceMetadata: i
-    })),
-    I = {
-      sources: []
-    },
-    W = e.sizes;
-  W || (W = function (e, t) {
-    switch (t) {
-      case "constrained":
-        return "(min-width: " + e + "px) " + e + "px, 100vw";
-      case "fixed":
-        return e + "px";
-      case "fullWidth":
-        return "100vw";
-      default:
-        return;
-    }
-  }(x.presentationWidth, o)), N.forEach(function (e) {
-    var t = x.sizes.map(function (t) {
-      var i = r(b, t, Math.round(t / x.aspectRatio), e, d, c);
-      if (null != i && i.width && i.height && i.src && i.format) return i;
-      k.warn("[" + a + "] The resolver for image " + b + " returned an invalid value.");
-    }).filter(Boolean);
-    if ("jpg" === e || "png" === e || "auto" === e) {
-      var i = t.find(function (e) {
-        return e.width === x.unscaledWidth;
-      }) || t[0];
-      i && (I.fallback = {
-        src: i.src,
-        srcSet: h(t),
-        sizes: W
-      });
-    } else {
-      var n;
-      null == (n = I.sources) || n.push({
-        srcSet: h(t),
-        sizes: W,
-        type: "image/" + e
-      });
-    }
-  });
-  var R = {
-    images: I,
-    layout: o,
-    backgroundColor: M
-  };
-  switch (S && (R.placeholder = {
-    fallback: S
-  }), o) {
-    case "fixed":
-      R.width = x.presentationWidth, R.height = x.presentationHeight;
-      break;
-    case "fullWidth":
-      R.width = 1, R.height = 1 / x.aspectRatio;
-      break;
-    case "constrained":
-      R.width = e.width || x.presentationWidth || 1, R.height = (R.width || 1) / x.aspectRatio;
-  }
-  return R;
-}
-var v = function (e) {
-  return Array.from(new Set([1].concat(e))).sort(c);
-};
-function w(e) {
-  var t,
-    a = e.sourceMetadata,
-    i = e.width,
-    r = e.height,
-    n = e.fit,
-    o = void 0 === n ? "cover" : n,
-    l = e.outputPixelDensities,
-    d = e.breakpoints,
-    u = e.layout,
-    h = a.width / a.height,
-    g = v(void 0 === l ? s : l);
-  if (i && r) {
-    var p = y(a, {
-      width: i,
-      height: r,
-      fit: o
-    });
-    i = p.width, r = p.height, h = p.aspectRatio;
-  }
-  i = i && Math.min(i, a.width), r = r && Math.min(r, a.height), i || r || (r = (i = Math.min(800, a.width)) / h), i || (i = r * h);
-  var m = i;
-  return (a.width < i || a.height < r) && (i = a.width, r = a.height), i = Math.round(i), (null == d ? void 0 : d.length) > 0 ? (t = d.filter(function (e) {
-    return e <= a.width;
-  })).length < d.length && !t.includes(a.width) && t.push(a.width) : t = (t = g.map(function (e) {
-    return Math.round(e * i);
-  })).filter(function (e) {
-    return e <= a.width;
-  }), "constrained" !== u || t.includes(i) || t.push(i), {
-    sizes: t = t.sort(c),
-    aspectRatio: h,
-    presentationWidth: m,
-    presentationHeight: Math.round(m / h),
-    unscaledWidth: i
-  };
-}
-function y(e, t) {
-  var a = e.width / e.height,
-    i = t.width,
-    r = t.height;
-  switch (t.fit) {
-    case "fill":
-      i = t.width ? t.width : e.width, r = t.height ? t.height : e.height;
-      break;
-    case "inside":
-      var n = t.width ? t.width : Number.MAX_SAFE_INTEGER,
-        o = t.height ? t.height : Number.MAX_SAFE_INTEGER;
-      i = Math.min(n, Math.round(o * a)), r = Math.min(o, Math.round(n / a));
-      break;
-    case "outside":
-      var s = t.width ? t.width : 0,
-        l = t.height ? t.height : 0;
-      i = Math.max(s, Math.round(l * a)), r = Math.max(l, Math.round(s / a));
-      break;
-    default:
-      t.width && !t.height && (i = t.width, r = Math.round(t.width / a)), t.height && !t.width && (i = Math.round(t.height * a), r = t.height);
-  }
-  return {
-    width: i,
-    height: r,
-    aspectRatio: i / r
-  };
-}
-var b = ["baseUrl", "urlBuilder", "sourceWidth", "sourceHeight", "pluginName", "formats", "breakpoints", "options"],
-  E = ["images", "placeholder"];
-function k() {
-  return "undefined" != typeof GATSBY___IMAGE && GATSBY___IMAGE;
-}
-var M = function (e) {
-    var t;
-    return function (e) {
-      var t, a;
-      return Boolean(null == e || null == (t = e.images) || null == (a = t.fallback) ? void 0 : a.src);
-    }(e) ? e : function (e) {
-      return Boolean(null == e ? void 0 : e.gatsbyImageData);
-    }(e) ? e.gatsbyImageData : function (e) {
-      return Boolean(null == e ? void 0 : e.gatsbyImage);
-    }(e) ? e.gatsbyImage : null == e || null == (t = e.childImageSharp) ? void 0 : t.gatsbyImageData;
-  },
-  S = function (e) {
-    var t, a, i;
-    return null == (t = M(e)) || null == (a = t.images) || null == (i = a.fallback) ? void 0 : i.src;
-  },
-  N = function (e) {
-    var t, a, i;
-    return null == (t = M(e)) || null == (a = t.images) || null == (i = a.fallback) ? void 0 : i.srcSet;
-  };
-function x(e) {
-  var t,
-    a = e.baseUrl,
-    i = e.urlBuilder,
-    r = e.sourceWidth,
-    s = e.sourceHeight,
-    l = e.pluginName,
-    u = void 0 === l ? "getImageData" : l,
-    c = e.formats,
-    h = void 0 === c ? ["auto"] : c,
-    g = e.breakpoints,
-    p = e.options,
-    m = o(e, b);
-  return null != (t = g) && t.length || "fullWidth" !== m.layout && "FULL_WIDTH" !== m.layout || (g = d), f(n({}, m, {
-    pluginName: u,
-    generateImageSource: function (e, t, a, r) {
-      return {
-        width: t,
-        height: a,
-        format: r,
-        src: i({
-          baseUrl: e,
-          width: t,
-          height: a,
-          options: p,
-          format: r
-        })
-      };
-    },
-    filename: a,
-    formats: h,
-    breakpoints: g,
-    sourceMetadata: {
-      width: r,
-      height: s,
-      format: "auto"
-    }
-  }));
-}
-function I(e, t) {
-  var a,
-    i,
-    r,
-    s = e.images,
-    l = e.placeholder,
-    d = n({}, o(e, E), {
-      images: n({}, s, {
-        sources: []
-      }),
-      placeholder: l && n({}, l, {
-        sources: []
-      })
-    });
-  return t.forEach(function (t) {
-    var a,
-      i = t.media,
-      r = t.image;
-    i ? (r.layout !== e.layout && "development" === "development" && console.warn('[gatsby-plugin-image] Mismatched image layout: expected "' + e.layout + '" but received "' + r.layout + '". All art-directed images use the same layout as the default image'), (a = d.images.sources).push.apply(a, r.images.sources.map(function (e) {
-      return n({}, e, {
-        media: i
-      });
-    }).concat([{
-      media: i,
-      srcSet: r.images.fallback.srcSet
-    }])), d.placeholder && d.placeholder.sources.push({
-      media: i,
-      srcSet: r.placeholder.fallback
-    })) :  true && console.warn("[gatsby-plugin-image] All art-directed images passed to must have a value set for `media`. Skipping.");
-  }), (a = d.images.sources).push.apply(a, s.sources), null != l && l.sources && (null == (i = d.placeholder) || (r = i.sources).push.apply(r, l.sources)), d;
-}
-var W,
-  R = ["src", "srcSet", "loading", "alt", "shouldLoad"],
-  j = ["fallback", "sources", "shouldLoad"],
-  _ = function (t) {
-    var a = t.src,
-      i = t.srcSet,
-      r = t.loading,
-      s = t.alt,
-      l = void 0 === s ? "" : s,
-      d = t.shouldLoad,
-      u = o(t, R);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", n({}, u, {
-      decoding: "async",
-      loading: r,
-      src: d ? a : void 0,
-      "data-src": d ? void 0 : a,
-      srcSet: d ? i : void 0,
-      "data-srcset": d ? void 0 : i,
-      alt: l
-    }));
-  },
-  A = function (t) {
-    var a = t.fallback,
-      i = t.sources,
-      r = void 0 === i ? [] : i,
-      s = t.shouldLoad,
-      l = void 0 === s || s,
-      d = o(t, j),
-      u = d.sizes || (null == a ? void 0 : a.sizes),
-      c = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_, n({}, d, a, {
-        sizes: u,
-        shouldLoad: l
-      }));
-    return r.length ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("picture", null, r.map(function (t) {
-      var a = t.media,
-        i = t.srcSet,
-        r = t.type;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("source", {
-        key: a + "-" + r + "-" + i,
-        type: r,
-        media: a,
-        srcSet: l ? i : void 0,
-        "data-srcset": l ? void 0 : i,
-        sizes: u
-      });
-    }), c) : c;
-  };
-_.propTypes = {
-  src: prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,
-  alt: prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,
-  sizes: prop_types__WEBPACK_IMPORTED_MODULE_2__.string,
-  srcSet: prop_types__WEBPACK_IMPORTED_MODULE_2__.string,
-  shouldLoad: prop_types__WEBPACK_IMPORTED_MODULE_2__.bool
-}, A.displayName = "Picture", A.propTypes = {
-  alt: prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,
-  shouldLoad: prop_types__WEBPACK_IMPORTED_MODULE_2__.bool,
-  fallback: prop_types__WEBPACK_IMPORTED_MODULE_2__.exact({
-    src: prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,
-    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_2__.string,
-    sizes: prop_types__WEBPACK_IMPORTED_MODULE_2__.string
-  }),
-  sources: prop_types__WEBPACK_IMPORTED_MODULE_2__.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2__.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2__.exact({
-    media: prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,
-    type: prop_types__WEBPACK_IMPORTED_MODULE_2__.string,
-    sizes: prop_types__WEBPACK_IMPORTED_MODULE_2__.string,
-    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired
-  }), prop_types__WEBPACK_IMPORTED_MODULE_2__.exact({
-    media: prop_types__WEBPACK_IMPORTED_MODULE_2__.string,
-    type: prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,
-    sizes: prop_types__WEBPACK_IMPORTED_MODULE_2__.string,
-    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired
-  })]))
-};
-var T = ["fallback"],
-  O = function (t) {
-    var a = t.fallback,
-      i = o(t, T);
-    return a ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(A, n({}, i, {
-      fallback: {
-        src: a
-      },
-      "aria-hidden": !0,
-      alt: ""
-    })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", n({}, i));
-  };
-O.displayName = "Placeholder", O.propTypes = {
-  fallback: prop_types__WEBPACK_IMPORTED_MODULE_2__.string,
-  sources: null == (W = A.propTypes) ? void 0 : W.sources,
-  alt: function (e, t, a) {
-    return e[t] ? new Error("Invalid prop `" + t + "` supplied to `" + a + "`. Validation failed.") : null;
-  }
-};
-var z = function (t) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(A, n({}, t)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("noscript", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(A, n({}, t, {
-    shouldLoad: !0
-  }))));
-};
-z.displayName = "MainImage", z.propTypes = A.propTypes;
-var L = ["children"],
-  q = function () {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script", {
-      type: "module",
-      dangerouslySetInnerHTML: {
-        __html: 'const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1,e.parentNode.parentNode.querySelector("[data-placeholder-image]").style.opacity=0)}}'
-      }
-    });
-  },
-  C = function (t) {
-    var a = t.layout,
-      i = t.width,
-      r = t.height;
-    return "fullWidth" === a ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      "aria-hidden": !0,
-      style: {
-        paddingTop: r / i * 100 + "%"
-      }
-    }) : "constrained" === a ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-      style: {
-        maxWidth: i,
-        display: "block"
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-      alt: "",
-      role: "presentation",
-      "aria-hidden": "true",
-      src: "data:image/svg+xml;charset=utf-8,%3Csvg height='" + r + "' width='" + i + "' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E",
-      style: {
-        maxWidth: "100%",
-        display: "block",
-        position: "static"
-      }
-    })) : null;
-  },
-  D = function (a) {
-    var i = a.children,
-      r = o(a, L);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(C, n({}, r)), i, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(q, null));
-  },
-  P = ["as", "className", "class", "style", "image", "loading", "imgClassName", "imgStyle", "backgroundColor", "objectFit", "objectPosition"],
-  H = ["style", "className"],
-  F = function (e) {
-    return e.replace(/\n/g, "");
-  },
-  B = function (t) {
-    var a = t.as,
-      i = void 0 === a ? "div" : a,
-      r = t.className,
-      s = t.class,
-      l = t.style,
-      d = t.image,
-      u = t.loading,
-      c = void 0 === u ? "lazy" : u,
-      h = t.imgClassName,
-      g = t.imgStyle,
-      p = t.backgroundColor,
-      m = t.objectFit,
-      f = t.objectPosition,
-      v = o(t, P);
-    if (!d) return console.warn("[gatsby-plugin-image] Missing image prop"), null;
-    s && (r = s), g = n({
-      objectFit: m,
-      objectPosition: f,
-      backgroundColor: p
-    }, g);
-    var w = d.width,
-      y = d.height,
-      b = d.layout,
-      E = d.images,
-      M = d.placeholder,
-      S = d.backgroundColor,
-      N = function (e, t, a) {
-        var i = {},
-          r = "gatsby-image-wrapper";
-        return k() || (i.position = "relative", i.overflow = "hidden"), "fixed" === a ? (i.width = e, i.height = t) : "constrained" === a && (k() || (i.display = "inline-block", i.verticalAlign = "top"), r = "gatsby-image-wrapper gatsby-image-wrapper-constrained"), {
-          className: r,
-          "data-gatsby-image-wrapper": "",
-          style: i
-        };
-      }(w, y, b),
-      x = N.style,
-      I = N.className,
-      W = o(N, H),
-      R = {
-        fallback: void 0,
-        sources: []
-      };
-    return E.fallback && (R.fallback = n({}, E.fallback, {
-      srcSet: E.fallback.srcSet ? F(E.fallback.srcSet) : void 0
-    })), E.sources && (R.sources = E.sources.map(function (e) {
-      return n({}, e, {
-        srcSet: F(e.srcSet)
-      });
-    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(i, n({}, W, {
-      style: n({}, x, l, {
-        backgroundColor: p
-      }),
-      className: I + (r ? " " + r : "")
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(D, {
-      layout: b,
-      width: w,
-      height: y
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(O, n({}, function (e, t, a, i, r, o, s, l) {
-      var d = {};
-      o && (d.backgroundColor = o, "fixed" === a ? (d.width = i, d.height = r, d.backgroundColor = o, d.position = "relative") : ("constrained" === a || "fullWidth" === a) && (d.position = "absolute", d.top = 0, d.left = 0, d.bottom = 0, d.right = 0)), s && (d.objectFit = s), l && (d.objectPosition = l);
-      var u = n({}, e, {
-        "aria-hidden": !0,
-        "data-placeholder-image": "",
-        style: n({
-          opacity: 1,
-          transition: "opacity 500ms linear"
-        }, d)
-      });
-      return k() || (u.style = {
-        height: "100%",
-        left: 0,
-        position: "absolute",
-        top: 0,
-        width: "100%"
-      }), u;
-    }(M, 0, b, w, y, S, m, f))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(z, n({
-      "data-gatsby-image-ssr": "",
-      className: h
-    }, v, function (e, t, a, i, r) {
-      return void 0 === r && (r = {}), k() || (r = n({
-        height: "100%",
-        left: 0,
-        position: "absolute",
-        top: 0,
-        transform: "translateZ(0)",
-        transition: "opacity 250ms linear",
-        width: "100%",
-        willChange: "opacity"
-      }, r)), n({}, a, {
-        loading: i,
-        shouldLoad: e,
-        "data-main-image": "",
-        style: n({}, r, {
-          opacity: 0
-        })
-      });
-    }("eager" === c, 0, R, c, g)))));
-  },
-  G = ["src", "__imageData", "__error", "width", "height", "aspectRatio", "tracedSVGOptions", "placeholder", "formats", "quality", "transformOptions", "jpgOptions", "pngOptions", "webpOptions", "avifOptions", "blurredOptions"],
-  V = function (t) {
-    return function (a) {
-      var i = a.src,
-        r = a.__imageData,
-        s = a.__error,
-        l = o(a, G);
-      return s && console.warn(s), r ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(t, n({
-        image: r
-      }, l)) : (console.warn("Image not loaded", i), s || "development" !== "development" || console.warn('Please ensure that "gatsby-plugin-image" is included in the plugins array in gatsby-config.js, and that your version of gatsby is at least 2.24.78'), null);
-    };
-  }(B),
-  U = function (e, t) {
-    return "fullWidth" !== e.layout || "width" !== t && "height" !== t || !e[t] ? prop_types__WEBPACK_IMPORTED_MODULE_2___default().number.apply((prop_types__WEBPACK_IMPORTED_MODULE_2___default()), [e, t].concat([].slice.call(arguments, 2))) : new Error('"' + t + '" ' + e[t] + " may not be passed when layout is fullWidth.");
-  },
-  X = new Set(["fixed", "fullWidth", "constrained"]),
-  Y = {
-    src: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),
-    alt: function (e, t, a) {
-      return e.alt || "" === e.alt ? prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.apply((prop_types__WEBPACK_IMPORTED_MODULE_2___default()), [e, t, a].concat([].slice.call(arguments, 3))) : new Error('The "alt" prop is required in ' + a + '. If the image is purely presentational then pass an empty string: e.g. alt="". Learn more: https://a11y-style-guide.com/style-guide/section-media.html');
-    },
-    width: U,
-    height: U,
-    sizes: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),
-    layout: function (e) {
-      if (void 0 !== e.layout && !X.has(e.layout)) return new Error("Invalid value " + e.layout + '" provided for prop "layout". Defaulting to "constrained". Valid values are "fixed", "fullWidth" or "constrained".');
-    }
-  };
-V.displayName = "StaticImage", V.propTypes = Y;
-
-
-/***/ }),
-
-/***/ "../node_modules/gatsby-plugin-image/node_modules/camelcase/index.js":
-/*!***************************************************************************!*\
-  !*** ../node_modules/gatsby-plugin-image/node_modules/camelcase/index.js ***!
-  \***************************************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-const preserveCamelCase = string => {
-  let isLastCharLower = false;
-  let isLastCharUpper = false;
-  let isLastLastCharUpper = false;
-  for (let i = 0; i < string.length; i++) {
-    const character = string[i];
-    if (isLastCharLower && /[a-zA-Z]/.test(character) && character.toUpperCase() === character) {
-      string = string.slice(0, i) + '-' + string.slice(i);
-      isLastCharLower = false;
-      isLastLastCharUpper = isLastCharUpper;
-      isLastCharUpper = true;
-      i++;
-    } else if (isLastCharUpper && isLastLastCharUpper && /[a-zA-Z]/.test(character) && character.toLowerCase() === character) {
-      string = string.slice(0, i - 1) + '-' + string.slice(i - 1);
-      isLastLastCharUpper = isLastCharUpper;
-      isLastCharUpper = false;
-      isLastCharLower = true;
-    } else {
-      isLastCharLower = character.toLowerCase() === character && character.toUpperCase() !== character;
-      isLastLastCharUpper = isLastCharUpper;
-      isLastCharUpper = character.toUpperCase() === character && character.toLowerCase() !== character;
-    }
-  }
-  return string;
-};
-const camelCase = (input, options) => {
-  if (!(typeof input === 'string' || Array.isArray(input))) {
-    throw new TypeError('Expected the input to be `string | string[]`');
-  }
-  options = Object.assign({
-    pascalCase: false
-  }, options);
-  const postProcess = x => options.pascalCase ? x.charAt(0).toUpperCase() + x.slice(1) : x;
-  if (Array.isArray(input)) {
-    input = input.map(x => x.trim()).filter(x => x.length).join('-');
-  } else {
-    input = input.trim();
-  }
-  if (input.length === 0) {
-    return '';
-  }
-  if (input.length === 1) {
-    return options.pascalCase ? input.toUpperCase() : input.toLowerCase();
-  }
-  const hasUpperCase = input !== input.toLowerCase();
-  if (hasUpperCase) {
-    input = preserveCamelCase(input);
-  }
-  input = input.replace(/^[_.\- ]+/, '').toLowerCase().replace(/[_.\- ]+(\w|$)/g, (_, p1) => p1.toUpperCase()).replace(/\d+(\w|$)/g, m => m.toUpperCase());
-  return postProcess(input);
-};
-module.exports = camelCase;
-// TODO: Remove this for the next major release
-module.exports["default"] = camelCase;
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx":
-/*!****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Animation": () => (/* binding */ Animation)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _hooks_useCastedRef__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../hooks/useCastedRef */ "../gatsby-theme-portfolio-minimal/src/hooks/useCastedRef.tsx");
-/* harmony import */ var _hooks_useOnScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../hooks/useOnScreen */ "../gatsby-theme-portfolio-minimal/src/hooks/useOnScreen.tsx");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.css */ "../gatsby-theme-portfolio-minimal/src/components/Animation/style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_3__);
-
-
-
-
-function Animation(props) {
-  var _props$type, _props$timing, _props$duration, _props$delay, _props$iterationCount, _props$fillMode;
-  const ref = (0,_hooks_useCastedRef__WEBPACK_IMPORTED_MODULE_1__.useCastedRef)();
-  const onScreen = (0,_hooks_useOnScreen__WEBPACK_IMPORTED_MODULE_2__.useOnScreen)(ref);
-
-  // Set defaults
-  const type = (_props$type = props.type) !== null && _props$type !== void 0 ? _props$type : 'fadeIn';
-  const timing = (_props$timing = props.timing) !== null && _props$timing !== void 0 ? _props$timing : 'ease-out';
-  const duration = (_props$duration = props.duration) !== null && _props$duration !== void 0 ? _props$duration : 200;
-  const delay = (_props$delay = props.delay) !== null && _props$delay !== void 0 ? _props$delay : 0;
-  const count = (_props$iterationCount = props.iterationCount) !== null && _props$iterationCount !== void 0 ? _props$iterationCount : 1;
-  const fillMode = (_props$fillMode = props.fillMode) !== null && _props$fillMode !== void 0 ? _props$fillMode : 'backwards';
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    ref: ref,
-    className: props.className,
-    onAnimationEnd: props.onAnimationEnd,
-    style: onScreen ? {
-      ...props.style,
-      animationName: `${type}`,
-      animationTimingFunction: `${timing}`,
-      animationDuration: `${duration}ms`,
-      animationDelay: `${delay}ms`,
-      animationIterationCount: `${count}`,
-      animationFillMode: `${fillMode}`
-    } : {
-      ...props.style,
-      opacity: 0
-    }
-  }, props.children);
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/ArticleCard/index.tsx":
-/*!******************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/ArticleCard/index.tsx ***!
-  \******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ArticleCard": () => (/* binding */ ArticleCard),
-/* harmony export */   "ArticleCardSkeleton": () => (/* binding */ ArticleCardSkeleton)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! gatsby-plugin-image */ "../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var tiny_skeleton_loader_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! tiny-skeleton-loader-react */ "../node_modules/tiny-skeleton-loader-react/dist/index.es.js");
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../context */ "../gatsby-theme-portfolio-minimal/src/context/index.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/ArticleCard/style.module.css");
-
-
-
-
-
-
-function ArticleCard(props) {
-  const {
-    globalState
-  } = (0,_context__WEBPACK_IMPORTED_MODULE_3__.useGlobalState)();
-  const darkModeEnabled = globalState.theme === _context__WEBPACK_IMPORTED_MODULE_3__.Theme.Dark;
-
-  // Needed to differentiate between external and internal links (whether or not we use Gatsby Link)
-  const absoluteUrl = props.data.link.indexOf('://') > 0 || props.data.link.indexOf('//') === 0;
-  const articleCard = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Card,
-    style: darkModeEnabled ? {
-      border: '0.125rem solid var(--primary-color)'
-    } : undefined
-  }, props.showBanner && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Banner
-  }, props.data.image && props.data.image.src && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__.GatsbyImage, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.ImageWrapper,
-    imgClassName: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Image,
-    image: props.data.image.src.childImageSharp.gatsbyImageData,
-    alt: props.data.image.alt || props.data.title
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.DescriptionWrapper
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Category
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, props.data.category)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Title
-  }, props.data.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Details
-  }, formatDate(props.data.publishedAt), props.data.readingTime && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.ReadingTime
-  }, props.data.readingTime))));
-  return absoluteUrl ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: props.data.link,
-    target: "_blank",
-    rel: "nofollow noopener noreferrer",
-    title: props.data.title
-  }, articleCard) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: props.data.link,
-    title: props.data.title
-  }, articleCard);
-}
-function ArticleCardSkeleton() {
-  const {
-    globalState
-  } = (0,_context__WEBPACK_IMPORTED_MODULE_3__.useGlobalState)();
-  const darkModeEnabled = globalState.theme === _context__WEBPACK_IMPORTED_MODULE_3__.Theme.Dark;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Card,
-    style: darkModeEnabled ? {
-      border: '0.125rem solid var(--primary-color)'
-    } : undefined
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.DescriptionWrapper
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(tiny_skeleton_loader_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    style: {
-      height: '1.5rem',
-      marginBottom: '.5rem',
-      background: 'var(--tertiary-color)'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(tiny_skeleton_loader_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    style: {
-      height: '4rem',
-      background: 'var(--tertiary-color)'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(tiny_skeleton_loader_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    style: {
-      height: '.75rem',
-      width: '50%',
-      marginTop: '.5rem',
-      background: 'var(--tertiary-color)'
-    }
-  })));
-}
-function formatDate(date) {
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  return `${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Button/index.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Button/index.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Button": () => (/* binding */ Button),
-/* harmony export */   "ButtonType": () => (/* binding */ ButtonType)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/Button/style.module.css");
-
-
-
-let ButtonType;
-(function (ButtonType) {
-  ButtonType["BUTTON"] = "button";
-  ButtonType["SUBMIT"] = "submit";
-  ButtonType["LINK"] = "link";
-})(ButtonType || (ButtonType = {}));
-function Button(props) {
-  if (props.type === ButtonType.LINK) {
-    if (!props.url) {
-      throw new Error(`Button should be a ${props.type} but no URL is given!`);
-    } else {
-      if (props.externalLink) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-          id: props.id,
-          className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.Button,
-          href: props.url,
-          target: "_blank",
-          rel: "nofollow noopener noreferrer",
-          "aria-label": "External Link"
-        }, props.label);
-      } else {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-          id: props.id,
-          to: props.url,
-          className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.Button
-        }, props.label);
-      }
-    }
-  } else if (props.type === ButtonType.BUTTON || props.type === ButtonType.SUBMIT) {
-    if (!props.onClickHandler) {
-      throw new Error(`Button should be a ${props.type} but no onClickHandler is given!`);
-    }
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-      id: props.id,
-      className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.Button,
-      type: props.type,
-      onClick: props.onClickHandler
-    }, props.label);
-  } else {
-    throw new Error(`Unknown button type specified.`);
-  }
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/CookieBar/index.tsx":
-/*!****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/CookieBar/index.tsx ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "CookieBar": () => (/* binding */ CookieBar)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_cookie_consent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-cookie-consent */ "../node_modules/react-cookie-consent/build/index.js");
-/* harmony import */ var react_cookie_consent__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_cookie_consent__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var gatsby_plugin_gdpr_cookies__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby-plugin-gdpr-cookies */ "../node_modules/gatsby-plugin-gdpr-cookies/index.js");
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @reach/router */ "../node_modules/@gatsbyjs/reach-router/es/index.js");
-/* harmony import */ var _Animation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.css */ "../gatsby-theme-portfolio-minimal/src/components/CookieBar/style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/CookieBar/style.module.css");
-
-
-
-
-
- // Uses the class names from the original package
-
-function CookieBar() {
-  const location = (0,_reach_router__WEBPACK_IMPORTED_MODULE_3__.useLocation)();
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Animation__WEBPACK_IMPORTED_MODULE_4__.Animation, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.CookieBar,
-    type: "fadeUp",
-    delay: 1000
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react_cookie_consent__WEBPACK_IMPORTED_MODULE_1___default()), {
-    cookieName: "gatsby-gdpr-google-analytics",
-    buttonId: "confirm",
-    buttonText: "Accept",
-    declineButtonId: "decline",
-    declineButtonText: "Decline",
-    enableDeclineButton: true,
-    disableStyles: true,
-    onAccept: () => (0,gatsby_plugin_gdpr_cookies__WEBPACK_IMPORTED_MODULE_2__.initializeAndTrack)(location)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "This website uses cookies \uD83C\uDF6A ")));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Footer/index.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Footer/index.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Footer": () => (/* binding */ Footer)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Logo */ "../gatsby-theme-portfolio-minimal/src/components/Logo/index.tsx");
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../context */ "../gatsby-theme-portfolio-minimal/src/context/index.tsx");
-/* harmony import */ var _hooks_useSiteConfiguration__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../hooks/useSiteConfiguration */ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteConfiguration.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/Footer/style.module.css");
-
-
-
-
-
-
-function Footer() {
-  const {
-    globalState
-  } = (0,_context__WEBPACK_IMPORTED_MODULE_3__.useGlobalState)();
-  const siteConfiguration = (0,_hooks_useSiteConfiguration__WEBPACK_IMPORTED_MODULE_4__.useSiteConfiguration)();
-  const darkModeEnabled = globalState.theme === _context__WEBPACK_IMPORTED_MODULE_3__.Theme.Dark;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Footer,
-    style: {
-      background: darkModeEnabled ? 'var(--background-color)' : 'var(--primary-color)',
-      borderTop: darkModeEnabled ? '3px solid var(--box-shadow-hover-color)' : undefined
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.ContentWrapper
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/",
-    "aria-label": "home"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Logo__WEBPACK_IMPORTED_MODULE_2__.Logo, {
-    fontSize: "1.5rem",
-    color: darkModeEnabled ? 'var(--primary-color)' : 'var(--background-color)'
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Links
-  }, siteConfiguration.navigation.footer.map((linkObject, key) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-      key: key,
-      to: linkObject.url,
-      "aria-label": linkObject.label,
-      style: {
-        color: darkModeEnabled ? 'var(--primary-color)' : 'var(--background-color)'
-      }
-    }, linkObject.label);
-  }))));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Header/index.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Header/index.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Header": () => (/* binding */ Header)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Logo */ "../gatsby-theme-portfolio-minimal/src/components/Logo/index.tsx");
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-helmet */ "../node_modules/react-helmet/es/Helmet.js");
-/* harmony import */ var _hooks_useMediaQuery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../hooks/useMediaQuery */ "../gatsby-theme-portfolio-minimal/src/hooks/useMediaQuery.tsx");
-/* harmony import */ var _hooks_useSiteConfiguration__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../hooks/useSiteConfiguration */ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteConfiguration.tsx");
-/* harmony import */ var _Animation__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/Header/style.module.css");
-
-
-
-
-
-
-
-
-function Header() {
-  const [open, setOpen] = react__WEBPACK_IMPORTED_MODULE_0___default().useState(false);
-  const siteConfiguration = (0,_hooks_useSiteConfiguration__WEBPACK_IMPORTED_MODULE_5__.useSiteConfiguration)();
-  const isDesktopBreakpoint = (0,_hooks_useMediaQuery__WEBPACK_IMPORTED_MODULE_4__.useMediaQuery)('(min-width: 992px)');
-  const navigationItems = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, siteConfiguration.navigation.header.map((linkObject, key) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-      key: key,
-      to: linkObject.url,
-      className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.NavLink,
-      onClick: !isDesktopBreakpoint ? () => setOpen(!open) : undefined
-    }, linkObject.label);
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: siteConfiguration.navigation.ctaButton.url,
-    target: siteConfiguration.navigation.ctaButton.openNewTab ? '_blank' : undefined,
-    rel: "noopener noreferrer",
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.CtaButton,
-    onClick: !isDesktopBreakpoint ? () => setOpen(!open) : undefined
-  }, siteConfiguration.navigation.ctaButton.label));
-  const sideNavigationBar = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.Burger,
-    onClick: () => setOpen(!open)
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    style: open ? {
-      transform: 'rotate(45deg)'
-    } : undefined
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    style: open ? {
-      transform: 'translateX(20px)',
-      opacity: 0
-    } : undefined
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    style: open ? {
-      transform: 'rotate(-45deg)'
-    } : undefined
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.SideBarWrapper,
-    style: open ? {
-      transform: 'translateX(0)',
-      visibility: 'visible'
-    } : undefined,
-    "aria-hidden": !open,
-    tabIndex: open ? 1 : -1
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.SideNavigationBar
-  }, navigationItems)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.SideBarBackdrop,
-    style: open ? {
-      display: 'block'
-    } : undefined
-  }));
-  const topNavigationBar = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.TopNavigationBar
-  }, navigationItems);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.Header
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_3__.Helmet, {
-    bodyAttributes: {
-      class: open ? _style_module_css__WEBPACK_IMPORTED_MODULE_7__.Blurred : undefined
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Animation__WEBPACK_IMPORTED_MODULE_6__.Animation, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.ContentWrapper,
-    type: "fadeDown"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/",
-    "aria-label": "home"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Logo__WEBPACK_IMPORTED_MODULE_2__.Logo, {
-    fontSize: "2rem",
-    color: "var(--primary-color"
-  })), isDesktopBreakpoint ? topNavigationBar : sideNavigationBar));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconBehance.tsx":
-/*!*****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/IconBehance.tsx ***!
-  \*****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "IconBehance": () => (/* binding */ IconBehance)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function IconBehance(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    version: "1.1",
-    role: "img",
-    fill: props.color || 'var(--primary-color)',
-    xmlns: "http://www.w3.org/2000/svg",
-    x: "0px",
-    y: "0px",
-    width: "430.123px",
-    height: "430.123px",
-    viewBox: "0 0 430.123 430.123"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    id: "Behance",
-    d: "M388.432,119.12H280.659V92.35h107.782v26.77H388.432z M208.912,228.895 c6.954,10.771,10.429,23.849,10.429,39.203c0,15.878-3.918,30.122-11.889,42.704c-5.071,8.326-11.367,15.359-18.932,21.021 c-8.52,6.548-18.607,11.038-30.203,13.437c-11.633,2.403-24.224,3.617-37.787,3.617H0V81.247h129.25 c32.579,0.53,55.676,9.969,69.315,28.506c8.184,11.369,12.239,25.011,12.239,40.868c0,16.362-4.104,29.454-12.368,39.401 c-4.597,5.577-11.388,10.65-20.378,15.229C191.675,210.236,202.007,218.086,208.912,228.895z M61.722,186.76h56.632 c11.638,0,21.046-2.212,28.292-6.634c7.241-4.415,10.854-12.263,10.854-23.531c0-12.449-4.784-20.712-14.375-24.689 c-8.244-2.763-18.792-4.186-31.591-4.186H61.722V186.76z M162.953,264.275c0-13.902-5.682-23.513-17.023-28.67 c-6.342-2.931-15.29-4.429-26.763-4.536H61.722v71.322h56.556c11.619,0,20.612-1.521,27.102-4.694 C157.084,291.863,162.953,280.76,162.953,264.275z M428.419,220.736c1.302,8.756,1.891,21.46,1.652,38.065H290.493 c0.77,19.266,7.421,32.739,20.035,40.449c7.607,4.835,16.83,7.196,27.63,7.196c11.388,0,20.67-2.879,27.815-8.797 c3.893-3.137,7.327-7.565,10.296-13.152h51.16c-1.34,11.379-7.5,22.92-18.57,34.648c-17.151,18.641-41.205,27.988-72.097,27.988 c-25.52,0-48.011-7.883-67.533-23.592C249.772,307.777,240,282.211,240,246.746c0-33.257,8.773-58.712,26.378-76.43 c17.67-17.751,40.474-26.586,68.583-26.586c16.661,0,31.68,2.978,45.079,8.965c13.357,5.993,24.396,15.425,33.09,28.388 C420.998,192.499,426.058,205.699,428.419,220.736z M378.062,225.73c-0.938-13.322-5.386-23.405-13.395-30.296 c-7.943-6.91-17.866-10.379-29.706-10.379c-12.886,0-22.836,3.708-29.906,10.996c-7.118,7.273-11.547,17.161-13.362,29.68H378.062 L378.062,225.73z"
-  })));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconExternal.tsx":
-/*!******************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/IconExternal.tsx ***!
-  \******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "IconExternal": () => (/* binding */ IconExternal)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function IconExternal(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 194.818 194.818",
-    x: "0px",
-    y: "0px",
-    role: "img",
-    fill: props.color || 'var(--primary-color)',
-    width: "194.818px",
-    height: "194.818px"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M185.8,2.2l-56.6,0c-4.8,0-9,3.6-9.3,8.4c-0.3,5.2,3.8,9.6,9,9.6h13.5c8.1,0,12.1,9.7,6.4,15.4L78,106.2 c-3.6,3.6-3.8,9.6-0.1,13.1c1.7,1.7,4,2.5,6.2,2.5c2.3,0,4.6-0.9,6.4-2.6l70.9-70.9c5.7-5.7,15.4-1.7,15.4,6.4v13.1 c0,4.8,3.6,9,8.4,9.3c5.2,0.3,9.6-3.8,9.6-9v-57C194.8,6.2,190.8,2.2,185.8,2.2z"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M147.7,77.3c-4.5,0.6-7.7,4.7-7.7,9.2c0,14.6,0,59.7,0,79.1c0,5-4.1,9-9,9H27c-5,0-9-4.1-9-9V61.7c0-5,4.1-9,9-9l84.4,0 c4.8,0,9-3.6,9.3-8.4c0.3-5.2-3.8-9.6-9-9.6H9c-5,0-9,4.1-9,9v139.9c0,5,4.1,9,9,9H149c5,0,9-4.1,9-9V86.2 C158,80.8,153.2,76.5,147.7,77.3z"
-  })));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconGithub.tsx":
-/*!****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/IconGithub.tsx ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "IconGithub": () => (/* binding */ IconGithub)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function IconGithub(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    version: "1.1",
-    role: "img",
-    fill: props.color || 'var(--primary-color)',
-    xmlns: "http://www.w3.org/2000/svg",
-    x: "0px",
-    y: "0px",
-    viewBox: "262 -262 1024 1024"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M774-249.4c-282.9,0-512,229.1-512,512c0,226.6,146.6,417.9,350.1,485.8c25.6,4.5,35.2-10.9,35.2-24.3 c0-12.2-0.6-52.5-0.6-95.4c-128.6,23.7-161.9-31.4-172.2-60.2c-5.8-14.7-30.7-60.2-52.5-72.3c-17.9-9.6-43.5-33.3-0.6-33.9 c40.3-0.6,69.1,37.1,78.7,52.5c46.1,77.4,119.7,55.7,149.1,42.2c4.5-33.3,17.9-55.7,32.6-68.5c-113.9-12.8-233-57-233-252.8 c0-55.7,19.8-101.8,52.5-137.6c-5.1-12.8-23-65.3,5.1-135.7c0,0,42.9-13.4,140.8,52.5c41-11.5,84.5-17.3,128-17.3 c43.5,0,87,5.8,128,17.3c97.9-66.6,140.8-52.5,140.8-52.5c28.2,70.4,10.2,122.9,5.1,135.7c32.6,35.8,52.5,81.3,52.5,137.6 c0,196.5-119.7,240-233.6,252.8c18.6,16,34.6,46.7,34.6,94.7c0,68.5-0.6,123.5-0.6,140.8c0,13.4,9.6,29.4,35.2,24.3 c202.2-67.8,348.8-259.8,348.8-485.8C1286-20.2,1056.9-249.4,774-249.4z"
-  }));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconHashnode.tsx":
-/*!******************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/IconHashnode.tsx ***!
-  \******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "IconHashnode": () => (/* binding */ IconHashnode)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function IconHashnode(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    viewBox: "0 0 24 24",
-    height: "48",
-    width: "48",
-    focusable: "false",
-    role: "img",
-    fill: props.color || 'var(--primary-color)',
-    xmlns: "http://www.w3.org/2000/svg"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "m22.351 8.019-6.37-6.37a5.63 5.63 0 0 0-7.962 0l-6.37 6.37a5.63 5.63 0 0 0 0 7.962l6.37 6.37a5.63 5.63 0 0 0 7.962 0l6.37-6.37a5.63 5.63 0 0 0 0-7.962zM12 15.953a3.953 3.953 0 1 1 0-7.906 3.953 3.953 0 0 1 0 7.906z"
-  }));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconLinkedIn.tsx":
-/*!******************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/IconLinkedIn.tsx ***!
-  \******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "IconLinkedIn": () => (/* binding */ IconLinkedIn)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function IconLinkedIn(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    version: "1.1",
-    xmlns: "http://www.w3.org/2000/svg",
-    role: "img",
-    fill: props.color || 'var(--primary-color)',
-    x: "0px",
-    y: "0px",
-    width: "430.117px",
-    height: "430.117px",
-    viewBox: "0 0 430.117 430.117"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707 c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21 v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824 C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463 c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z M5.477,420.56h92.184v-277.32H5.477V420.56z"
-  })));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconMail.tsx":
-/*!**************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/IconMail.tsx ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "IconMail": () => (/* binding */ IconMail)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function IconMail(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    version: "1.1",
-    id: "Mail",
-    fill: props.color || 'var(--primary-color)',
-    xmlns: "http://www.w3.org/2000/svg",
-    x: "0px",
-    y: "0px",
-    viewBox: "0 0 433.664 433.664"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M229.376,271.616c-4.096,2.56-8.704,3.584-12.8,3.584s-8.704-1.024-12.8-3.584L0,147.2v165.376c0,35.328,28.672,64,64,64 h305.664c35.328,0,64-28.672,64-64V147.2L229.376,271.616z"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M369.664,57.088H64c-30.208,0-55.808,21.504-61.952,50.176l215.04,131.072l214.528-131.072 C425.472,78.592,399.872,57.088,369.664,57.088z"
-  }))));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconMedium.tsx":
-/*!****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/IconMedium.tsx ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "IconMedium": () => (/* binding */ IconMedium)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function IconMedium(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    version: "1.1",
-    xmlns: "http://www.w3.org/2000/svg",
-    role: "img",
-    fill: props.color || 'var(--primary-color)',
-    x: "0px",
-    y: "0px",
-    viewBox: "-237 239 24 24"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    d: "M-234.2,245.9c0-0.3-0.1-0.6-0.3-0.8l-2.2-2.7V242h7l5.4,11.8l4.7-11.8h6.6v0.4l-1.9,1.8c-0.2,0.1-0.2,0.3-0.2,0.5v13.5 c0,0.2,0,0.4,0.2,0.5l1.9,1.8v0.4h-9.4v-0.4l1.9-1.9c0.2-0.2,0.2-0.2,0.2-0.5v-10.9l-5.4,13.7h-0.7l-6.3-13.7v9.2 c-0.1,0.4,0.1,0.8,0.3,1.1l2.5,3.1v0.4h-7.1v-0.4l2.5-3.1c0.3-0.3,0.4-0.7,0.3-1.1C-234.2,256.5-234.2,245.9-234.2,245.9z"
-  }));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconTwitter.tsx":
-/*!*****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/IconTwitter.tsx ***!
-  \*****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "IconTwitter": () => (/* binding */ IconTwitter)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function IconTwitter(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-    version: "1.1",
-    id: "Mail",
-    fill: props.color || 'var(--primary-color)',
-    xmlns: "http://www.w3.org/2000/svg",
-    x: "0px",
-    y: "0px",
-    viewBox: "0 0 310 310"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("g", {
-    id: "XMLID_826_"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-    id: "XMLID_827_",
-    d: "M302.973,57.388c-4.87,2.16-9.877,3.983-14.993,5.463c6.057-6.85,10.675-14.91,13.494-23.73 c0.632-1.977-0.023-4.141-1.648-5.434c-1.623-1.294-3.878-1.449-5.665-0.39c-10.865,6.444-22.587,11.075-34.878,13.783 c-12.381-12.098-29.197-18.983-46.581-18.983c-36.695,0-66.549,29.853-66.549,66.547c0,2.89,0.183,5.764,0.545,8.598 C101.163,99.244,58.83,76.863,29.76,41.204c-1.036-1.271-2.632-1.956-4.266-1.825c-1.635,0.128-3.104,1.05-3.93,2.467 c-5.896,10.117-9.013,21.688-9.013,33.461c0,16.035,5.725,31.249,15.838,43.137c-3.075-1.065-6.059-2.396-8.907-3.977 c-1.529-0.851-3.395-0.838-4.914,0.033c-1.52,0.871-2.473,2.473-2.513,4.224c-0.007,0.295-0.007,0.59-0.007,0.889 c0,23.935,12.882,45.484,32.577,57.229c-1.692-0.169-3.383-0.414-5.063-0.735c-1.732-0.331-3.513,0.276-4.681,1.597 c-1.17,1.32-1.557,3.16-1.018,4.84c7.29,22.76,26.059,39.501,48.749,44.605c-18.819,11.787-40.34,17.961-62.932,17.961 c-4.714,0-9.455-0.277-14.095-0.826c-2.305-0.274-4.509,1.087-5.294,3.279c-0.785,2.193,0.047,4.638,2.008,5.895 c29.023,18.609,62.582,28.445,97.047,28.445c67.754,0,110.139-31.95,133.764-58.753c29.46-33.421,46.356-77.658,46.356-121.367 c0-1.826-0.028-3.67-0.084-5.508c11.623-8.757,21.63-19.355,29.773-31.536c1.237-1.85,1.103-4.295-0.33-5.998 C307.394,57.037,305.009,56.486,302.973,57.388z"
-  })));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Icon/index.tsx":
-/*!***********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Icon/index.tsx ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Icon": () => (/* binding */ Icon)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _IconBehance__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./IconBehance */ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconBehance.tsx");
-/* harmony import */ var _IconExternal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./IconExternal */ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconExternal.tsx");
-/* harmony import */ var _IconGithub__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./IconGithub */ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconGithub.tsx");
-/* harmony import */ var _IconHashnode__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./IconHashnode */ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconHashnode.tsx");
-/* harmony import */ var _IconLinkedIn__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./IconLinkedIn */ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconLinkedIn.tsx");
-/* harmony import */ var _IconMail__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./IconMail */ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconMail.tsx");
-/* harmony import */ var _IconMedium__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./IconMedium */ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconMedium.tsx");
-/* harmony import */ var _IconTwitter__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./IconTwitter */ "../gatsby-theme-portfolio-minimal/src/components/Icon/IconTwitter.tsx");
-
-
-
-
-
-
-
-
-
-function Icon(props) {
-  switch (props.name.toLowerCase()) {
-    case 'external':
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_IconExternal__WEBPACK_IMPORTED_MODULE_2__.IconExternal, {
-        color: props.color
-      });
-    case 'behance':
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_IconBehance__WEBPACK_IMPORTED_MODULE_1__.IconBehance, {
-        color: props.color
-      });
-    case 'github':
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_IconGithub__WEBPACK_IMPORTED_MODULE_3__.IconGithub, {
-        color: props.color
-      });
-    case 'linkedin':
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_IconLinkedIn__WEBPACK_IMPORTED_MODULE_5__.IconLinkedIn, {
-        color: props.color
-      });
-    case 'mail':
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_IconMail__WEBPACK_IMPORTED_MODULE_6__.IconMail, {
-        color: props.color
-      });
-    case 'medium':
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_IconMedium__WEBPACK_IMPORTED_MODULE_7__.IconMedium, {
-        color: props.color
-      });
-    case 'twitter':
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_IconTwitter__WEBPACK_IMPORTED_MODULE_8__.IconTwitter, {
-        color: props.color
-      });
-    case 'hashnode':
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_IconHashnode__WEBPACK_IMPORTED_MODULE_4__.IconHashnode, {
-        color: props.color
-      });
-    default:
-      return null;
-  }
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Layout/index.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Layout/index.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Layout": () => (/* binding */ Layout)
-/* harmony export */ });
-/* harmony import */ var _fontsource_roboto_400_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fontsource/roboto/400.css */ "../node_modules/@fontsource/roboto/400.css");
-/* harmony import */ var _fontsource_roboto_400_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_fontsource_roboto_400_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _fontsource_roboto_700_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fontsource/roboto/700.css */ "../node_modules/@fontsource/roboto/700.css");
-/* harmony import */ var _fontsource_roboto_700_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fontsource_roboto_700_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _globalStyles_global_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../globalStyles/global.css */ "../gatsby-theme-portfolio-minimal/src/globalStyles/global.css");
-/* harmony import */ var _globalStyles_global_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_globalStyles_global_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _globalStyles_theme_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../globalStyles/theme.css */ "../gatsby-theme-portfolio-minimal/src/globalStyles/theme.css");
-/* harmony import */ var _globalStyles_theme_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_globalStyles_theme_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-helmet */ "../node_modules/react-helmet/es/Helmet.js");
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../context */ "../gatsby-theme-portfolio-minimal/src/context/index.tsx");
-/* harmony import */ var _SplashScreen__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../SplashScreen */ "../gatsby-theme-portfolio-minimal/src/components/SplashScreen/index.tsx");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Footer */ "../gatsby-theme-portfolio-minimal/src/components/Footer/index.tsx");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../Header */ "../gatsby-theme-portfolio-minimal/src/components/Header/index.tsx");
-/* harmony import */ var _CookieBar__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../CookieBar */ "../gatsby-theme-portfolio-minimal/src/components/CookieBar/index.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/Layout/style.module.css");
-
-
-
-
-
-
-
-
-
-
-
-
-function Layout(props) {
-  const {
-    globalState
-  } = (0,_context__WEBPACK_IMPORTED_MODULE_6__.useGlobalState)();
-  const showSplashScreen = props.useSplashScreenAnimation && !globalState.splashScreenDone;
-  const darkModeEnabled = globalState.theme === _context__WEBPACK_IMPORTED_MODULE_6__.Theme.Dark;
-  const splashScreenView = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement((react__WEBPACK_IMPORTED_MODULE_4___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_5__.Helmet, {
-    bodyAttributes: {
-      'data-theme': _context__WEBPACK_IMPORTED_MODULE_6__.Theme.Light
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement(_SplashScreen__WEBPACK_IMPORTED_MODULE_7__.SplashScreen, null));
-  const layoutView = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement((react__WEBPACK_IMPORTED_MODULE_4___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_5__.Helmet, {
-    bodyAttributes: {
-      'data-theme': darkModeEnabled ? _context__WEBPACK_IMPORTED_MODULE_6__.Theme.Dark : _context__WEBPACK_IMPORTED_MODULE_6__.Theme.Light
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_11__.Layout
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement(_Header__WEBPACK_IMPORTED_MODULE_9__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement("main", null, props.children), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_8__.Footer, null), props.useCookieBar && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default().createElement(_CookieBar__WEBPACK_IMPORTED_MODULE_10__.CookieBar, null)));
-  return showSplashScreen ? splashScreenView : layoutView;
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Logo/index.tsx":
-/*!***********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Logo/index.tsx ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Logo": () => (/* binding */ Logo)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _hooks_useSiteConfiguration__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../hooks/useSiteConfiguration */ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteConfiguration.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/Logo/style.module.css");
-
-
-
-function Logo(props) {
-  const siteConfiguration = (0,_hooks_useSiteConfiguration__WEBPACK_IMPORTED_MODULE_1__.useSiteConfiguration)();
-  const fontSize = props.fontSize || '2rem';
-  const color = props.color || 'var(--primary-color)';
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.Logo,
-    "aria-roledescription": "logo",
-    style: {
-      fontSize,
-      color
-    }
-  }, siteConfiguration.logo.text);
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Page/index.tsx":
-/*!***********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Page/index.tsx ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Page": () => (/* binding */ Page)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../context */ "../gatsby-theme-portfolio-minimal/src/context/index.tsx");
-/* harmony import */ var _hooks_useSiteConfiguration__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../hooks/useSiteConfiguration */ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteConfiguration.tsx");
-/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Layout */ "../gatsby-theme-portfolio-minimal/src/components/Layout/index.tsx");
-
-
-
-
-function Page(props) {
-  const siteConfiguration = (0,_hooks_useSiteConfiguration__WEBPACK_IMPORTED_MODULE_2__.useSiteConfiguration)();
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_context__WEBPACK_IMPORTED_MODULE_1__.GlobalStateProvider, {
-    defaultTheme: siteConfiguration.featureToggles.useDarkModeAsDefault ? _context__WEBPACK_IMPORTED_MODULE_1__.Theme.Dark : _context__WEBPACK_IMPORTED_MODULE_1__.Theme.Light,
-    useDarkModeBasedOnUsersPreference: siteConfiguration.featureToggles.useDarkModeBasedOnUsersPreference,
-    useSplashScreenAnimation: props.useSplashScreenAnimation || false
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Layout__WEBPACK_IMPORTED_MODULE_3__.Layout, {
-    useSplashScreenAnimation: props.useSplashScreenAnimation || false,
-    useCookieBar: siteConfiguration.featureToggles.useCookieBar
-  }, props.children));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Project/index.tsx":
-/*!**************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Project/index.tsx ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Project": () => (/* binding */ Project)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! gatsby-plugin-image */ "../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _Animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _hooks_useMediaQuery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../hooks/useMediaQuery */ "../gatsby-theme-portfolio-minimal/src/hooks/useMediaQuery.tsx");
-/* harmony import */ var _Icon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Icon */ "../gatsby-theme-portfolio-minimal/src/components/Icon/index.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/Project/style.module.css");
-
-
-
-
-
-
-var LinkType;
-(function (LinkType) {
-  LinkType["External"] = "external";
-  LinkType["Github"] = "github";
-})(LinkType || (LinkType = {}));
-function Project(props) {
-  const isDesktopBreakpoint = (0,_hooks_useMediaQuery__WEBPACK_IMPORTED_MODULE_2__.useMediaQuery)('(min-width: 992px)');
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeUp",
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Project,
-    style: {
-      flexDirection: isDesktopBreakpoint && props.index % 2 === 0 ? 'row-reverse' : undefined
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Details
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Category
-  }, props.data.category), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Title
-  }, props.data.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, props.data.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Tags
-  }, props.data.tags && props.data.tags.length !== 0 && props.data.tags.map((tag, key) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-      key: key
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, tag));
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Links
-  }, props.data.links && props.data.links.length !== 0 && props.data.links.map((link, key) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      key: key,
-      href: link.url,
-      target: "_blank",
-      rel: "nofollow noopener noreferrer",
-      "aria-label": "External Link"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Icon__WEBPACK_IMPORTED_MODULE_3__.Icon, {
-      name: link.type,
-      color: "var(--subtext-color)"
-    }));
-  }))), props.data.image.src && props.data.image.linkTo && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: props.data.image.linkTo,
-    target: "_blank",
-    rel: "noopener noreferrer",
-    "aria-label": "External Link"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__.GatsbyImage, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.ProjectImageWrapper,
-    imgClassName: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.ProjectImage,
-    image: props.data.image.src.childImageSharp.gatsbyImageData,
-    alt: props.data.image.alt || `Project ${props.data.title}`
-  })), props.data.image.src && !props.data.image.linkTo && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__.GatsbyImage, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.ProjectImageWrapper,
-    imgClassName: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.ProjectImage,
-    image: props.data.image.src.childImageSharp.gatsbyImageData,
-    alt: props.data.image.alt || `Project ${props.data.title}`
-  }));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx":
-/*!**************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Section": () => (/* binding */ Section)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/Section/style.module.css");
-
-
-function Section(props) {
-  let classList;
-  if (props.additionalClasses) {
-    classList = props.additionalClasses.concat(_style_module_css__WEBPACK_IMPORTED_MODULE_1__.ContentWrapper).join(' ');
-  } else {
-    classList = _style_module_css__WEBPACK_IMPORTED_MODULE_1__.ContentWrapper;
-  }
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    id: props.anchor,
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_1__.Section
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: classList
-  }, props.heading && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_1__.Heading
-  }, props.heading), props.children));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Seo/index.tsx":
-/*!**********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Seo/index.tsx ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Seo": () => (/* binding */ Seo)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "../node_modules/react-helmet/es/Helmet.js");
-/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @reach/router */ "../node_modules/@gatsbyjs/reach-router/es/index.js");
-/* harmony import */ var _hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../hooks/useSiteMetadata */ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata.tsx");
-
-
-
-
-function Seo(props) {
-  const location = (0,_reach_router__WEBPACK_IMPORTED_MODULE_2__.useLocation)();
-  const siteMetadata = {
-    ...(0,_hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_3__.useSiteMetadata)(),
-    ...props
-  };
-  const thumbnailUrl = siteMetadata.thumbnail ? (siteMetadata.siteUrl + siteMetadata.thumbnail.childImageSharp.original.src).replace(/([^:]\/)\/+/g, '$1') : undefined;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, {
-    title: siteMetadata.title,
-    titleTemplate: props.useTitleTemplate ? siteMetadata.titleTemplate : undefined,
-    htmlAttributes: {
-      lang: siteMetadata.language
-    }
-  }, props.noIndex && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    name: "robots",
-    content: "noindex"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    name: "description",
-    content: siteMetadata.description
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "og:title",
-    content: siteMetadata.title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "og:site_name",
-    content: siteMetadata.title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "og:url",
-    content: siteMetadata.siteUrl + location.pathname
-  }), thumbnailUrl && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "og:image",
-    content: thumbnailUrl
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "og:description",
-    content: siteMetadata.description
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "og:type",
-    content: "website"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "twitter:card",
-    content: "summary"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "twitter:creator",
-    content: siteMetadata.author
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "twitter:title",
-    content: siteMetadata.title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta", {
-    property: "twitter:description",
-    content: siteMetadata.description
-  }));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Slider/index.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Slider/index.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Slider": () => (/* binding */ Slider)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/Slider/style.module.css");
-
-
-function Slider(props) {
-  let classList;
-  if (props.additionalClasses) {
-    classList = props.additionalClasses.concat(_style_module_css__WEBPACK_IMPORTED_MODULE_1__.SlideContainer).join(' ');
-  } else {
-    classList = _style_module_css__WEBPACK_IMPORTED_MODULE_1__.SlideContainer;
-  }
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: classList,
-    style: props.style
-  }, props.children);
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/configuration.ts":
-/*!****************************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/configuration.ts ***!
-  \****************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "socialProfileLabels": () => (/* binding */ socialProfileLabels)
-/* harmony export */ });
-const socialProfileLabels = {
-  behance: 'Behance',
-  github: 'GitHub',
-  medium: 'Medium',
-  linkedin: 'LinkedIn',
-  mail: 'Mail',
-  twitter: 'Twitter',
-  hashnode: 'Hashnode'
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/index.tsx":
-/*!*********************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/index.tsx ***!
-  \*********************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "SocialProfile": () => (/* binding */ SocialProfile),
-/* harmony export */   "SocialProfiles": () => (/* binding */ SocialProfiles)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../hooks/useSiteMetadata */ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata.tsx");
-/* harmony import */ var _Icon__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Icon */ "../gatsby-theme-portfolio-minimal/src/components/Icon/index.tsx");
-/* harmony import */ var _Slider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Slider */ "../gatsby-theme-portfolio-minimal/src/components/Slider/index.tsx");
-/* harmony import */ var _configuration__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./configuration */ "../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/configuration.ts");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/style.module.css");
-
-
-
-
-
-
-let SocialProfile;
-(function (SocialProfile) {
-  SocialProfile["Behance"] = "behance";
-  SocialProfile["GitHub"] = "github";
-  SocialProfile["Medium"] = "medium";
-  SocialProfile["Mail"] = "mail";
-  SocialProfile["LinkedIn"] = "linkedin";
-  SocialProfile["Twitter"] = "twitter";
-  SocialProfile["Hashnode"] = "hashnode";
-})(SocialProfile || (SocialProfile = {}));
-function SocialProfiles(props) {
-  const siteMetadata = (0,_hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_1__.useSiteMetadata)();
-
-  // Enrich the social profile with data from the display name configuration file
-  // as well as the site metadata from settings.json
-  const shownProfiles = props.from.map(profile => {
-    const normalizedProfileId = profile.toLowerCase();
-    if (Object.values(SocialProfile).includes(normalizedProfileId)) {
-      return {
-        id: normalizedProfileId,
-        label: _configuration__WEBPACK_IMPORTED_MODULE_4__.socialProfileLabels[normalizedProfileId],
-        url: siteMetadata.social[normalizedProfileId]
-      };
-    } else {
-      throw new Error(`Unknown social profile ${profile}.`);
-    }
-  });
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Slider__WEBPACK_IMPORTED_MODULE_3__.Slider, null, shownProfiles.map((profile, key) => {
-    const completeProfileData = profile.label && profile.url;
-    return !completeProfileData ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-      key: key,
-      className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Profile,
-      href: profile.url,
-      target: "_blank",
-      rel: "nofollow noopener noreferrer",
-      "aria-label": profile.label,
-      style: props.showIcon ? {
-        padding: '0.5rem 1.25rem'
-      } : undefined
-    }, props.showIcon ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Icon__WEBPACK_IMPORTED_MODULE_2__.Icon, {
-      name: profile.id
-    }) : undefined, " ", profile.label);
-  }));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/SplashScreen/index.tsx":
-/*!*******************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/SplashScreen/index.tsx ***!
-  \*******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "SplashScreen": () => (/* binding */ SplashScreen)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-helmet */ "../node_modules/react-helmet/es/Helmet.js");
-/* harmony import */ var _context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../context */ "../gatsby-theme-portfolio-minimal/src/context/index.tsx");
-/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Logo */ "../gatsby-theme-portfolio-minimal/src/components/Logo/index.tsx");
-/* harmony import */ var _Animation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/components/SplashScreen/style.module.css");
-
-
-
-
-
-
-function SplashScreen() {
-  const [shouldUnmount, setShouldUnmount] = react__WEBPACK_IMPORTED_MODULE_0___default().useState(false);
-  const {
-    dispatch
-  } = (0,_context__WEBPACK_IMPORTED_MODULE_2__.useGlobalState)();
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Animation__WEBPACK_IMPORTED_MODULE_4__.Animation, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.SplashScreen,
-    type: shouldUnmount === false ? 'fadeIn' : 'fadeOut',
-    duration: 250,
-    fillMode: "forwards",
-    onAnimationEnd: () => {
-      if (shouldUnmount) dispatch({
-        type: _context__WEBPACK_IMPORTED_MODULE_2__.ActionType.SetSplashScreenDone,
-        value: true
-      });
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet, {
-    bodyAttributes: {
-      class: 'fixed'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.LogoWrapper
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Animation__WEBPACK_IMPORTED_MODULE_4__.Animation, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Backdrop,
-    type: "reduceHeight",
-    delay: 800,
-    fillMode: "forwards",
-    onAnimationEnd: () => {
-      // Wait 500ms and start unmounting the splash screen
-      setTimeout(() => {
-        setShouldUnmount(true);
-      }, 500);
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Logo__WEBPACK_IMPORTED_MODULE_3__.Logo, {
-    fontSize: "3rem",
-    color: "var(--background-color)"
-  })));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/context/index.tsx":
-/*!***************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/context/index.tsx ***!
-  \***************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ActionType": () => (/* binding */ ActionType),
-/* harmony export */   "GlobalStateProvider": () => (/* binding */ GlobalStateProvider),
-/* harmony export */   "Theme": () => (/* binding */ Theme),
-/* harmony export */   "useGlobalState": () => (/* binding */ useGlobalState)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _hooks_useMediaQuery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../hooks/useMediaQuery */ "../gatsby-theme-portfolio-minimal/src/hooks/useMediaQuery.tsx");
-
-
-let Theme;
-(function (Theme) {
-  Theme["Light"] = "lightTheme";
-  Theme["Dark"] = "darkTheme";
-})(Theme || (Theme = {}));
-let ActionType;
-(function (ActionType) {
-  ActionType["SetTheme"] = "SET_THEME";
-  ActionType["SetSplashScreenDone"] = "SET_SPLASH_SCREEN_DONE";
-})(ActionType || (ActionType = {}));
-const GlobalStateContext = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createContext(undefined);
-function GlobalStateProvider(props) {
-  const [globalState, dispatch] = react__WEBPACK_IMPORTED_MODULE_0___default().useReducer(globalStateReducer, {
-    theme: initializeTheme(props.defaultTheme, props.useDarkModeBasedOnUsersPreference),
-    // If useSplashScreenAnimation=false, we skip the animation by setting the initial value to true
-    splashScreenDone: props.useSplashScreenAnimation ? false : true
-  });
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GlobalStateContext.Provider, {
-    value: {
-      globalState,
-      dispatch
-    }
-  }, props.children);
-}
-function useGlobalState() {
-  const context = react__WEBPACK_IMPORTED_MODULE_0___default().useContext(GlobalStateContext);
-  if (context === undefined) {
-    throw new Error('useGlobalState must be used within a GlobalStateProvider');
-  }
-  return context;
-}
-function globalStateReducer(state, action) {
-  switch (action.type) {
-    case ActionType.SetTheme:
-      {
-        return {
-          ...state,
-          theme: action.value
-        };
-      }
-    case ActionType.SetSplashScreenDone:
-      {
-        return {
-          ...state,
-          splashScreenDone: action.value
-        };
-      }
-    default:
-      {
-        throw new Error(`Unhandled action type`);
-      }
-  }
-}
-function initializeTheme(defaultTheme, useDarkMode) {
-  const darkModeEnabled = (0,_hooks_useMediaQuery__WEBPACK_IMPORTED_MODULE_1__.useMediaQuery)('(prefers-color-scheme: dark)', isMatch => {
-    const updatedTheme = isMatch ? Theme.Dark : Theme.Light;
-    document.body.setAttribute('data-theme', updatedTheme);
-  });
-  let initialTheme = defaultTheme;
-  if (useDarkMode && darkModeEnabled) {
-    initialTheme = Theme.Dark;
-  }
-  return initialTheme;
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/hooks/useCalendlyWidget.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/hooks/useCalendlyWidget.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useCalendlyWidget": () => (/* binding */ useCalendlyWidget)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-
-
-const useCalendlyWidget = options => {
-  const useCalendlyIntegration = options === null || options === void 0 ? void 0 : options.username;
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    if (!useCalendlyIntegration) return;
-    setTimeout(() => {
-      var _Calendly, _options$label, _options$colorButton, _options$colorText;
-      (_Calendly = Calendly) === null || _Calendly === void 0 ? void 0 : _Calendly.initBadgeWidget({
-        url: `https://calendly.com/${options === null || options === void 0 ? void 0 : options.username}`,
-        text: (_options$label = options === null || options === void 0 ? void 0 : options.label) !== null && _options$label !== void 0 ? _options$label : 'Schedule time with me',
-        color: (_options$colorButton = options === null || options === void 0 ? void 0 : options.colorButton) !== null && _options$colorButton !== void 0 ? _options$colorButton : '#0069ff',
-        textColor: (_options$colorText = options === null || options === void 0 ? void 0 : options.colorText) !== null && _options$colorText !== void 0 ? _options$colorText : '#ffffff'
-      });
-    }, 1000);
-  }, []);
-  return useCalendlyIntegration ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
-    href: "https://assets.calendly.com/assets/external/widget.css",
-    rel: "stylesheet"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Script, {
-    id: "calendlyScript",
-    src: "https://assets.calendly.com/assets/external/widget.js",
-    type: "text/javascript",
-    async: true
-  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null);
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/hooks/useCastedRef.tsx":
-/*!********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/hooks/useCastedRef.tsx ***!
-  \********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useCastedRef": () => (/* binding */ useCastedRef)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function useCastedRef() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default().useRef();
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/hooks/useMediaQuery.tsx":
-/*!*********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/hooks/useMediaQuery.tsx ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useMediaQuery": () => (/* binding */ useMediaQuery)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function useMediaQuery(query, callback) {
-  if (typeof window === 'undefined' || typeof window.matchMedia === 'undefined') {
-    return false;
-  }
-  const mediaQuery = window.matchMedia(query);
-  const [match, setMatch] = react__WEBPACK_IMPORTED_MODULE_0___default().useState(mediaQuery.matches);
-  react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(() => {
-    function handleMatch() {
-      setMatch(mediaQuery.matches);
-      callback === null || callback === void 0 ? void 0 : callback(mediaQuery.matches);
-    }
-    if (mediaQuery.addEventListener) {
-      mediaQuery.addEventListener('change', handleMatch);
-      return () => mediaQuery.removeEventListener('change', handleMatch);
-    } else {
-      // backwards compatibility
-      // https://betterprogramming.pub/using-window-matchmedia-in-react-8116eada2588
-      mediaQuery.addListener(handleMatch);
-      return () => mediaQuery.removeListener(handleMatch);
-    }
-  }, []);
-  return match;
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/hooks/useOnScreen.tsx":
-/*!*******************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/hooks/useOnScreen.tsx ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useOnScreen": () => (/* binding */ useOnScreen)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-// https://usehooks.com/useOnScreen/
-
-function useOnScreen(ref, threshold = 0.25) {
-  const {
-    0: isIntersecting,
-    1: setIntersecting
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    const element = ref.current;
-    const observer = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        setIntersecting(true);
-        observer.unobserve(entry.target);
-      }
-    }, {
-      threshold
-    });
-    if (element && element instanceof Element) observer.observe(element);
-    return () => {
-      if (element && element instanceof Element) observer.unobserve(element);
-    };
-  }, [ref, threshold]);
-  return isIntersecting;
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteConfiguration.tsx":
-/*!****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/hooks/useSiteConfiguration.tsx ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "query": () => (/* binding */ query),
-/* harmony export */   "useSiteConfiguration": () => (/* binding */ useSiteConfiguration)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_1094019748_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../example-site/public/page-data/sq/d/1094019748.json */ "./public/page-data/sq/d/1094019748.json");
-
-function useSiteConfiguration() {
-  const data = _example_site_public_page_data_sq_d_1094019748_json__WEBPACK_IMPORTED_MODULE_0__.data;
-  return data.allSettingsJson.settings[0].siteConfiguration;
-}
-const query = "1094019748";
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata.tsx":
-/*!***********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata.tsx ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "query": () => (/* binding */ query),
-/* harmony export */   "useSiteMetadata": () => (/* binding */ useSiteMetadata)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_4239582004_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../example-site/public/page-data/sq/d/4239582004.json */ "./public/page-data/sq/d/4239582004.json");
-
-function useSiteMetadata() {
-  const data = _example_site_public_page_data_sq_d_4239582004_json__WEBPACK_IMPORTED_MODULE_0__.data;
-  return data.allSettingsJson.settings[0].siteMetadata;
-}
-const query = "4239582004";
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/About/data.tsx":
-/*!*********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/About/data.tsx ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useLocalDataSource": () => (/* binding */ useLocalDataSource)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_1764120992_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../example-site/public/page-data/sq/d/1764120992.json */ "./public/page-data/sq/d/1764120992.json");
-
-const useLocalDataSource = () => {
-  return _example_site_public_page_data_sq_d_1764120992_json__WEBPACK_IMPORTED_MODULE_0__.data;
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/About/index.tsx":
-/*!**********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/About/index.tsx ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AboutSection": () => (/* binding */ AboutSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! gatsby-plugin-image */ "../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _components_Animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Section */ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./data */ "../gatsby-theme-portfolio-minimal/src/sections/About/data.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/sections/About/style.module.css");
-
-
-
-
-
-
-function AboutSection(props) {
-  const response = (0,_data__WEBPACK_IMPORTED_MODULE_3__.useLocalDataSource)();
-  const data = response.allAboutMarkdown.sections[0];
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeUp"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Section__WEBPACK_IMPORTED_MODULE_2__.Section, {
-    anchor: props.sectionId,
-    heading: props.heading
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.About
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Description,
-    dangerouslySetInnerHTML: {
-      __html: data.html
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeLeft",
-    delay: 200
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.ImageWrapper
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__.GatsbyImage, {
-    image: data.frontmatter.imageSrc.childImageSharp.gatsbyImageData,
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_4__.Image,
-    alt: data.frontmatter.imageAlt || `About Image`
-  }))))));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Articles/data.tsx":
-/*!************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Articles/data.tsx ***!
-  \************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useLocalDataSource": () => (/* binding */ useLocalDataSource),
-/* harmony export */   "useMediumFeed": () => (/* binding */ useMediumFeed)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_540466502_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../example-site/public/page-data/sq/d/540466502.json */ "./public/page-data/sq/d/540466502.json");
-/* provided dependency */ var fetch = __webpack_require__(/*! ../node_modules/node-fetch/lib/index.js */ "../node_modules/node-fetch/lib/index.js");
-
-async function useMediumFeed(profileUrl) {
-  let mediumArticleList = [];
-  const feedUrl = constructMediumFeedUrl(profileUrl);
-  try {
-    const res = await fetch(feedUrl, {
-      headers: {
-        Accept: 'application/json'
-      }
-    });
-    const data = await res.json();
-    // The Medium RSS feed provides not only articles but comments as well. Here, we filter
-    // for items that have at least one category. This is our trivial approach to select
-    // only articles (because comments can't have any categories) ¯\_(ツ)_/¯
-    const dataWithArticlesOnly = data.items.filter(item => item.categories.length !== 0);
-    mediumArticleList = [...dataWithArticlesOnly];
-  } catch (error) {
-    console.warn('Fetching Medium Feed failed.', error);
-  }
-  return mediumArticleList;
-}
-function constructMediumFeedUrl(profileUrl) {
-  const RSS_2_JSON_API = 'https://api.rss2json.com/v1/api.json?rss_url=';
-
-  // Remove trailing slashes from mediumProfile, append /feed, and make it URL friendly
-  return RSS_2_JSON_API + encodeURIComponent(profileUrl.replace(/\/+$/, '') + '/feed');
-}
-const useLocalDataSource = () => {
-  return _example_site_public_page_data_sq_d_540466502_json__WEBPACK_IMPORTED_MODULE_0__.data;
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Articles/index.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Articles/index.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ArticlesSection": () => (/* binding */ ArticlesSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Section */ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx");
-/* harmony import */ var _components_Slider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Slider */ "../gatsby-theme-portfolio-minimal/src/components/Slider/index.tsx");
-/* harmony import */ var _components_ArticleCard__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/ArticleCard */ "../gatsby-theme-portfolio-minimal/src/components/ArticleCard/index.tsx");
-/* harmony import */ var _hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../hooks/useSiteMetadata */ "../gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata.tsx");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./data */ "../gatsby-theme-portfolio-minimal/src/sections/Articles/data.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/sections/Articles/style.module.css");
-
-
-
-
-
-
-
-
-var ArticleSource;
-(function (ArticleSource) {
-  ArticleSource["Medium"] = "medium";
-  ArticleSource["Blog"] = "blog";
-})(ArticleSource || (ArticleSource = {}));
-function ArticlesSection(props) {
-  const response = (0,_data__WEBPACK_IMPORTED_MODULE_6__.useLocalDataSource)();
-  const [articles, setArticles] = react__WEBPACK_IMPORTED_MODULE_0___default().useState([]);
-  const configuration = validateAndConfigureSources(props.sources);
-  async function collectArticlesFromSources(configuration) {
-    const mediumConfig = configuration[ArticleSource.Medium];
-    const blogConfig = configuration[ArticleSource.Blog];
-    const articleList = [];
-    if (mediumConfig !== undefined) {
-      const mediumArticles = await (0,_data__WEBPACK_IMPORTED_MODULE_6__.useMediumFeed)(mediumConfig.profileUrl);
-      if (mediumArticles.length > 0) {
-        mediumArticles.forEach(article => {
-          articleList.push({
-            category: article.categories[0],
-            title: article.title,
-            publishedAt: new Date(article.pubDate.replace(/-/g, '/')),
-            // https://stackoverflow.com/a/5646753
-            link: article.link
-          });
-        });
-      }
-    }
-    if (blogConfig !== undefined) {
-      const blogArticles = response.allArticle.articles;
-      if (blogArticles.length > 0) {
-        blogArticles.forEach(article => {
-          articleList.push({
-            category: article.categories[0],
-            title: article.title,
-            publishedAt: new Date(article.date.replace(/-/g, '/')),
-            link: article.slug,
-            readingTime: article.readingTime.text
-          });
-        });
-      }
-    }
-    return articleList.slice().sort((a, b) => b.publishedAt.getTime() - a.publishedAt.getTime());
-  }
-  react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(() => {
-    (async function () {
-      setArticles(await collectArticlesFromSources(configuration));
-    })();
-  }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeUp",
-    delay: 1000
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Section__WEBPACK_IMPORTED_MODULE_2__.Section, {
-    anchor: props.sectionId,
-    heading: props.heading
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Slider__WEBPACK_IMPORTED_MODULE_3__.Slider, {
-    additionalClasses: [_style_module_css__WEBPACK_IMPORTED_MODULE_7__.Articles]
-  }, articles.length > 0 ? articles.slice(0, 3).map((article, key) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_ArticleCard__WEBPACK_IMPORTED_MODULE_4__.ArticleCard, {
-      key: key,
-      data: article
-    });
-  }) : [...Array(3)].map((_, key) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_ArticleCard__WEBPACK_IMPORTED_MODULE_4__.ArticleCardSkeleton, {
-      key: key
-    });
-  }))));
-}
-
-// validateAndConfigureSources: Sources for articles can be defined as props (e.g. sources=["Medium"])
+var Articles = "style-module--Articles--UOHqr";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Articles/index.tsx
+var ArticleSource;(function(ArticleSource){ArticleSource["Medium"]="medium";ArticleSource["Blog"]="blog";})(ArticleSource||(ArticleSource={}));function ArticlesSection(props){const response=data_useLocalDataSource();const[articles,setArticles]=index_js_default().useState([]);const configuration=validateAndConfigureSources(props.sources);async function collectArticlesFromSources(configuration){const mediumConfig=configuration[ArticleSource.Medium];const blogConfig=configuration[ArticleSource.Blog];const articleList=[];if(mediumConfig!==undefined){const mediumArticles=await useMediumFeed(mediumConfig.profileUrl);if(mediumArticles.length>0){mediumArticles.forEach(article=>{articleList.push({category:article.categories[0],title:article.title,publishedAt:new Date(article.pubDate.replace(/-/g,'/')),// https://stackoverflow.com/a/5646753
+link:article.link});});}}if(blogConfig!==undefined){const blogArticles=response.allArticle.articles;if(blogArticles.length>0){blogArticles.forEach(article=>{articleList.push({category:article.categories[0],title:article.title,publishedAt:new Date(article.date.replace(/-/g,'/')),link:article.slug,readingTime:article.readingTime.text});});}}return articleList.slice().sort((a,b)=>b.publishedAt.getTime()-a.publishedAt.getTime());}index_js_default().useEffect(()=>{(async function(){setArticles(await collectArticlesFromSources(configuration));})();},[]);return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeUp",delay:1000},/*#__PURE__*/index_js_default().createElement(Section/* Section */.$,{anchor:props.sectionId,heading:props.heading},/*#__PURE__*/index_js_default().createElement(Slider/* Slider */.i,{additionalClasses:[Articles]},articles.length>0?articles.slice(0,3).map((article,key)=>{return/*#__PURE__*/index_js_default().createElement(ArticleCard/* ArticleCard */.T,{key:key,data:article});}):[...Array(3)].map((_,key)=>{return/*#__PURE__*/index_js_default().createElement(ArticleCard/* ArticleCardSkeleton */.w,{key:key});}))));}// validateAndConfigureSources: Sources for articles can be defined as props (e.g. sources=["Medium"])
 // Currently, only Medium can be used as a source but it is thinkable to extend this approach to other
 // sources (e.g. an integrated Markdown blog). To collect all articles from the source, there is a
 // specific configuration needed for each source type. For example, to collect articles from Medium,
 // we need the profile URL. This function is responsible for validating that at least one source is
 // defined. It than adds the needed configuration properties to each source and returns the config.
+function validateAndConfigureSources(sources){const configuration={};if(sources.length>0){// Configure Medium
+if(sources.map(i=>i.toLowerCase()).includes(ArticleSource.Medium)){const siteMetadata=(0,useSiteMetadata/* useSiteMetadata */.$)();configuration[ArticleSource.Medium]={profileUrl:siteMetadata.social.medium};}// Configure Blog (actually no real configuration is required yet)
+if(sources.map(i=>i.toLowerCase()).includes(ArticleSource.Blog)){configuration[ArticleSource.Blog]={valid:true};}}else{throw new Error('No Source for Articles defined.');}return configuration;}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/About/data.tsx
+const About_data_useLocalDataSource=()=>{return (0,gatsby_browser_entry.useStaticQuery)("1764120992");};
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/About/style.module.css
+// Exports
+var About = "style-module--About--uvSmy";
+var Description = "style-module--Description--iQhUV";
+var ImageWrapper = "style-module--ImageWrapper--oWCCa";
+var style_module_Image = "style-module--Image--NCV2j";
 
-function validateAndConfigureSources(sources) {
-  const configuration = {};
-  if (sources.length > 0) {
-    // Configure Medium
-    if (sources.map(i => i.toLowerCase()).includes(ArticleSource.Medium)) {
-      const siteMetadata = (0,_hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_5__.useSiteMetadata)();
-      configuration[ArticleSource.Medium] = {
-        profileUrl: siteMetadata.social.medium
-      };
-    }
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/About/index.tsx
+function AboutSection(props){const response=About_data_useLocalDataSource();const data=response.allAboutMarkdown.sections[0];return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeUp"},/*#__PURE__*/index_js_default().createElement(Section/* Section */.$,{anchor:props.sectionId,heading:props.heading},/*#__PURE__*/index_js_default().createElement("div",{className:About},/*#__PURE__*/index_js_default().createElement("div",{className:Description,dangerouslySetInnerHTML:{__html:data.html}}),/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeLeft",delay:200},/*#__PURE__*/index_js_default().createElement("div",{className:ImageWrapper},/*#__PURE__*/index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{image:data.frontmatter.imageSrc.childImageSharp.gatsbyImageData,className:style_module_Image,alt:data.frontmatter.imageAlt||`About Image`}))))));}
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/components/Button/index.tsx + 1 modules
+var Button = __webpack_require__(7949);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Interests/data.tsx
+const Interests_data_useLocalDataSource=()=>{return (0,gatsby_browser_entry.useStaticQuery)("2442753764");};
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Interests/style.module.css
+// Exports
+var Interests = "style-module--Interests--ppDJY";
+var Interest = "style-module--Interest--iu889";
+var style_module_Icon = "style-module--Icon--LdPYs";
 
-    // Configure Blog (actually no real configuration is required yet)
-    if (sources.map(i => i.toLowerCase()).includes(ArticleSource.Blog)) {
-      configuration[ArticleSource.Blog] = {
-        valid: true
-      };
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Interests/index.tsx
+function InterestsSection(props){var _data$button$initiall;const response=Interests_data_useLocalDataSource();const data=response.allInterestsJson.sections[0];const shouldShowButton=data.button.visible!==false;const initiallyShownInterests=(_data$button$initiall=data.button.initiallyShownInterests)!==null&&_data$button$initiall!==void 0?_data$button$initiall:5;const[shownInterests,setShownInterests]=index_js_default().useState(shouldShowButton?initiallyShownInterests:data.interests.length);function loadMoreHandler(){setShownInterests(data.interests.length);}return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeUp"},/*#__PURE__*/index_js_default().createElement(Section/* Section */.$,{anchor:props.sectionId,heading:props.heading},/*#__PURE__*/index_js_default().createElement("div",{className:Interests},data.interests.slice(0,shownInterests).map((interest,key)=>{return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{key:key,className:Interest,type:"scaleIn",delay:key*100},interest.image.src&&/*#__PURE__*/index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{image:interest.image.src.childImageSharp.gatsbyImageData,className:style_module_Icon,alt:interest.image.alt||`Interest ${interest.label}`}),' ',interest.label);}),shouldShowButton&&shownInterests<data.interests.length&&/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"scaleIn",delay:(shownInterests+1)*100},/*#__PURE__*/index_js_default().createElement(Button/* Button */.z,{type:Button/* ButtonType.BUTTON */.L.BUTTON,onClickHandler:loadMoreHandler,label:data.button.label})))));}
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/hooks/useMediaQuery.tsx
+var useMediaQuery = __webpack_require__(8565);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Project/style.module.css
+// Exports
+var Project = "style-module--Project--LtV1h";
+var Details = "style-module--Details--vmqqH";
+var Category = "style-module--Category--ETQm4";
+var style_module_Title = "style-module--Title--oIFbn";
+var Tags = "style-module--Tags--ry3yL";
+var Links = "style-module--Links--hvqrq";
+var ProjectImageWrapper = "style-module--ProjectImageWrapper--hp34+";
+var ProjectImage = "style-module--ProjectImage--V8z6b";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Project/index.tsx
+var LinkType;(function(LinkType){LinkType["External"]="external";LinkType["Github"]="github";})(LinkType||(LinkType={}));function Project_Project(props){const isDesktopBreakpoint=(0,useMediaQuery/* useMediaQuery */.a)('(min-width: 992px)');return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeUp",className:Project,style:{flexDirection:isDesktopBreakpoint&&props.index%2===0?'row-reverse':undefined}},/*#__PURE__*/index_js_default().createElement("div",{className:Details},/*#__PURE__*/index_js_default().createElement("span",{className:Category},props.data.category),/*#__PURE__*/index_js_default().createElement("h4",{className:style_module_Title},props.data.title),/*#__PURE__*/index_js_default().createElement("p",null,props.data.description),/*#__PURE__*/index_js_default().createElement("div",{className:Tags},props.data.tags&&props.data.tags.length!==0&&props.data.tags.map((tag,key)=>{return/*#__PURE__*/index_js_default().createElement("span",{key:key},/*#__PURE__*/index_js_default().createElement("u",null,tag));})),/*#__PURE__*/index_js_default().createElement("div",{className:Links},props.data.links&&props.data.links.length!==0&&props.data.links.map((link,key)=>{return/*#__PURE__*/index_js_default().createElement("a",{key:key,href:link.url,target:"_blank",rel:"nofollow noopener noreferrer","aria-label":"External Link"},/*#__PURE__*/index_js_default().createElement(Icon,{name:link.type,color:"var(--subtext-color)"}));}))),props.data.image.src&&props.data.image.linkTo&&/*#__PURE__*/index_js_default().createElement("a",{href:props.data.image.linkTo,target:"_blank",rel:"noopener noreferrer","aria-label":"External Link"},/*#__PURE__*/index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{className:ProjectImageWrapper,imgClassName:ProjectImage,image:props.data.image.src.childImageSharp.gatsbyImageData,alt:props.data.image.alt||`Project ${props.data.title}`})),props.data.image.src&&!props.data.image.linkTo&&/*#__PURE__*/index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{className:ProjectImageWrapper,imgClassName:ProjectImage,image:props.data.image.src.childImageSharp.gatsbyImageData,alt:props.data.image.alt||`Project ${props.data.title}`}));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Projects/data.tsx
+const Projects_data_useLocalDataSource=()=>{return (0,gatsby_browser_entry.useStaticQuery)("513457919");};
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Projects/style.module.css
+// Exports
+var Projects = "style-module--Projects--l0368";
+var MoreProjects = "style-module--MoreProjects--3KEBL";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Projects/index.tsx
+function ProjectsSection(props){const response=Projects_data_useLocalDataSource();const data=response.allProjectsJson.sections[0];return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeIn"},/*#__PURE__*/index_js_default().createElement(Section/* Section */.$,{anchor:props.sectionId,heading:props.heading},/*#__PURE__*/index_js_default().createElement(Slider/* Slider */.i,{additionalClasses:[Projects]},data.projects.map((project,key)=>{return project.visible?/*#__PURE__*/index_js_default().createElement(Project_Project,{key:key,index:key,data:project}):null;})),data.button!==undefined&&data.button.visible!==false&&/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{className:MoreProjects,type:"fadeIn"},/*#__PURE__*/index_js_default().createElement(Button/* Button */.z,{type:Button/* ButtonType.LINK */.L.LINK,externalLink:true,url:data.button.url,label:data.button.label}))));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Contact/data.tsx
+const Contact_data_useLocalDataSource=()=>{return (0,gatsby_browser_entry.useStaticQuery)("2572006233");};
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Contact/style.module.css
+// Exports
+var Contact = "style-module--Contact--wduKF";
+var style_module_Description = "style-module--Description--OgXY+";
+var style_module_Profile = "style-module--Profile--pvzDd";
+var Avatar = "style-module--Avatar--Nrdsj";
+var ContactDetails = "style-module--ContactDetails--jx8Ck";
+var Name = "style-module--Name--bVtsV";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Contact/index.tsx
+function ContactSection(props){const response=Contact_data_useLocalDataSource();const data=response.allContactJson.sections[0];return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{type:"fadeUp"},/*#__PURE__*/index_js_default().createElement(Section/* Section */.$,{anchor:props.sectionId,heading:props.heading,additionalClasses:[Contact]},data.description&&/*#__PURE__*/index_js_default().createElement("p",{className:style_module_Description},data.description),/*#__PURE__*/index_js_default().createElement("div",{className:style_module_Profile},data.image.src&&/*#__PURE__*/index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{className:Avatar,image:data.image.src.childImageSharp.gatsbyImageData,alt:data.image.alt||`Profile ${data.name}`}),/*#__PURE__*/index_js_default().createElement("div",{className:ContactDetails},/*#__PURE__*/index_js_default().createElement("div",{className:Name},data.name),/*#__PURE__*/index_js_default().createElement("u",null,/*#__PURE__*/index_js_default().createElement("a",{href:`mailto:${data.email}`},data.email)))),data.socialProfiles&&/*#__PURE__*/index_js_default().createElement(SocialProfiles,{from:data.socialProfiles.from,showIcon:data.socialProfiles.showIcons})));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Legal/data.tsx
+const Legal_data_useLocalDataSource=()=>{return (0,gatsby_browser_entry.useStaticQuery)("597217301");};const getSectionBySectionId=(res,id)=>{const sectionList=res.allLegalSection.sections.filter(section=>section.frontmatter.sectionId===id);if(sectionList.length===0){throw new Error(`Could not find section ${id} by id.`);}else if(sectionList.length>1){throw new Error(`Found section ${id} multiple times. Make sure the id is unique.`);}else{return sectionList[0];}};
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/sections/Legal/index.tsx
+function LegalSection(props){const response=Legal_data_useLocalDataSource();const data=getSectionBySectionId(response,props.sectionId);return/*#__PURE__*/index_js_default().createElement(Section/* Section */.$,{anchor:props.sectionId,heading:props.heading},/*#__PURE__*/index_js_default().createElement("div",{dangerouslySetInnerHTML:{__html:data.html}}));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/index.js
+
+
+/***/ }),
+
+/***/ 2512:
+/***/ ((__unused_webpack_module, exports) => {
+
+exports.validGATrackingId=function(options){return options.trackingId&&options.trackingId.trim()!=="";};exports.validGTMTrackingId=function(options){return options.trackingId&&options.trackingId.trim()!=="";};exports.validFbPixelId=function(options){return options.pixelId&&options.pixelId.trim()!=="";};exports.validTikTokPixelId=function(options){return options.pixelId&&options.pixelId.trim()!=="";};exports.validHotjarId=function(options){return options.hjid&&options.hjid.trim()!==""&&options.hjsv&&options.hjsv.trim()!=="";};exports.validChatwootConfig=function(options){return options.baseUrl&&options.baseUrl.trim()!==""&&options.websiteToken&&options.websiteToken.trim()!=="";};exports.validLinkedinTrackingId=function(options){return options.trackingId&&options.trackingId.trim()!=="";};exports.getCookie=function(name){var v=document.cookie.match('(^|;) ?'+name+'=([^;]*)(;|$)');return v?v[2]:null;};exports.isEnvironmentValid=function(environments){var currentEnvironment=({}).ENV||"production"||0;return environments.includes(currentEnvironment);};
+
+/***/ }),
+
+/***/ 5906:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(4734),initializeAndTrackGoogleAnalytics=_require.initializeAndTrackGoogleAnalytics,initializeAndTrackGoogleTagManager=_require.initializeAndTrackGoogleTagManager,initializeAndTrackFacebookPixel=_require.initializeAndTrackFacebookPixel,initializeAndTrackTikTokPixel=_require.initializeAndTrackTikTokPixel,initializeAndTrackHotjar=_require.initializeAndTrackHotjar,initializeChatwoot=_require.initializeChatwoot,initializeLinkedin=_require.initializeLinkedin;var _require2=__webpack_require__(2512),isEnvironmentValid=_require2.isEnvironmentValid;exports.v=function(location){var options=window.gatsbyPluginGDPRCookiesOptions;if(isEnvironmentValid(options.environments)){if(location===undefined||location===null){console.error('Please provide a reach router location to the initializeAndTrack function.');}else{initializeAndTrackGoogleAnalytics(options.googleAnalytics,location);initializeAndTrackGoogleTagManager(options.googleTagManager,location);initializeAndTrackFacebookPixel(options.facebookPixel);initializeAndTrackTikTokPixel(options.tikTokPixel);initializeAndTrackHotjar(options.hotjar);initializeChatwoot(options.chatwoot);initializeLinkedin(options.linkedin);}}};
+
+/***/ }),
+
+/***/ 5839:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(2512),validChatwootConfig=_require.validChatwootConfig,getCookie=_require.getCookie;exports.addChatwoot=function(options){return new Promise(function(resolve,reject){if(window.gatsbyPluginGDPRCookiesChatwootAdded)return resolve(true);/* eslint-disable */!function(d,t){var BASE_URL=options.baseUrl;var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src=BASE_URL+"/packs/js/sdk.js";g.defer=true;g.async=true;s.parentNode.insertBefore(g,s);g.onload=function(){window.chatwootSDK.run({websiteToken:options.websiteToken,baseUrl:BASE_URL});};}(document,"script");/* eslint-enable */window.gatsbyPluginGDPRCookiesChatwootAdded=true;resolve(true);});};
+
+/***/ }),
+
+/***/ 423:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(2512),validFbPixelId=_require.validFbPixelId,getCookie=_require.getCookie;exports.addFacebookPixel=function(){return new Promise(function(resolve,reject){if(window.gatsbyPluginGDPRCookiesFacebookPixelAdded)return resolve(true);/* eslint-disable */!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments);};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s);}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');/* eslint-enable */window.gatsbyPluginGDPRCookiesFacebookPixelAdded=true;resolve(true);});};exports.initializeFacebookPixel=function(options){if(!window.gatsbyPluginGDPRCookiesFacebookPixelInitialized&&getCookie(options.cookieName)==="true"&&validFbPixelId(options)){window.fbq("init",options.pixelId);window.gatsbyPluginGDPRCookiesFacebookPixelInitialized=true;}};exports.trackFacebookPixel=function(options){if(getCookie(options.cookieName)==="true"&&validFbPixelId(options)&&typeof window.fbq==="function"){window.fbq("track","PageView");}};
+
+/***/ }),
+
+/***/ 4054:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(2512),validGATrackingId=_require.validGATrackingId,getCookie=_require.getCookie;exports.addGoogleAnalytics=function(_ref){var trackingId=_ref.trackingId;return new Promise(function(resolve,reject){if(window.gatsbyPluginGDPRCookiesGoogleAnalyticsAdded)return resolve(true);var head=document.getElementsByTagName('head')[0];var script=document.createElement("script");script.type="text/javascript";script.onload=function(){window.gatsbyPluginGDPRCookiesGoogleAnalyticsAdded=true;resolve(true);};script.src="https://www.googletagmanager.com/gtag/js?id="+trackingId;head.appendChild(script);});};exports.initializeGoogleAnalytics=function(options){if(!window.gatsbyPluginGDPRCookiesGoogleAnalyticsInitialized&&getCookie(options.cookieName)==="true"&&validGATrackingId(options)){window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments);};window.gtag('js',new Date());var gaAnonymize=options.anonymize;var gaAllowAdFeatures=options.allowAdFeatures;gaAnonymize=gaAnonymize!==undefined?gaAnonymize:true;gaAllowAdFeatures=gaAllowAdFeatures!==undefined?gaAllowAdFeatures:true;window.gtag('config',options.trackingId,{'anonymize_ip':gaAnonymize,'allow_google_signals':gaAllowAdFeatures});window.gatsbyPluginGDPRCookiesGoogleAnalyticsInitialized=true;}};exports.trackGoogleAnalytics=function(options,location){if(getCookie(options.cookieName)==="true"&&validGATrackingId(options)&&typeof window.gtag==="function"){var pagePath=location?location.pathname+location.search+location.hash:undefined;window.gtag("event","page_view",{page_path:pagePath});}};
+
+/***/ }),
+
+/***/ 7463:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(2512),validGTMTrackingId=_require.validGTMTrackingId,getCookie=_require.getCookie;exports.addGoogleTagManager=function(_ref,environmentParamStr){var trackingId=_ref.trackingId,dataLayerName=_ref.dataLayerName;return new Promise(function(resolve,reject){if(window.gatsbyPluginGDPRCookiesGoogleTagManagerAdded)return resolve(true);/* eslint-disable */!function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!="dataLayer"?"&l="+l:"";j.async=true;j.src="https://www.googletagmanager.com/gtm.js?id="+i+dl+environmentParamStr;f.parentNode.insertBefore(j,f);}(window,document,"script",dataLayerName,trackingId);/* eslint-enable */var iframe=document.createElement("iframe");iframe.key="gatsby-plugin-gdpr-cookies-google-tagmanager-iframe";iframe.src="https://www.googletagmanager.com/ns.html?id="+trackingId+environmentParamStr;iframe.height=0;iframe.width=0;iframe.style="display: none; visibility: hidden";document.body.insertBefore(iframe,document.body.firstChild);window.gatsbyPluginGDPRCookiesGoogleTagManagerAdded=true;resolve(true);});};exports.initializeGoogleTagManager=function(options){// console.log(`initing tag manager`)
+if(!window.gatsbyPluginGDPRCookiesGoogleTagManagerInitialized&&getCookie(options.cookieName)==="true"&&validGTMTrackingId(options)){window.dataLayer=window.dataLayer||[];window.gtag=function(){window.dataLayer.push(arguments);};window.gtag("js",new Date());var gaAnonymize=options.anonymize;var gaAllowAdFeatures=options.allowAdFeatures;gaAnonymize=gaAnonymize!==undefined?gaAnonymize:true;gaAllowAdFeatures=gaAllowAdFeatures!==undefined?gaAllowAdFeatures:true;window.gtag("config",options.trackingId,{anonymize_ip:gaAnonymize,allow_google_signals:gaAllowAdFeatures});}};exports.trackGoogleTagManager=function(options,location){// console.log(`tracking tag manager`)
+if(getCookie(options.cookieName)==="true"&&validGTMTrackingId(options)&&typeof window.gtag==="function"){var pagePath=location?location.pathname+location.search+location.hash:undefined;window.gtag("event","page_view",{page_path:pagePath});}setTimeout(function(){var data=options.dataLayerName?window[options.dataLayerName]:window.dataLayer;if(typeof data==="object"){var eventName=options.routeChangeEvent||"gatsbyRouteChange";data.push({event:eventName});}},50);};
+
+/***/ }),
+
+/***/ 6485:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(2512),validHotjarId=_require.validHotjarId,getCookie=_require.getCookie;exports.addHotjar=function(options){return new Promise(function(resolve,reject){if(window.gatsbyPluginGDPRCookiesHotjarAdded)return resolve(true);/* eslint-disable */!function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments);};h._hjSettings={hjid:options.hjid,hjsv:options.hjsv};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);}(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');/* eslint-enable */window.gatsbyPluginGDPRCookiesHotjarAdded=true;resolve(true);});};exports.initializeHotjar=function(options){if(!window.gatsbyPluginGDPRCookiesHotjarInitialized&&getCookie(options.cookieName)==="true"&&validHotjarId(options)){window.gatsbyPluginGDPRCookiesHotjarInitialized=true;}};exports.trackHotjar=function(options){// this is supposed to so nothing
+};
+
+/***/ }),
+
+/***/ 4734:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(2512),validGATrackingId=_require.validGATrackingId,validGTMTrackingId=_require.validGTMTrackingId,validFbPixelId=_require.validFbPixelId,validTikTokPixelId=_require.validTikTokPixelId,validHotjarId=_require.validHotjarId,validChatwootConfig=_require.validChatwootConfig,validLinkedinTrackingId=_require.validLinkedinTrackingId,getCookie=_require.getCookie;var _require2=__webpack_require__(4054),addGoogleAnalytics=_require2.addGoogleAnalytics,initializeGoogleAnalytics=_require2.initializeGoogleAnalytics,trackGoogleAnalytics=_require2.trackGoogleAnalytics;var _require3=__webpack_require__(7463),addGoogleTagManager=_require3.addGoogleTagManager,initializeGoogleTagManager=_require3.initializeGoogleTagManager,trackGoogleTagManager=_require3.trackGoogleTagManager;var _require4=__webpack_require__(423),addFacebookPixel=_require4.addFacebookPixel,initializeFacebookPixel=_require4.initializeFacebookPixel,trackFacebookPixel=_require4.trackFacebookPixel;var _require5=__webpack_require__(7120),addTikTokPixel=_require5.addTikTokPixel,initializeTikTokPixel=_require5.initializeTikTokPixel,trackTikTokPixel=_require5.trackTikTokPixel;var _require6=__webpack_require__(6485),addHotjar=_require6.addHotjar,initializeHotjar=_require6.initializeHotjar,trackHotjar=_require6.trackHotjar;var _require7=__webpack_require__(5839),addChatwoot=_require7.addChatwoot;var _require8=__webpack_require__(3567),addLinkedin=_require8.addLinkedin,initializeLinkedin=_require8.initializeLinkedin;exports.initializeAndTrackGoogleAnalytics=function(options,location){if(getCookie(options.cookieName)==="true"&&validGATrackingId(options)){addGoogleAnalytics(options).then(function(status){if(status){initializeGoogleAnalytics(options);trackGoogleAnalytics(options,location);}});}};exports.initializeAndTrackGoogleTagManager=function(options,location){if(getCookie(options.cookieName)==="true"&&validGTMTrackingId(options)){var environmentParamStr="";if(options.gtmAuth&&options.gtmPreview){environmentParamStr="&gtm_auth="+options.gtmAuth+"&gtm_preview="+options.gtmPreview+"&gtm_cookies_win=x";}addGoogleTagManager(options,environmentParamStr).then(function(status){if(status){initializeGoogleTagManager(options);trackGoogleTagManager(options,location);}});}};exports.initializeAndTrackFacebookPixel=function(options){if(getCookie(options.cookieName)==="true"&&validFbPixelId(options)){addFacebookPixel().then(function(status){if(status){initializeFacebookPixel(options);trackFacebookPixel(options);}});}};exports.initializeAndTrackTikTokPixel=function(options){if(getCookie(options.cookieName)==="true"&&validTikTokPixelId(options)){addTikTokPixel().then(function(status){if(status){initializeTikTokPixel(options);trackTikTokPixel(options);}});}};exports.initializeAndTrackHotjar=function(options){if(getCookie(options.cookieName)==="true"&&validHotjarId(options)){addHotjar(options).then(function(status){if(status){initializeHotjar(options);trackHotjar(options);}});}};exports.initializeLinkedin=function(options){if(getCookie(options.cookieName)==="true"&&validLinkedinTrackingId(options)){addLinkedin(options).then(function(status){if(status){initializeLinkedin(options);}});}};exports.initializeChatwoot=function(options){if(getCookie(options.cookieName)==="true"&&validChatwootConfig(options)){addChatwoot(options).then(function(status){if(status){console.info('Chat is added and running');}});}};
+
+/***/ }),
+
+/***/ 3567:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(2512),validLinkedinTrackingId=_require.validLinkedinTrackingId,getCookie=_require.getCookie;exports.addLinkedin=function(options){return new Promise(function(resolve,reject){if(window.gatsbyPluginGDPRCookiesLinkedinAdded)return resolve(true);/* eslint-disable */ // LINKED IN SPECIFIC CODE HERE
+_linkedin_partner_id=options.trackingId;window._linkedin_data_partner_ids=window._linkedin_data_partner_ids||[];window._linkedin_data_partner_ids.push(_linkedin_partner_id);/* eslint-enable */window.gatsbyPluginGDPRCookiesLinkedinAdded=true;resolve(true);});};exports.initializeLinkedin=function(options){if(!window.gatsbyPluginGDPRCookiesLinkedinInitialized&&getCookie(options.cookieName)==="true"&&validLinkedinTrackingId(options)){// (function(){
+var s=document.getElementsByTagName("script")[0];var b=document.createElement("script");b.type="text/javascript";b.async=true;b.src="https://snap.licdn.com/li.lms-analytics/insight.min.js";s.parentNode.insertBefore(b,s);// })();
+window.gatsbyPluginGDPRCookiesLinkedinInitialized=true;}};
+
+/***/ }),
+
+/***/ 7120:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+var _require=__webpack_require__(2512),validTikTokPixelId=_require.validTikTokPixelId,getCookie=_require.getCookie;exports.addTikTokPixel=function(){return new Promise(function(resolve,reject){if(window.gatsbyPluginGDPRCookiesTikTokPixelAdded)return resolve(true);/* eslint-disable */!function(w,d,t){w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)));};};for(var i=0;i<ttq.methods.length;i++){ttq.setAndDefer(ttq,ttq.methods[i]);}ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++){ttq.setAndDefer(e,ttq.methods[n]);}return e;},ttq.load=function(e,n){var i="https://analytics.tiktok.com/i18n/pixel/events.js";ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date(),ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script");n.type="text/javascript",n.async=!0,n.src=i+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e);};}(window,document,'ttq');/* eslint-enable */window.gatsbyPluginGDPRCookiesTikTokPixelAdded=true;resolve(true);});};exports.initializeTikTokPixel=function(options){if(!window.gatsbyPluginGDPRCookiesTikTokPixelInitialized&&getCookie(options.cookieName)==="true"&&validTikTokPixelId(options)){window.ttq.load(options.pixelId);window.gatsbyPluginGDPRCookiesTikTokPixelInitialized=true;}};exports.trackTikTokPixel=function(options){if(getCookie(options.cookieName)==="true"&&validTikTokPixelId(options)&&typeof window.fbq==="function"){window.fbq("track","PageView");window.ttq.page();}};
+
+/***/ }),
+
+/***/ 6650:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "HN": () => (/* binding */ B)
+/* harmony export */ });
+/* unused harmony exports MainImage, Placeholder, StaticImage, generateImageData, getImage, getImageData, getLowResolutionImageURL, getSrc, getSrcSet, withArtDirection */
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9266);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var camelcase__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3207);
+/* harmony import */ var camelcase__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(camelcase__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3615);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+function n(){return n=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var a=arguments[t];for(var i in a)Object.prototype.hasOwnProperty.call(a,i)&&(e[i]=a[i]);}return e;},n.apply(this,arguments);}function o(e,t){if(null==e)return{};var a,i,r={},n=Object.keys(e);for(i=0;i<n.length;i++)t.indexOf(a=n[i])>=0||(r[a]=e[a]);return r;}var s=(/* unused pure expression or super */ null && ([.25,.5,1,2])),l=(/* unused pure expression or super */ null && ([750,1080,1366,1920])),d=(/* unused pure expression or super */ null && ([320,654,768,1024,1366,1600,1920,2048,2560,3440,3840,4096])),u=function(e){return console.warn(e);},c=function(e,t){return e-t;},h=function(e){return e.map(function(e){return e.src+" "+e.width+"w";}).join(",\n");};function g(e){var t=e.lastIndexOf(".");if(-1!==t){var a=e.slice(t+1);if("jpeg"===a)return"jpg";if(3===a.length||4===a.length)return a;}}function p(e){var t=e.layout,i=void 0===t?"constrained":t,r=e.width,o=e.height,s=e.sourceMetadata,l=e.breakpoints,d=e.aspectRatio,u=e.formats,c=void 0===u?["auto","webp"]:u;return c=c.map(function(e){return e.toLowerCase();}),i=a(i),r&&o?n({},e,{formats:c,layout:i,aspectRatio:r/o}):(s.width&&s.height&&!d&&(d=s.width/s.height),"fullWidth"===i?(r=r||s.width||l[l.length-1],o=o||Math.round(r/(d||1.3333333333333333))):(r||(r=o&&d?o*d:s.width?s.width:o?Math.round(o/1.3333333333333333):800),d&&!o?o=Math.round(r/d):d||(d=r/o)),n({},e,{width:r,height:o,aspectRatio:d,layout:i,formats:c}));}function m(e,t){var a;return void 0===t&&(t=20),null==(a=(0,(e=p(e)).generateImageSource)(e.filename,t,Math.round(t/e.aspectRatio),e.sourceMetadata.format||"jpg",e.fit,e.options))?void 0:a.src;}function f(e){var t,a=(e=p(e)).pluginName,i=e.sourceMetadata,r=e.generateImageSource,o=e.layout,d=e.fit,c=e.options,m=e.width,f=e.height,b=e.filename,E=e.reporter,k=void 0===E?{warn:u}:E,M=e.backgroundColor,S=e.placeholderURL;if(a||k.warn('[gatsby-plugin-image] "generateImageData" was not passed a plugin name'),"function"!=typeof r)throw new Error("generateImageSource must be a function");i&&(i.width||i.height)?i.format||(i.format=g(b)):i={width:m,height:f,format:(null==(t=i)?void 0:t.format)||g(b)||"auto"};var N=new Set(e.formats);(0===N.size||N.has("auto")||N.has(""))&&(N.delete("auto"),N.delete(""),N.add(i.format)),N.has("jpg")&&N.has("png")&&(k.warn("["+a+"] Specifying both 'jpg' and 'png' formats is not supported. Using 'auto' instead"),N.delete("jpg"===i.format?"png":"jpg"));var x=function(e){var t=e.filename,a=e.layout,i=void 0===a?"constrained":a,r=e.sourceMetadata,o=e.reporter,d=void 0===o?{warn:u}:o,c=e.breakpoints,h=void 0===c?l:c,g=Object.entries({width:e.width,height:e.height}).filter(function(e){var t=e[1];return"number"==typeof t&&t<1;});if(g.length)throw new Error("Specified dimensions for images must be positive numbers (> 0). Problem dimensions you have are "+g.map(function(e){return e.join(": ");}).join(", "));return"fixed"===i?function(e){var t=e.filename,a=e.sourceMetadata,i=e.width,r=e.height,n=e.fit,o=void 0===n?"cover":n,l=e.outputPixelDensities,d=e.reporter,c=void 0===d?{warn:u}:d,h=a.width/a.height,g=v(void 0===l?s:l);if(i&&r){var p=y(a,{width:i,height:r,fit:o});i=p.width,r=p.height,h=p.aspectRatio;}i?r||(r=Math.round(i/h)):i=r?Math.round(r*h):800;var m=i;if(a.width<i||a.height<r){var f=a.width<i?"width":"height";c.warn("\nThe requested "+f+' "'+("width"===f?i:r)+'px" for the image '+t+" was larger than the actual image "+f+" of "+a[f]+"px. If possible, replace the current image with a larger one."),"width"===f?(i=a.width,r=Math.round(i/h)):i=(r=a.height)*h;}return{sizes:g.filter(function(e){return e>=1;}).map(function(e){return Math.round(e*i);}).filter(function(e){return e<=a.width;}),aspectRatio:h,presentationWidth:m,presentationHeight:Math.round(m/h),unscaledWidth:i};}(e):"constrained"===i?w(e):"fullWidth"===i?w(n({breakpoints:h},e)):(d.warn("No valid layout was provided for the image at "+t+". Valid image layouts are fixed, fullWidth, and constrained. Found "+i),{sizes:[r.width],presentationWidth:r.width,presentationHeight:r.height,aspectRatio:r.width/r.height,unscaledWidth:r.width});}(n({},e,{sourceMetadata:i})),I={sources:[]},W=e.sizes;W||(W=function(e,t){switch(t){case"constrained":return"(min-width: "+e+"px) "+e+"px, 100vw";case"fixed":return e+"px";case"fullWidth":return"100vw";default:return;}}(x.presentationWidth,o)),N.forEach(function(e){var t=x.sizes.map(function(t){var i=r(b,t,Math.round(t/x.aspectRatio),e,d,c);if(null!=i&&i.width&&i.height&&i.src&&i.format)return i;k.warn("["+a+"] The resolver for image "+b+" returned an invalid value.");}).filter(Boolean);if("jpg"===e||"png"===e||"auto"===e){var i=t.find(function(e){return e.width===x.unscaledWidth;})||t[0];i&&(I.fallback={src:i.src,srcSet:h(t),sizes:W});}else{var n;null==(n=I.sources)||n.push({srcSet:h(t),sizes:W,type:"image/"+e});}});var R={images:I,layout:o,backgroundColor:M};switch(S&&(R.placeholder={fallback:S}),o){case"fixed":R.width=x.presentationWidth,R.height=x.presentationHeight;break;case"fullWidth":R.width=1,R.height=1/x.aspectRatio;break;case"constrained":R.width=e.width||x.presentationWidth||1,R.height=(R.width||1)/x.aspectRatio;}return R;}var v=function(e){return Array.from(new Set([1].concat(e))).sort(c);};function w(e){var t,a=e.sourceMetadata,i=e.width,r=e.height,n=e.fit,o=void 0===n?"cover":n,l=e.outputPixelDensities,d=e.breakpoints,u=e.layout,h=a.width/a.height,g=v(void 0===l?s:l);if(i&&r){var p=y(a,{width:i,height:r,fit:o});i=p.width,r=p.height,h=p.aspectRatio;}i=i&&Math.min(i,a.width),r=r&&Math.min(r,a.height),i||r||(r=(i=Math.min(800,a.width))/h),i||(i=r*h);var m=i;return(a.width<i||a.height<r)&&(i=a.width,r=a.height),i=Math.round(i),(null==d?void 0:d.length)>0?(t=d.filter(function(e){return e<=a.width;})).length<d.length&&!t.includes(a.width)&&t.push(a.width):t=(t=g.map(function(e){return Math.round(e*i);})).filter(function(e){return e<=a.width;}),"constrained"!==u||t.includes(i)||t.push(i),{sizes:t=t.sort(c),aspectRatio:h,presentationWidth:m,presentationHeight:Math.round(m/h),unscaledWidth:i};}function y(e,t){var a=e.width/e.height,i=t.width,r=t.height;switch(t.fit){case"fill":i=t.width?t.width:e.width,r=t.height?t.height:e.height;break;case"inside":var n=t.width?t.width:Number.MAX_SAFE_INTEGER,o=t.height?t.height:Number.MAX_SAFE_INTEGER;i=Math.min(n,Math.round(o*a)),r=Math.min(o,Math.round(n/a));break;case"outside":var s=t.width?t.width:0,l=t.height?t.height:0;i=Math.max(s,Math.round(l*a)),r=Math.max(l,Math.round(s/a));break;default:t.width&&!t.height&&(i=t.width,r=Math.round(t.width/a)),t.height&&!t.width&&(i=Math.round(t.height*a),r=t.height);}return{width:i,height:r,aspectRatio:i/r};}var b=(/* unused pure expression or super */ null && (["baseUrl","urlBuilder","sourceWidth","sourceHeight","pluginName","formats","breakpoints","options"])),E=(/* unused pure expression or super */ null && (["images","placeholder"]));function k(){return true&&true;}var M=function(e){var t;return function(e){var t,a;return Boolean(null==e||null==(t=e.images)||null==(a=t.fallback)?void 0:a.src);}(e)?e:function(e){return Boolean(null==e?void 0:e.gatsbyImageData);}(e)?e.gatsbyImageData:function(e){return Boolean(null==e?void 0:e.gatsbyImage);}(e)?e.gatsbyImage:null==e||null==(t=e.childImageSharp)?void 0:t.gatsbyImageData;},S=function(e){var t,a,i;return null==(t=M(e))||null==(a=t.images)||null==(i=a.fallback)?void 0:i.src;},N=function(e){var t,a,i;return null==(t=M(e))||null==(a=t.images)||null==(i=a.fallback)?void 0:i.srcSet;};function x(e){var t,a=e.baseUrl,i=e.urlBuilder,r=e.sourceWidth,s=e.sourceHeight,l=e.pluginName,u=void 0===l?"getImageData":l,c=e.formats,h=void 0===c?["auto"]:c,g=e.breakpoints,p=e.options,m=o(e,b);return null!=(t=g)&&t.length||"fullWidth"!==m.layout&&"FULL_WIDTH"!==m.layout||(g=d),f(n({},m,{pluginName:u,generateImageSource:function(e,t,a,r){return{width:t,height:a,format:r,src:i({baseUrl:e,width:t,height:a,options:p,format:r})};},filename:a,formats:h,breakpoints:g,sourceMetadata:{width:r,height:s,format:"auto"}}));}function I(e,t){var a,i,r,s=e.images,l=e.placeholder,d=n({},o(e,E),{images:n({},s,{sources:[]}),placeholder:l&&n({},l,{sources:[]})});return t.forEach(function(t){var a,i=t.media,r=t.image;i?(r.layout!==e.layout&&"development"==="production"&&0,(a=d.images.sources).push.apply(a,r.images.sources.map(function(e){return n({},e,{media:i});}).concat([{media:i,srcSet:r.images.fallback.srcSet}])),d.placeholder&&d.placeholder.sources.push({media:i,srcSet:r.placeholder.fallback})): false&&0;}),(a=d.images.sources).push.apply(a,s.sources),null!=l&&l.sources&&(null==(i=d.placeholder)||(r=i.sources).push.apply(r,l.sources)),d;}var W,R=["src","srcSet","loading","alt","shouldLoad"],j=["fallback","sources","shouldLoad"],_=function(t){var a=t.src,i=t.srcSet,r=t.loading,s=t.alt,l=void 0===s?"":s,d=t.shouldLoad,u=o(t,R);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img",n({},u,{decoding:"async",loading:r,src:d?a:void 0,"data-src":d?void 0:a,srcSet:d?i:void 0,"data-srcset":d?void 0:i,alt:l}));},A=function(t){var a=t.fallback,i=t.sources,r=void 0===i?[]:i,s=t.shouldLoad,l=void 0===s||s,d=o(t,j),u=d.sizes||(null==a?void 0:a.sizes),c=/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_,n({},d,a,{sizes:u,shouldLoad:l}));return r.length?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("picture",null,r.map(function(t){var a=t.media,i=t.srcSet,r=t.type;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("source",{key:a+"-"+r+"-"+i,type:r,media:a,srcSet:l?i:void 0,"data-srcset":l?void 0:i,sizes:u});}),c):c;};_.propTypes={src:prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,alt:prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,sizes:prop_types__WEBPACK_IMPORTED_MODULE_2__.string,srcSet:prop_types__WEBPACK_IMPORTED_MODULE_2__.string,shouldLoad:prop_types__WEBPACK_IMPORTED_MODULE_2__.bool},A.displayName="Picture",A.propTypes={alt:prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,shouldLoad:prop_types__WEBPACK_IMPORTED_MODULE_2__.bool,fallback:prop_types__WEBPACK_IMPORTED_MODULE_2__.exact({src:prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,srcSet:prop_types__WEBPACK_IMPORTED_MODULE_2__.string,sizes:prop_types__WEBPACK_IMPORTED_MODULE_2__.string}),sources:prop_types__WEBPACK_IMPORTED_MODULE_2__.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_2__.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2__.exact({media:prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,type:prop_types__WEBPACK_IMPORTED_MODULE_2__.string,sizes:prop_types__WEBPACK_IMPORTED_MODULE_2__.string,srcSet:prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired}),prop_types__WEBPACK_IMPORTED_MODULE_2__.exact({media:prop_types__WEBPACK_IMPORTED_MODULE_2__.string,type:prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired,sizes:prop_types__WEBPACK_IMPORTED_MODULE_2__.string,srcSet:prop_types__WEBPACK_IMPORTED_MODULE_2__.string.isRequired})]))};var T=["fallback"],O=function(t){var a=t.fallback,i=o(t,T);return a?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(A,n({},i,{fallback:{src:a},"aria-hidden":!0,alt:""})):/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",n({},i));};O.displayName="Placeholder",O.propTypes={fallback:prop_types__WEBPACK_IMPORTED_MODULE_2__.string,sources:null==(W=A.propTypes)?void 0:W.sources,alt:function(e,t,a){return e[t]?new Error("Invalid prop `"+t+"` supplied to `"+a+"`. Validation failed."):null;}};var z=function(t){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment),null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(A,n({},t)),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("noscript",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(A,n({},t,{shouldLoad:!0}))));};z.displayName="MainImage",z.propTypes=A.propTypes;var L=["children"],q=function(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script",{type:"module",dangerouslySetInnerHTML:{__html:'const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1,e.parentNode.parentNode.querySelector("[data-placeholder-image]").style.opacity=0)}}'}});},C=function(t){var a=t.layout,i=t.width,r=t.height;return"fullWidth"===a?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{"aria-hidden":!0,style:{paddingTop:r/i*100+"%"}}):"constrained"===a?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{style:{maxWidth:i,display:"block"}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img",{alt:"",role:"presentation","aria-hidden":"true",src:"data:image/svg+xml;charset=utf-8,%3Csvg height='"+r+"' width='"+i+"' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E",style:{maxWidth:"100%",display:"block",position:"static"}})):null;},D=function(a){var i=a.children,r=o(a,L);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(C,n({},r)),i,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(q,null));},P=["as","className","class","style","image","loading","imgClassName","imgStyle","backgroundColor","objectFit","objectPosition"],H=["style","className"],F=function(e){return e.replace(/\n/g,"");},B=function(t){var a=t.as,i=void 0===a?"div":a,r=t.className,s=t.class,l=t.style,d=t.image,u=t.loading,c=void 0===u?"lazy":u,h=t.imgClassName,g=t.imgStyle,p=t.backgroundColor,m=t.objectFit,f=t.objectPosition,v=o(t,P);if(!d)return console.warn("[gatsby-plugin-image] Missing image prop"),null;s&&(r=s),g=n({objectFit:m,objectPosition:f,backgroundColor:p},g);var w=d.width,y=d.height,b=d.layout,E=d.images,M=d.placeholder,S=d.backgroundColor,N=function(e,t,a){var i={},r="gatsby-image-wrapper";return k()||(i.position="relative",i.overflow="hidden"),"fixed"===a?(i.width=e,i.height=t):"constrained"===a&&(k()||(i.display="inline-block",i.verticalAlign="top"),r="gatsby-image-wrapper gatsby-image-wrapper-constrained"),{className:r,"data-gatsby-image-wrapper":"",style:i};}(w,y,b),x=N.style,I=N.className,W=o(N,H),R={fallback:void 0,sources:[]};return E.fallback&&(R.fallback=n({},E.fallback,{srcSet:E.fallback.srcSet?F(E.fallback.srcSet):void 0})),E.sources&&(R.sources=E.sources.map(function(e){return n({},e,{srcSet:F(e.srcSet)});})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(i,n({},W,{style:n({},x,l,{backgroundColor:p}),className:I+(r?" "+r:"")}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(D,{layout:b,width:w,height:y},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(O,n({},function(e,t,a,i,r,o,s,l){var d={};o&&(d.backgroundColor=o,"fixed"===a?(d.width=i,d.height=r,d.backgroundColor=o,d.position="relative"):("constrained"===a||"fullWidth"===a)&&(d.position="absolute",d.top=0,d.left=0,d.bottom=0,d.right=0)),s&&(d.objectFit=s),l&&(d.objectPosition=l);var u=n({},e,{"aria-hidden":!0,"data-placeholder-image":"",style:n({opacity:1,transition:"opacity 500ms linear"},d)});return k()||(u.style={height:"100%",left:0,position:"absolute",top:0,width:"100%"}),u;}(M,0,b,w,y,S,m,f))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(z,n({"data-gatsby-image-ssr":"",className:h},v,function(e,t,a,i,r){return void 0===r&&(r={}),k()||(r=n({height:"100%",left:0,position:"absolute",top:0,transform:"translateZ(0)",transition:"opacity 250ms linear",width:"100%",willChange:"opacity"},r)),n({},a,{loading:i,shouldLoad:e,"data-main-image":"",style:n({},r,{opacity:0})});}("eager"===c,0,R,c,g)))));},G=["src","__imageData","__error","width","height","aspectRatio","tracedSVGOptions","placeholder","formats","quality","transformOptions","jpgOptions","pngOptions","webpOptions","avifOptions","blurredOptions"],V=function(t){return function(a){var i=a.src,r=a.__imageData,s=a.__error,l=o(a,G);return s&&console.warn(s),r?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(t,n({image:r},l)):(console.warn("Image not loaded",i),s||"development"!=="production"||0,null);};}(B),U=function(e,t){return"fullWidth"!==e.layout||"width"!==t&&"height"!==t||!e[t]?prop_types__WEBPACK_IMPORTED_MODULE_2___default().number.apply((prop_types__WEBPACK_IMPORTED_MODULE_2___default()),[e,t].concat([].slice.call(arguments,2))):new Error('"'+t+'" '+e[t]+" may not be passed when layout is fullWidth.");},X=new Set(["fixed","fullWidth","constrained"]),Y={src:(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.isRequired),alt:function(e,t,a){return e.alt||""===e.alt?prop_types__WEBPACK_IMPORTED_MODULE_2___default().string.apply((prop_types__WEBPACK_IMPORTED_MODULE_2___default()),[e,t,a].concat([].slice.call(arguments,3))):new Error('The "alt" prop is required in '+a+'. If the image is purely presentational then pass an empty string: e.g. alt="". Learn more: https://a11y-style-guide.com/style-guide/section-media.html');},width:U,height:U,sizes:(prop_types__WEBPACK_IMPORTED_MODULE_2___default().string),layout:function(e){if(void 0!==e.layout&&!X.has(e.layout))return new Error("Invalid value "+e.layout+'" provided for prop "layout". Defaulting to "constrained". Valid values are "fixed", "fullWidth" or "constrained".');}};V.displayName="StaticImage",V.propTypes=Y;
+
+/***/ }),
+
+/***/ 3207:
+/***/ ((module) => {
+
+"use strict";
+const preserveCamelCase=string=>{let isLastCharLower=false;let isLastCharUpper=false;let isLastLastCharUpper=false;for(let i=0;i<string.length;i++){const character=string[i];if(isLastCharLower&&/[a-zA-Z]/.test(character)&&character.toUpperCase()===character){string=string.slice(0,i)+'-'+string.slice(i);isLastCharLower=false;isLastLastCharUpper=isLastCharUpper;isLastCharUpper=true;i++;}else if(isLastCharUpper&&isLastLastCharUpper&&/[a-zA-Z]/.test(character)&&character.toLowerCase()===character){string=string.slice(0,i-1)+'-'+string.slice(i-1);isLastLastCharUpper=isLastCharUpper;isLastCharUpper=false;isLastCharLower=true;}else{isLastCharLower=character.toLowerCase()===character&&character.toUpperCase()!==character;isLastLastCharUpper=isLastCharUpper;isLastCharUpper=character.toUpperCase()===character&&character.toLowerCase()!==character;}}return string;};const camelCase=(input,options)=>{if(!(typeof input==='string'||Array.isArray(input))){throw new TypeError('Expected the input to be `string | string[]`');}options=Object.assign({pascalCase:false},options);const postProcess=x=>options.pascalCase?x.charAt(0).toUpperCase()+x.slice(1):x;if(Array.isArray(input)){input=input.map(x=>x.trim()).filter(x=>x.length).join('-');}else{input=input.trim();}if(input.length===0){return'';}if(input.length===1){return options.pascalCase?input.toUpperCase():input.toLowerCase();}const hasUpperCase=input!==input.toLowerCase();if(hasUpperCase){input=preserveCamelCase(input);}input=input.replace(/^[_.\- ]+/,'').toLowerCase().replace(/[_.\- ]+(\w|$)/g,(_,p1)=>p1.toUpperCase()).replace(/\d+(\w|$)/g,m=>m.toUpperCase());return postProcess(input);};module.exports=camelCase;// TODO: Remove this for the next major release
+module.exports["default"]=camelCase;
+
+/***/ }),
+
+/***/ 4550:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "f": () => (/* binding */ Animation)
+});
+
+// EXTERNAL MODULE: external "/home/carot/gatsby-theme-portfolio-minimal/node_modules/react/index.js"
+var index_js_ = __webpack_require__(9266);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/hooks/useCastedRef.tsx
+function useCastedRef(){return index_js_default().useRef();}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/hooks/useOnScreen.tsx
+// https://usehooks.com/useOnScreen/
+function useOnScreen(ref,threshold=0.25){const{0:isIntersecting,1:setIntersecting}=(0,index_js_.useState)(false);(0,index_js_.useEffect)(()=>{const element=ref.current;const observer=new IntersectionObserver(([entry])=>{if(entry.isIntersecting){setIntersecting(true);observer.unobserve(entry.target);}},{threshold});if(element&&element instanceof Element)observer.observe(element);return()=>{if(element&&element instanceof Element)observer.unobserve(element);};},[ref,threshold]);return isIntersecting;}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx
+function Animation(props){var _props$type,_props$timing,_props$duration,_props$delay,_props$iterationCount,_props$fillMode;const ref=useCastedRef();const onScreen=useOnScreen(ref);// Set defaults
+const type=(_props$type=props.type)!==null&&_props$type!==void 0?_props$type:'fadeIn';const timing=(_props$timing=props.timing)!==null&&_props$timing!==void 0?_props$timing:'ease-out';const duration=(_props$duration=props.duration)!==null&&_props$duration!==void 0?_props$duration:200;const delay=(_props$delay=props.delay)!==null&&_props$delay!==void 0?_props$delay:0;const count=(_props$iterationCount=props.iterationCount)!==null&&_props$iterationCount!==void 0?_props$iterationCount:1;const fillMode=(_props$fillMode=props.fillMode)!==null&&_props$fillMode!==void 0?_props$fillMode:'backwards';return/*#__PURE__*/index_js_default().createElement("div",{ref:ref,className:props.className,onAnimationEnd:props.onAnimationEnd,style:onScreen?{...props.style,animationName:`${type}`,animationTimingFunction:`${timing}`,animationDuration:`${duration}ms`,animationDelay:`${delay}ms`,animationIterationCount:`${count}`,animationFillMode:`${fillMode}`}:{...props.style,opacity:0}},props.children);}
+
+/***/ }),
+
+/***/ 5972:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "T": () => (/* binding */ ArticleCard),
+  "w": () => (/* binding */ ArticleCardSkeleton)
+});
+
+// EXTERNAL MODULE: external "/home/carot/gatsby-theme-portfolio-minimal/node_modules/react/index.js"
+var index_js_ = __webpack_require__(9266);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 4 modules
+var gatsby_browser_entry = __webpack_require__(1946);
+// EXTERNAL MODULE: ../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js
+var gatsby_image_module = __webpack_require__(6650);
+;// CONCATENATED MODULE: ../node_modules/tiny-skeleton-loader-react/dist/index.es.js
+
+
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+***************************************************************************** */
+
+var __assign = function() {
+    __assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+
+function styleInject(css, ref) {
+  if ( ref === void 0 ) ref = {};
+  var insertAt = ref.insertAt;
+
+  if (!css || typeof document === 'undefined') { return; }
+
+  var head = document.head || document.getElementsByTagName('head')[0];
+  var style = document.createElement('style');
+  style.type = 'text/css';
+
+  if (insertAt === 'top') {
+    if (head.firstChild) {
+      head.insertBefore(style, head.firstChild);
+    } else {
+      head.appendChild(style);
     }
   } else {
-    throw new Error('No Source for Articles defined.');
+    head.appendChild(style);
   }
-  return configuration;
-}
 
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Contact/data.tsx":
-/*!***********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Contact/data.tsx ***!
-  \***********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useLocalDataSource": () => (/* binding */ useLocalDataSource)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_2572006233_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../example-site/public/page-data/sq/d/2572006233.json */ "./public/page-data/sq/d/2572006233.json");
-
-const useLocalDataSource = () => {
-  return _example_site_public_page_data_sq_d_2572006233_json__WEBPACK_IMPORTED_MODULE_0__.data;
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Contact/index.tsx":
-/*!************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Contact/index.tsx ***!
-  \************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ContactSection": () => (/* binding */ ContactSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _components_Animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Section */ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx");
-/* harmony import */ var _components_SocialProfiles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/SocialProfiles */ "../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/index.tsx");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./data */ "../gatsby-theme-portfolio-minimal/src/sections/Contact/data.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/sections/Contact/style.module.css");
-
-
-
-
-
-
-
-function ContactSection(props) {
-  const response = (0,_data__WEBPACK_IMPORTED_MODULE_4__.useLocalDataSource)();
-  const data = response.allContactJson.sections[0];
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeUp"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Section__WEBPACK_IMPORTED_MODULE_2__.Section, {
-    anchor: props.sectionId,
-    heading: props.heading,
-    additionalClasses: [_style_module_css__WEBPACK_IMPORTED_MODULE_5__.Contact]
-  }, data.description && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Description
-  }, data.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Profile
-  }, data.image.src && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.GatsbyImage, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Avatar,
-    image: data.image.src.childImageSharp.gatsbyImageData,
-    alt: data.image.alt || `Profile ${data.name}`
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.ContactDetails
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Name
-  }, data.name), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: `mailto:${data.email}`
-  }, data.email)))), data.socialProfiles && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_SocialProfiles__WEBPACK_IMPORTED_MODULE_3__.SocialProfiles, {
-    from: data.socialProfiles.from,
-    showIcon: data.socialProfiles.showIcons
-  })));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Hero/data.tsx":
-/*!********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Hero/data.tsx ***!
-  \********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useLocalDataSource": () => (/* binding */ useLocalDataSource)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_3525841079_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../example-site/public/page-data/sq/d/3525841079.json */ "./public/page-data/sq/d/3525841079.json");
-
-const useLocalDataSource = () => {
-  return _example_site_public_page_data_sq_d_3525841079_json__WEBPACK_IMPORTED_MODULE_0__.data;
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Hero/index.tsx":
-/*!*********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Hero/index.tsx ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "HeroSection": () => (/* binding */ HeroSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! gatsby-plugin-image */ "../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _components_Animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _hooks_useCalendlyWidget__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../hooks/useCalendlyWidget */ "../gatsby-theme-portfolio-minimal/src/hooks/useCalendlyWidget.tsx");
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Section */ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx");
-/* harmony import */ var _components_SocialProfiles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/SocialProfiles */ "../gatsby-theme-portfolio-minimal/src/components/SocialProfiles/index.tsx");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./data */ "../gatsby-theme-portfolio-minimal/src/sections/Hero/data.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/sections/Hero/style.module.css");
-
-
-
-
-
-
-
-
-function HeroSection(props) {
-  var _data$heroPhoto, _data$image;
-  const response = (0,_data__WEBPACK_IMPORTED_MODULE_5__.useLocalDataSource)();
-  const data = response.allHeroJson.sections[0];
-  const CalendlyWidget = (0,_hooks_useCalendlyWidget__WEBPACK_IMPORTED_MODULE_2__.useCalendlyWidget)(data.calendly);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeUp",
-    delay: 400
-  }, CalendlyWidget, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Section__WEBPACK_IMPORTED_MODULE_3__.Section, {
-    anchor: props.sectionId,
-    additionalClasses: [_style_module_css__WEBPACK_IMPORTED_MODULE_6__.HeroContainer]
-  }, ((_data$heroPhoto = data.heroPhoto) === null || _data$heroPhoto === void 0 ? void 0 : _data$heroPhoto.src) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.heroImageCont
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.GatsbyImage, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.heroImage,
-    image: data.heroPhoto.src.childImageSharp.gatsbyImageData,
-    alt: data.heroPhoto.alt || `Profile Image`,
-    loading: "eager"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.Hero
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.Intro
-  }, data.intro && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.ImagePrefix
-  }, data.intro), ((_data$image = data.image) === null || _data$image === void 0 ? void 0 : _data$image.src) && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.Image,
-    type: "waving-hand",
-    duration: 2500,
-    iterationCount: 3
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_7__.GatsbyImage, {
-    image: data.image.src.childImageSharp.gatsbyImageData,
-    alt: data.image.alt || `Intro Image`,
-    loading: "eager"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.Title
-  }, data.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_6__.Subtitle
-  }, data.subtitle.prefix, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, data.subtitle.highlight), data.subtitle.suffix), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, data.description), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeLeft",
-    delay: 600
-  }, data.socialProfiles && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_SocialProfiles__WEBPACK_IMPORTED_MODULE_4__.SocialProfiles, {
-    from: data.socialProfiles.from,
-    showIcon: data.socialProfiles.showIcons
-  })))));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Interests/data.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Interests/data.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useLocalDataSource": () => (/* binding */ useLocalDataSource)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_2442753764_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../example-site/public/page-data/sq/d/2442753764.json */ "./public/page-data/sq/d/2442753764.json");
-
-const useLocalDataSource = () => {
-  return _example_site_public_page_data_sq_d_2442753764_json__WEBPACK_IMPORTED_MODULE_0__.data;
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Interests/index.tsx":
-/*!**************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Interests/index.tsx ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "InterestsSection": () => (/* binding */ InterestsSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Section */ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "../node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Button */ "../gatsby-theme-portfolio-minimal/src/components/Button/index.tsx");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./data */ "../gatsby-theme-portfolio-minimal/src/sections/Interests/data.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/sections/Interests/style.module.css");
-
-
-
-
-
-
-
-function InterestsSection(props) {
-  var _data$button$initiall;
-  const response = (0,_data__WEBPACK_IMPORTED_MODULE_4__.useLocalDataSource)();
-  const data = response.allInterestsJson.sections[0];
-  const shouldShowButton = data.button.visible !== false;
-  const initiallyShownInterests = (_data$button$initiall = data.button.initiallyShownInterests) !== null && _data$button$initiall !== void 0 ? _data$button$initiall : 5;
-  const [shownInterests, setShownInterests] = react__WEBPACK_IMPORTED_MODULE_0___default().useState(shouldShowButton ? initiallyShownInterests : data.interests.length);
-  function loadMoreHandler() {
-    setShownInterests(data.interests.length);
-  }
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeUp"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Section__WEBPACK_IMPORTED_MODULE_2__.Section, {
-    anchor: props.sectionId,
-    heading: props.heading
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Interests
-  }, data.interests.slice(0, shownInterests).map((interest, key) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-      key: key,
-      className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Interest,
-      type: "scaleIn",
-      delay: key * 100
-    }, interest.image.src && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.GatsbyImage, {
-      image: interest.image.src.childImageSharp.gatsbyImageData,
-      className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Icon,
-      alt: interest.image.alt || `Interest ${interest.label}`
-    }), ' ', interest.label);
-  }), shouldShowButton && shownInterests < data.interests.length && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "scaleIn",
-    delay: (shownInterests + 1) * 100
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button__WEBPACK_IMPORTED_MODULE_3__.Button, {
-    type: _components_Button__WEBPACK_IMPORTED_MODULE_3__.ButtonType.BUTTON,
-    onClickHandler: loadMoreHandler,
-    label: data.button.label
-  })))));
-}
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Legal/data.tsx":
-/*!*********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Legal/data.tsx ***!
-  \*********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "getSectionBySectionId": () => (/* binding */ getSectionBySectionId),
-/* harmony export */   "useLocalDataSource": () => (/* binding */ useLocalDataSource)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_597217301_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../example-site/public/page-data/sq/d/597217301.json */ "./public/page-data/sq/d/597217301.json");
-
-const useLocalDataSource = () => {
-  return _example_site_public_page_data_sq_d_597217301_json__WEBPACK_IMPORTED_MODULE_0__.data;
-};
-const getSectionBySectionId = (res, id) => {
-  const sectionList = res.allLegalSection.sections.filter(section => section.frontmatter.sectionId === id);
-  if (sectionList.length === 0) {
-    throw new Error(`Could not find section ${id} by id.`);
-  } else if (sectionList.length > 1) {
-    throw new Error(`Found section ${id} multiple times. Make sure the id is unique.`);
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
   } else {
-    return sectionList[0];
+    style.appendChild(document.createTextNode(css));
   }
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Legal/index.tsx":
-/*!**********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Legal/index.tsx ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "LegalSection": () => (/* binding */ LegalSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Section */ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data */ "../gatsby-theme-portfolio-minimal/src/sections/Legal/data.tsx");
-
-
-
-function LegalSection(props) {
-  const response = (0,_data__WEBPACK_IMPORTED_MODULE_2__.useLocalDataSource)();
-  const data = (0,_data__WEBPACK_IMPORTED_MODULE_2__.getSectionBySectionId)(response, props.sectionId);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Section__WEBPACK_IMPORTED_MODULE_1__.Section, {
-    anchor: props.sectionId,
-    heading: props.heading
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    dangerouslySetInnerHTML: {
-      __html: data.html
-    }
-  }));
 }
 
-/***/ }),
+var css_248z = ".styles_skeleton__tyzRD {\n  line-height: 1;\n  display: inline-block;\n  overflow: hidden;\n  position: relative;\n  background: #eff1f6;\n}\n\n.styles_skeleton__tyzRD::before {\n  content: \"\";\n  position: absolute;\n  height: 100%;\n  width: 500px;\n  top: 0;\n  left: -500px;\n  background-image: linear-gradient(\n    90deg,\n    rgba(255, 255, 255, 0),\n    rgba(255, 255, 255, 0.6),\n    rgba(255, 255, 255, 0)\n  );\n  animation: styles_skeleton-progress__aezri 1.2s ease-in-out infinite;\n}\n\n@keyframes styles_skeleton-progress__aezri {\n  0% {\n    left: -500px;\n  }\n  100% {\n    left: 100%;\n  }\n}\n";
+var css = {"skeleton":"styles_skeleton__tyzRD","skeleton-progress":"styles_skeleton-progress__aezri"};
+styleInject(css_248z);
 
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Projects/data.tsx":
-/*!************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Projects/data.tsx ***!
-  \************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "useLocalDataSource": () => (/* binding */ useLocalDataSource)
-/* harmony export */ });
-/* harmony import */ var _example_site_public_page_data_sq_d_513457919_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../example-site/public/page-data/sq/d/513457919.json */ "./public/page-data/sq/d/513457919.json");
-
-const useLocalDataSource = () => {
-  return _example_site_public_page_data_sq_d_513457919_json__WEBPACK_IMPORTED_MODULE_0__.data;
-};
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/sections/Projects/index.tsx":
-/*!*************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/sections/Projects/index.tsx ***!
-  \*************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "ProjectsSection": () => (/* binding */ ProjectsSection)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Animation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Animation */ "../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx");
-/* harmony import */ var _components_Section__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Section */ "../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx");
-/* harmony import */ var _components_Slider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Slider */ "../gatsby-theme-portfolio-minimal/src/components/Slider/index.tsx");
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/Button */ "../gatsby-theme-portfolio-minimal/src/components/Button/index.tsx");
-/* harmony import */ var _components_Project__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/Project */ "../gatsby-theme-portfolio-minimal/src/components/Project/index.tsx");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./data */ "../gatsby-theme-portfolio-minimal/src/sections/Projects/data.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./style.module.css */ "../gatsby-theme-portfolio-minimal/src/sections/Projects/style.module.css");
-
-
-
-
-
-
-
-
-function ProjectsSection(props) {
-  const response = (0,_data__WEBPACK_IMPORTED_MODULE_6__.useLocalDataSource)();
-  const data = response.allProjectsJson.sections[0];
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    type: "fadeIn"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Section__WEBPACK_IMPORTED_MODULE_2__.Section, {
-    anchor: props.sectionId,
-    heading: props.heading
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Slider__WEBPACK_IMPORTED_MODULE_3__.Slider, {
-    additionalClasses: [_style_module_css__WEBPACK_IMPORTED_MODULE_7__.Projects]
-  }, data.projects.map((project, key) => {
-    return project.visible ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Project__WEBPACK_IMPORTED_MODULE_5__.Project, {
-      key: key,
-      index: key,
-      data: project
-    }) : null;
-  })), data.button !== undefined && data.button.visible !== false && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Animation__WEBPACK_IMPORTED_MODULE_1__.Animation, {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_7__.MoreProjects,
-    type: "fadeIn"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Button__WEBPACK_IMPORTED_MODULE_4__.Button, {
-    type: _components_Button__WEBPACK_IMPORTED_MODULE_4__.ButtonType.LINK,
-    externalLink: true,
-    url: data.button.url,
-    label: data.button.label
-  }))));
+function SkeletonLoader(_a) {
+    var _b = _a.width, width = _b === void 0 ? "100%" : _b, _c = _a.height, height = _c === void 0 ? "1em" : _c, _d = _a.background, background = _d === void 0 ? "#E9ECEF" : _d, _e = _a.radius, radius = _e === void 0 ? "4px" : _e, _f = _a.circle, circle = _f === void 0 ? false : _f, _g = _a.block, block = _g === void 0 ? true : _g, _h = _a.style, style = _h === void 0 ? {} : _h;
+    return (index_js_default().createElement("div", { className: css.skeleton, style: __assign({ width: width, height: height, background: background, borderRadius: circle ? "50%" : radius, display: block ? "block" : "inline-block" }, style) }, "\u200C"));
 }
 
+
+//# sourceMappingURL=index.es.js.map
+
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/context/index.tsx
+var context = __webpack_require__(546);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/ArticleCard/style.module.css
+// Exports
+var Card = "style-module--Card--zjw4X";
+var Banner = "style-module--Banner--fewpW";
+var ImageWrapper = "style-module--ImageWrapper--CqJs4";
+var Image = "style-module--Image--4UULb";
+var DescriptionWrapper = "style-module--DescriptionWrapper--f9FGw";
+var Category = "style-module--Category--5zSuD";
+var Title = "style-module--Title--f48PK";
+var Details = "style-module--Details--okfYh";
+var ReadingTime = "style-module--ReadingTime--q4344";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/ArticleCard/index.tsx
+function ArticleCard(props){const{globalState}=(0,context/* useGlobalState */.j1)();const darkModeEnabled=globalState.theme===context/* Theme.Dark */.Q2.Dark;// Needed to differentiate between external and internal links (whether or not we use Gatsby Link)
+const absoluteUrl=props.data.link.indexOf('://')>0||props.data.link.indexOf('//')===0;const articleCard=/*#__PURE__*/index_js_default().createElement("article",{className:Card,style:darkModeEnabled?{border:'0.125rem solid var(--primary-color)'}:undefined},props.showBanner&&/*#__PURE__*/index_js_default().createElement("div",{className:Banner},props.data.image&&props.data.image.src&&/*#__PURE__*/index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{className:ImageWrapper,imgClassName:Image,image:props.data.image.src.childImageSharp.gatsbyImageData,alt:props.data.image.alt||props.data.title})),/*#__PURE__*/index_js_default().createElement("div",{className:DescriptionWrapper},/*#__PURE__*/index_js_default().createElement("span",{className:Category},/*#__PURE__*/index_js_default().createElement("u",null,props.data.category)),/*#__PURE__*/index_js_default().createElement("h4",{className:Title},props.data.title),/*#__PURE__*/index_js_default().createElement("div",{className:Details},formatDate(props.data.publishedAt),props.data.readingTime&&/*#__PURE__*/index_js_default().createElement("span",{className:ReadingTime},props.data.readingTime))));return absoluteUrl?/*#__PURE__*/index_js_default().createElement("a",{href:props.data.link,target:"_blank",rel:"nofollow noopener noreferrer",title:props.data.title},articleCard):/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{to:props.data.link,title:props.data.title},articleCard);}function ArticleCardSkeleton(){const{globalState}=(0,context/* useGlobalState */.j1)();const darkModeEnabled=globalState.theme===context/* Theme.Dark */.Q2.Dark;return/*#__PURE__*/index_js_default().createElement("div",{className:Card,style:darkModeEnabled?{border:'0.125rem solid var(--primary-color)'}:undefined},/*#__PURE__*/index_js_default().createElement("div",{className:DescriptionWrapper},/*#__PURE__*/index_js_default().createElement(SkeletonLoader,{style:{height:'1.5rem',marginBottom:'.5rem',background:'var(--tertiary-color)'}}),/*#__PURE__*/index_js_default().createElement(SkeletonLoader,{style:{height:'4rem',background:'var(--tertiary-color)'}}),/*#__PURE__*/index_js_default().createElement(SkeletonLoader,{style:{height:'.75rem',width:'50%',marginTop:'.5rem',background:'var(--tertiary-color)'}})));}function formatDate(date){const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];return`${months[date.getMonth()]} ${date.getDate()}, ${date.getFullYear()}`;}
+
 /***/ }),
 
-/***/ "../node_modules/node-fetch/lib/index.js":
-/*!***********************************************!*\
-  !*** ../node_modules/node-fetch/lib/index.js ***!
-  \***********************************************/
+/***/ 7949:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "z": () => (/* binding */ Button_Button),
+  "L": () => (/* binding */ ButtonType)
+});
+
+// EXTERNAL MODULE: external "/home/carot/gatsby-theme-portfolio-minimal/node_modules/react/index.js"
+var index_js_ = __webpack_require__(9266);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 4 modules
+var gatsby_browser_entry = __webpack_require__(1946);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Button/style.module.css
+// Exports
+var Button = "style-module--Button--YIkYT";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Button/index.tsx
+let ButtonType;(function(ButtonType){ButtonType["BUTTON"]="button";ButtonType["SUBMIT"]="submit";ButtonType["LINK"]="link";})(ButtonType||(ButtonType={}));function Button_Button(props){if(props.type===ButtonType.LINK){if(!props.url){throw new Error(`Button should be a ${props.type} but no URL is given!`);}else{if(props.externalLink){return/*#__PURE__*/index_js_default().createElement("a",{id:props.id,className:Button,href:props.url,target:"_blank",rel:"nofollow noopener noreferrer","aria-label":"External Link"},props.label);}else{return/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{id:props.id,to:props.url,className:Button},props.label);}}}else if(props.type===ButtonType.BUTTON||props.type===ButtonType.SUBMIT){if(!props.onClickHandler){throw new Error(`Button should be a ${props.type} but no onClickHandler is given!`);}return/*#__PURE__*/index_js_default().createElement("button",{id:props.id,className:Button,type:props.type,onClick:props.onClickHandler},props.label);}else{throw new Error(`Unknown button type specified.`);}}
+
+/***/ }),
+
+/***/ 1061:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "T": () => (/* binding */ Page)
+});
+
+// EXTERNAL MODULE: external "/home/carot/gatsby-theme-portfolio-minimal/node_modules/react/index.js"
+var index_js_ = __webpack_require__(9266);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/context/index.tsx
+var context = __webpack_require__(546);
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 4 modules
+var gatsby_browser_entry = __webpack_require__(1946);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/hooks/useSiteConfiguration.tsx
+function useSiteConfiguration(){const data=(0,gatsby_browser_entry.useStaticQuery)(query);return data.allSettingsJson.settings[0].siteConfiguration;}const query="1094019748";
+// EXTERNAL MODULE: ../node_modules/react-helmet/es/Helmet.js
+var Helmet = __webpack_require__(7015);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Logo/style.module.css
+// Exports
+var Logo = "style-module--Logo--eB7C0";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Logo/index.tsx
+function Logo_Logo(props){const siteConfiguration=useSiteConfiguration();const fontSize=props.fontSize||'2rem';const color=props.color||'var(--primary-color)';return/*#__PURE__*/index_js_default().createElement("div",{className:Logo,"aria-roledescription":"logo",style:{fontSize,color}},siteConfiguration.logo.text);}
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/components/Animation/index.tsx + 2 modules
+var Animation = __webpack_require__(4550);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/SplashScreen/style.module.css
+// Exports
+var SplashScreen = "style-module--SplashScreen--H2xCu";
+var LogoWrapper = "style-module--LogoWrapper--6nH2+";
+var Backdrop = "style-module--Backdrop--yhMVc";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/SplashScreen/index.tsx
+function SplashScreen_SplashScreen(){const[shouldUnmount,setShouldUnmount]=index_js_default().useState(false);const{dispatch}=(0,context/* useGlobalState */.j1)();return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{className:SplashScreen,type:shouldUnmount===false?'fadeIn':'fadeOut',duration:250,fillMode:"forwards",onAnimationEnd:()=>{if(shouldUnmount)dispatch({type:context/* ActionType.SetSplashScreenDone */.Us.SetSplashScreenDone,value:true});}},/*#__PURE__*/index_js_default().createElement(Helmet.Helmet,{bodyAttributes:{class:'fixed'}}),/*#__PURE__*/index_js_default().createElement("div",{className:LogoWrapper},/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{className:Backdrop,type:"reduceHeight",delay:800,fillMode:"forwards",onAnimationEnd:()=>{// Wait 500ms and start unmounting the splash screen
+setTimeout(()=>{setShouldUnmount(true);},500);}}),/*#__PURE__*/index_js_default().createElement(Logo_Logo,{fontSize:"3rem",color:"var(--background-color)"})));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Footer/style.module.css
+// Exports
+var Footer = "style-module--Footer--WLcWY";
+var ContentWrapper = "style-module--ContentWrapper--zSC2F";
+var Links = "style-module--Links--QzZQK";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Footer/index.tsx
+function Footer_Footer(){const{globalState}=(0,context/* useGlobalState */.j1)();const siteConfiguration=useSiteConfiguration();const darkModeEnabled=globalState.theme===context/* Theme.Dark */.Q2.Dark;return/*#__PURE__*/index_js_default().createElement("footer",{className:Footer,style:{background:darkModeEnabled?'var(--background-color)':'var(--primary-color)',borderTop:darkModeEnabled?'3px solid var(--box-shadow-hover-color)':undefined}},/*#__PURE__*/index_js_default().createElement("div",{className:ContentWrapper},/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{to:"/","aria-label":"home"},/*#__PURE__*/index_js_default().createElement(Logo_Logo,{fontSize:"1.5rem",color:darkModeEnabled?'var(--primary-color)':'var(--background-color)'})),/*#__PURE__*/index_js_default().createElement("div",{className:Links},siteConfiguration.navigation.footer.map((linkObject,key)=>{return/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{key:key,to:linkObject.url,"aria-label":linkObject.label,style:{color:darkModeEnabled?'var(--primary-color)':'var(--background-color)'}},linkObject.label);}))));}
+// EXTERNAL MODULE: ../gatsby-theme-portfolio-minimal/src/hooks/useMediaQuery.tsx
+var useMediaQuery = __webpack_require__(8565);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Header/style.module.css
+// Exports
+var Header = "style-module--Header--g3NKu";
+var style_module_ContentWrapper  = "style-module--ContentWrapper --qZa71";
+var Burger = "style-module--Burger--xUXdY";
+var TopNavigationBar = "style-module--TopNavigationBar--jx232";
+var NavLink = "style-module--NavLink--qIn2s";
+var CtaButton = "style-module--CtaButton--FDb7c";
+var SideBarWrapper = "style-module--SideBarWrapper--L9fAO";
+var SideNavigationBar = "style-module--SideNavigationBar--yAH+u";
+var SideBarBackdrop = "style-module--SideBarBackdrop--dccCn";
+var Blurred = "style-module--Blurred--Tr24V";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Header/index.tsx
+function Header_Header(){const[open,setOpen]=index_js_default().useState(false);const siteConfiguration=useSiteConfiguration();const isDesktopBreakpoint=(0,useMediaQuery/* useMediaQuery */.a)('(min-width: 992px)');const navigationItems=/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,siteConfiguration.navigation.header.map((linkObject,key)=>{return/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{key:key,to:linkObject.url,className:NavLink,onClick:!isDesktopBreakpoint?()=>setOpen(!open):undefined},linkObject.label);}),/*#__PURE__*/index_js_default().createElement("a",{href:siteConfiguration.navigation.ctaButton.url,target:siteConfiguration.navigation.ctaButton.openNewTab?'_blank':undefined,rel:"noopener noreferrer",className:CtaButton,onClick:!isDesktopBreakpoint?()=>setOpen(!open):undefined},siteConfiguration.navigation.ctaButton.label));const sideNavigationBar=/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement("div",{className:Burger,onClick:()=>setOpen(!open)},/*#__PURE__*/index_js_default().createElement("div",{style:open?{transform:'rotate(45deg)'}:undefined}),/*#__PURE__*/index_js_default().createElement("div",{style:open?{transform:'translateX(20px)',opacity:0}:undefined}),/*#__PURE__*/index_js_default().createElement("div",{style:open?{transform:'rotate(-45deg)'}:undefined})),/*#__PURE__*/index_js_default().createElement("div",{className:SideBarWrapper,style:open?{transform:'translateX(0)',visibility:'visible'}:undefined,"aria-hidden":!open,tabIndex:open?1:-1},/*#__PURE__*/index_js_default().createElement("nav",{className:SideNavigationBar},navigationItems)),/*#__PURE__*/index_js_default().createElement("div",{className:SideBarBackdrop,style:open?{display:'block'}:undefined}));const topNavigationBar=/*#__PURE__*/index_js_default().createElement("nav",{className:TopNavigationBar},navigationItems);return/*#__PURE__*/index_js_default().createElement("header",{className:Header},/*#__PURE__*/index_js_default().createElement(Helmet.Helmet,{bodyAttributes:{class:open?Blurred:undefined}}),/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{className:style_module_ContentWrapper,type:"fadeDown"},/*#__PURE__*/index_js_default().createElement(gatsby_browser_entry.Link,{to:"/","aria-label":"home"},/*#__PURE__*/index_js_default().createElement(Logo_Logo,{fontSize:"2rem",color:"var(--primary-color"})),isDesktopBreakpoint?topNavigationBar:sideNavigationBar));}
+// EXTERNAL MODULE: ../node_modules/react-cookie-consent/build/index.js
+var build = __webpack_require__(6710);
+var build_default = /*#__PURE__*/__webpack_require__.n(build);
+// EXTERNAL MODULE: ../node_modules/gatsby-plugin-gdpr-cookies/index.js
+var gatsby_plugin_gdpr_cookies = __webpack_require__(5906);
+// EXTERNAL MODULE: ../node_modules/@gatsbyjs/reach-router/es/index.js + 2 modules
+var es = __webpack_require__(7271);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/CookieBar/style.module.css
+// Exports
+var CookieBar = "style-module--CookieBar--azLEs";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/CookieBar/index.tsx
+// Uses the class names from the original package
+function CookieBar_CookieBar(){const location=(0,es.useLocation)();return/*#__PURE__*/index_js_default().createElement(Animation/* Animation */.f,{className:CookieBar,type:"fadeUp",delay:1000},/*#__PURE__*/index_js_default().createElement((build_default()),{cookieName:"gatsby-gdpr-google-analytics",buttonId:"confirm",buttonText:"Accept",declineButtonId:"decline",declineButtonText:"Decline",enableDeclineButton:true,disableStyles:true,onAccept:()=>(0,gatsby_plugin_gdpr_cookies/* initializeAndTrack */.v)(location)},/*#__PURE__*/index_js_default().createElement("p",null,"This website uses cookies \uD83C\uDF6A ")));}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Layout/style.module.css
+// Exports
+var Layout = "style-module--Layout--mDVMH";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Layout/index.tsx
+function Layout_Layout(props){const{globalState}=(0,context/* useGlobalState */.j1)();const showSplashScreen=props.useSplashScreenAnimation&&!globalState.splashScreenDone;const darkModeEnabled=globalState.theme===context/* Theme.Dark */.Q2.Dark;const splashScreenView=/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement(Helmet.Helmet,{bodyAttributes:{'data-theme':context/* Theme.Light */.Q2.Light}}),/*#__PURE__*/index_js_default().createElement(SplashScreen_SplashScreen,null));const layoutView=/*#__PURE__*/index_js_default().createElement((index_js_default()).Fragment,null,/*#__PURE__*/index_js_default().createElement(Helmet.Helmet,{bodyAttributes:{'data-theme':darkModeEnabled?context/* Theme.Dark */.Q2.Dark:context/* Theme.Light */.Q2.Light}}),/*#__PURE__*/index_js_default().createElement("div",{className:Layout},/*#__PURE__*/index_js_default().createElement(Header_Header,null),/*#__PURE__*/index_js_default().createElement("main",null,props.children),/*#__PURE__*/index_js_default().createElement(Footer_Footer,null),props.useCookieBar&&/*#__PURE__*/index_js_default().createElement(CookieBar_CookieBar,null)));return showSplashScreen?splashScreenView:layoutView;}
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Page/index.tsx
+function Page(props){const siteConfiguration=useSiteConfiguration();return/*#__PURE__*/index_js_default().createElement(context/* GlobalStateProvider */.MC,{defaultTheme:siteConfiguration.featureToggles.useDarkModeAsDefault?context/* Theme.Dark */.Q2.Dark:context/* Theme.Light */.Q2.Light,useDarkModeBasedOnUsersPreference:siteConfiguration.featureToggles.useDarkModeBasedOnUsersPreference,useSplashScreenAnimation:props.useSplashScreenAnimation||false},/*#__PURE__*/index_js_default().createElement(Layout_Layout,{useSplashScreenAnimation:props.useSplashScreenAnimation||false,useCookieBar:siteConfiguration.featureToggles.useCookieBar},props.children));}
+
+/***/ }),
+
+/***/ 6919:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "$": () => (/* binding */ Section_Section)
+});
+
+// EXTERNAL MODULE: external "/home/carot/gatsby-theme-portfolio-minimal/node_modules/react/index.js"
+var index_js_ = __webpack_require__(9266);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Section/style.module.css
+// Exports
+var Section = "style-module--Section--L+VCq";
+var Heading = "style-module--Heading--4EzNI";
+var ContentWrapper  = "style-module--ContentWrapper --NbMhq";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Section/index.tsx
+function Section_Section(props){let classList;if(props.additionalClasses){classList=props.additionalClasses.concat(ContentWrapper).join(' ');}else{classList=ContentWrapper;}return/*#__PURE__*/index_js_default().createElement("section",{id:props.anchor,className:Section},/*#__PURE__*/index_js_default().createElement("div",{className:classList},props.heading&&/*#__PURE__*/index_js_default().createElement("h3",{className:Heading},props.heading),props.children));}
+
+/***/ }),
+
+/***/ 4434:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "p": () => (/* binding */ Seo)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9266);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7015);
+/* harmony import */ var _reach_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7271);
+/* harmony import */ var _hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(493);
+function Seo(props){const location=(0,_reach_router__WEBPACK_IMPORTED_MODULE_2__.useLocation)();const siteMetadata={...(0,_hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_3__/* .useSiteMetadata */ .$)(),...props};const thumbnailUrl=siteMetadata.thumbnail?(siteMetadata.siteUrl+siteMetadata.thumbnail.childImageSharp.original.src).replace(/([^:]\/)\/+/g,'$1'):undefined;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet,{title:siteMetadata.title,titleTemplate:props.useTitleTemplate?siteMetadata.titleTemplate:undefined,htmlAttributes:{lang:siteMetadata.language}},props.noIndex&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"robots",content:"noindex"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"description",content:siteMetadata.description}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:title",content:siteMetadata.title}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:site_name",content:siteMetadata.title}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:url",content:siteMetadata.siteUrl+location.pathname}),thumbnailUrl&&/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:image",content:thumbnailUrl}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:description",content:siteMetadata.description}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:type",content:"website"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"twitter:card",content:"summary"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"twitter:creator",content:siteMetadata.author}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"twitter:title",content:siteMetadata.title}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"twitter:description",content:siteMetadata.description}));}
+
+/***/ }),
+
+/***/ 815:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "i": () => (/* binding */ Slider)
+});
+
+// EXTERNAL MODULE: external "/home/carot/gatsby-theme-portfolio-minimal/node_modules/react/index.js"
+var index_js_ = __webpack_require__(9266);
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Slider/style.module.css
+// Exports
+var SlideContainer = "style-module--SlideContainer--NKY0y";
+
+;// CONCATENATED MODULE: ../gatsby-theme-portfolio-minimal/src/components/Slider/index.tsx
+function Slider(props){let classList;if(props.additionalClasses){classList=props.additionalClasses.concat(SlideContainer).join(' ');}else{classList=SlideContainer;}return/*#__PURE__*/index_js_default().createElement("div",{className:classList,style:props.style},props.children);}
+
+/***/ }),
+
+/***/ 546:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "MC": () => (/* binding */ GlobalStateProvider),
+/* harmony export */   "Q2": () => (/* binding */ Theme),
+/* harmony export */   "Us": () => (/* binding */ ActionType),
+/* harmony export */   "j1": () => (/* binding */ useGlobalState)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9266);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _hooks_useMediaQuery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8565);
+let Theme;(function(Theme){Theme["Light"]="lightTheme";Theme["Dark"]="darkTheme";})(Theme||(Theme={}));let ActionType;(function(ActionType){ActionType["SetTheme"]="SET_THEME";ActionType["SetSplashScreenDone"]="SET_SPLASH_SCREEN_DONE";})(ActionType||(ActionType={}));const GlobalStateContext=/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createContext(undefined);function GlobalStateProvider(props){const[globalState,dispatch]=react__WEBPACK_IMPORTED_MODULE_0___default().useReducer(globalStateReducer,{theme:initializeTheme(props.defaultTheme,props.useDarkModeBasedOnUsersPreference),// If useSplashScreenAnimation=false, we skip the animation by setting the initial value to true
+splashScreenDone:props.useSplashScreenAnimation?false:true});return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(GlobalStateContext.Provider,{value:{globalState,dispatch}},props.children);}function useGlobalState(){const context=react__WEBPACK_IMPORTED_MODULE_0___default().useContext(GlobalStateContext);if(context===undefined){throw new Error('useGlobalState must be used within a GlobalStateProvider');}return context;}function globalStateReducer(state,action){switch(action.type){case ActionType.SetTheme:{return{...state,theme:action.value};}case ActionType.SetSplashScreenDone:{return{...state,splashScreenDone:action.value};}default:{throw new Error(`Unhandled action type`);}}}function initializeTheme(defaultTheme,useDarkMode){const darkModeEnabled=(0,_hooks_useMediaQuery__WEBPACK_IMPORTED_MODULE_1__/* .useMediaQuery */ .a)('(prefers-color-scheme: dark)',isMatch=>{const updatedTheme=isMatch?Theme.Dark:Theme.Light;document.body.setAttribute('data-theme',updatedTheme);});let initialTheme=defaultTheme;if(useDarkMode&&darkModeEnabled){initialTheme=Theme.Dark;}return initialTheme;}
+
+/***/ }),
+
+/***/ 8565:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "a": () => (/* binding */ useMediaQuery)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9266);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function useMediaQuery(query,callback){if(typeof window==='undefined'||typeof window.matchMedia==='undefined'){return false;}const mediaQuery=window.matchMedia(query);const[match,setMatch]=react__WEBPACK_IMPORTED_MODULE_0___default().useState(mediaQuery.matches);react__WEBPACK_IMPORTED_MODULE_0___default().useEffect(()=>{function handleMatch(){setMatch(mediaQuery.matches);callback===null||callback===void 0?void 0:callback(mediaQuery.matches);}if(mediaQuery.addEventListener){mediaQuery.addEventListener('change',handleMatch);return()=>mediaQuery.removeEventListener('change',handleMatch);}else{// backwards compatibility
+// https://betterprogramming.pub/using-window-matchmedia-in-react-8116eada2588
+mediaQuery.addListener(handleMatch);return()=>mediaQuery.removeListener(handleMatch);}},[]);return match;}
+
+/***/ }),
+
+/***/ 493:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "$": () => (/* binding */ useSiteMetadata)
+/* harmony export */ });
+/* unused harmony export query */
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1946);
+function useSiteMetadata(){const data=(0,gatsby__WEBPACK_IMPORTED_MODULE_0__.useStaticQuery)(query);return data.allSettingsJson.settings[0].siteMetadata;}const query="4239582004";
+
+/***/ }),
+
+/***/ 3109:
 /***/ ((module, exports, __webpack_require__) => {
 
 "use strict";
@@ -3991,12 +659,12 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var Stream = _interopDefault(__webpack_require__(/*! stream */ "stream"));
-var http = _interopDefault(__webpack_require__(/*! http */ "http"));
-var Url = _interopDefault(__webpack_require__(/*! url */ "url"));
-var whatwgUrl = _interopDefault(__webpack_require__(/*! whatwg-url */ "../node_modules/whatwg-url/lib/public-api.js"));
-var https = _interopDefault(__webpack_require__(/*! https */ "https"));
-var zlib = _interopDefault(__webpack_require__(/*! zlib */ "zlib"));
+var Stream = _interopDefault(__webpack_require__(8311));
+var http = _interopDefault(__webpack_require__(4135));
+var Url = _interopDefault(__webpack_require__(4269));
+var whatwgUrl = _interopDefault(__webpack_require__(4362));
+var https = _interopDefault(__webpack_require__(4487));
+var zlib = _interopDefault(__webpack_require__(8884));
 
 // Based on https://github.com/tmpvar/jsdom/blob/aa85b2abf07766ff7bf5c1f6daafb3726f2f2db5/lib/jsdom/living/blob.js
 
@@ -5686,70 +2354,7 @@ exports.FetchError = FetchError;
 
 /***/ }),
 
-/***/ "../gatsby-theme-portfolio-minimal/src/components/Animation/style.css":
-/*!****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/Animation/style.css ***!
-  \****************************************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/components/CookieBar/style.css":
-/*!****************************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/components/CookieBar/style.css ***!
-  \****************************************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/globalStyles/global.css":
-/*!*********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/globalStyles/global.css ***!
-  \*********************************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "../gatsby-theme-portfolio-minimal/src/globalStyles/theme.css":
-/*!********************************************************************!*\
-  !*** ../gatsby-theme-portfolio-minimal/src/globalStyles/theme.css ***!
-  \********************************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "../node_modules/@fontsource/roboto/400.css":
-/*!**************************************************!*\
-  !*** ../node_modules/@fontsource/roboto/400.css ***!
-  \**************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "../node_modules/@fontsource/roboto/700.css":
-/*!**************************************************!*\
-  !*** ../node_modules/@fontsource/roboto/700.css ***!
-  \**************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "../node_modules/react-cookie-consent/build/index.js":
-/*!***********************************************************!*\
-  !*** ../node_modules/react-cookie-consent/build/index.js ***!
-  \***********************************************************/
+/***/ 6710:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /*! For license information please see index.js.LICENSE.txt */
@@ -5951,7 +2556,7 @@ exports.FetchError = FetchError;
           return k;
         },
       });
-    const e = __webpack_require__(/*! react */ "react");
+    const e = __webpack_require__(9266);
     var t = n.n(e),
       r = n(697),
       i = n.n(r),
@@ -6499,100 +3104,14 @@ exports.FetchError = FetchError;
 
 /***/ }),
 
-/***/ "../node_modules/tiny-skeleton-loader-react/dist/index.es.js":
-/*!*******************************************************************!*\
-  !*** ../node_modules/tiny-skeleton-loader-react/dist/index.es.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ SkeletonLoader)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-/*! *****************************************************************************
-Copyright (c) Microsoft Corporation.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
-***************************************************************************** */
-
-var __assign = function() {
-    __assign = Object.assign || function __assign(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
-
-function styleInject(css, ref) {
-  if ( ref === void 0 ) ref = {};
-  var insertAt = ref.insertAt;
-
-  if (!css || typeof document === 'undefined') { return; }
-
-  var head = document.head || document.getElementsByTagName('head')[0];
-  var style = document.createElement('style');
-  style.type = 'text/css';
-
-  if (insertAt === 'top') {
-    if (head.firstChild) {
-      head.insertBefore(style, head.firstChild);
-    } else {
-      head.appendChild(style);
-    }
-  } else {
-    head.appendChild(style);
-  }
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    style.appendChild(document.createTextNode(css));
-  }
-}
-
-var css_248z = ".styles_skeleton__tyzRD {\n  line-height: 1;\n  display: inline-block;\n  overflow: hidden;\n  position: relative;\n  background: #eff1f6;\n}\n\n.styles_skeleton__tyzRD::before {\n  content: \"\";\n  position: absolute;\n  height: 100%;\n  width: 500px;\n  top: 0;\n  left: -500px;\n  background-image: linear-gradient(\n    90deg,\n    rgba(255, 255, 255, 0),\n    rgba(255, 255, 255, 0.6),\n    rgba(255, 255, 255, 0)\n  );\n  animation: styles_skeleton-progress__aezri 1.2s ease-in-out infinite;\n}\n\n@keyframes styles_skeleton-progress__aezri {\n  0% {\n    left: -500px;\n  }\n  100% {\n    left: 100%;\n  }\n}\n";
-var css = {"skeleton":"styles_skeleton__tyzRD","skeleton-progress":"styles_skeleton-progress__aezri"};
-styleInject(css_248z);
-
-function SkeletonLoader(_a) {
-    var _b = _a.width, width = _b === void 0 ? "100%" : _b, _c = _a.height, height = _c === void 0 ? "1em" : _c, _d = _a.background, background = _d === void 0 ? "#E9ECEF" : _d, _e = _a.radius, radius = _e === void 0 ? "4px" : _e, _f = _a.circle, circle = _f === void 0 ? false : _f, _g = _a.block, block = _g === void 0 ? true : _g, _h = _a.style, style = _h === void 0 ? {} : _h;
-    return (react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", { className: css.skeleton, style: __assign({ width: width, height: height, background: background, borderRadius: circle ? "50%" : radius, display: block ? "block" : "inline-block" }, style) }, "\u200C"));
-}
-
-
-//# sourceMappingURL=index.es.js.map
-
-
-/***/ }),
-
-/***/ "../node_modules/tr46/index.js":
-/*!*************************************!*\
-  !*** ../node_modules/tr46/index.js ***!
-  \*************************************/
+/***/ 3581:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var punycode = __webpack_require__(/*! punycode */ "punycode");
-var mappingTable = __webpack_require__(/*! ./lib/mappingTable.json */ "../node_modules/tr46/lib/mappingTable.json");
+var punycode = __webpack_require__(6850);
+var mappingTable = __webpack_require__(7873);
 
 var PROCESSING_OPTIONS = {
   TRANSITIONAL: 0,
@@ -6786,10 +3305,7 @@ module.exports.PROCESSING_OPTIONS = PROCESSING_OPTIONS;
 
 /***/ }),
 
-/***/ "../node_modules/webidl-conversions/lib/index.js":
-/*!*******************************************************!*\
-  !*** ../node_modules/webidl-conversions/lib/index.js ***!
-  \*******************************************************/
+/***/ 8378:
 /***/ ((module) => {
 
 "use strict";
@@ -6986,15 +3502,12 @@ conversions["RegExp"] = function (V, opts) {
 
 /***/ }),
 
-/***/ "../node_modules/whatwg-url/lib/URL-impl.js":
-/*!**************************************************!*\
-  !*** ../node_modules/whatwg-url/lib/URL-impl.js ***!
-  \**************************************************/
+/***/ 5179:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-const usm = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js");
+const usm = __webpack_require__(3881);
 
 exports.implementation = class URLImpl {
   constructor(constructorArgs) {
@@ -7197,18 +3710,15 @@ exports.implementation = class URLImpl {
 
 /***/ }),
 
-/***/ "../node_modules/whatwg-url/lib/URL.js":
-/*!*********************************************!*\
-  !*** ../node_modules/whatwg-url/lib/URL.js ***!
-  \*********************************************/
+/***/ 8686:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-const conversions = __webpack_require__(/*! webidl-conversions */ "../node_modules/webidl-conversions/lib/index.js");
-const utils = __webpack_require__(/*! ./utils.js */ "../node_modules/whatwg-url/lib/utils.js");
-const Impl = __webpack_require__(/*! .//URL-impl.js */ "../node_modules/whatwg-url/lib/URL-impl.js");
+const conversions = __webpack_require__(8378);
+const utils = __webpack_require__(7378);
+const Impl = __webpack_require__(5179);
 
 const impl = utils.implSymbol;
 
@@ -7404,38 +3914,32 @@ module.exports = {
 
 /***/ }),
 
-/***/ "../node_modules/whatwg-url/lib/public-api.js":
-/*!****************************************************!*\
-  !*** ../node_modules/whatwg-url/lib/public-api.js ***!
-  \****************************************************/
+/***/ 4362:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
 
-exports.URL = __webpack_require__(/*! ./URL */ "../node_modules/whatwg-url/lib/URL.js")["interface"];
-exports.serializeURL = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js").serializeURL;
-exports.serializeURLOrigin = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js").serializeURLOrigin;
-exports.basicURLParse = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js").basicURLParse;
-exports.setTheUsername = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js").setTheUsername;
-exports.setThePassword = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js").setThePassword;
-exports.serializeHost = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js").serializeHost;
-exports.serializeInteger = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js").serializeInteger;
-exports.parseURL = __webpack_require__(/*! ./url-state-machine */ "../node_modules/whatwg-url/lib/url-state-machine.js").parseURL;
+exports.URL = __webpack_require__(8686)["interface"];
+exports.serializeURL = __webpack_require__(3881).serializeURL;
+exports.serializeURLOrigin = __webpack_require__(3881).serializeURLOrigin;
+exports.basicURLParse = __webpack_require__(3881).basicURLParse;
+exports.setTheUsername = __webpack_require__(3881).setTheUsername;
+exports.setThePassword = __webpack_require__(3881).setThePassword;
+exports.serializeHost = __webpack_require__(3881).serializeHost;
+exports.serializeInteger = __webpack_require__(3881).serializeInteger;
+exports.parseURL = __webpack_require__(3881).parseURL;
 
 
 /***/ }),
 
-/***/ "../node_modules/whatwg-url/lib/url-state-machine.js":
-/*!***********************************************************!*\
-  !*** ../node_modules/whatwg-url/lib/url-state-machine.js ***!
-  \***********************************************************/
+/***/ 3881:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
-const punycode = __webpack_require__(/*! punycode */ "punycode");
-const tr46 = __webpack_require__(/*! tr46 */ "../node_modules/tr46/index.js");
+const punycode = __webpack_require__(6850);
+const tr46 = __webpack_require__(3581);
 
 const specialSchemes = {
   ftp: 21,
@@ -8734,10 +5238,7 @@ module.exports.parseURL = function (input, options) {
 
 /***/ }),
 
-/***/ "../node_modules/whatwg-url/lib/utils.js":
-/*!***********************************************!*\
-  !*** ../node_modules/whatwg-url/lib/utils.js ***!
-  \***********************************************/
+/***/ 7378:
 /***/ ((module) => {
 
 "use strict";
@@ -8765,109 +5266,7 @@ module.exports.implForWrapper = function (wrapper) {
 
 /***/ }),
 
-/***/ "./public/page-data/sq/d/1094019748.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/1094019748.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allSettingsJson":{"settings":[{"siteConfiguration":{"featureToggles":{"useCookieBar":false,"useDarkModeAsDefault":false,"useDarkModeBasedOnUsersPreference":true},"logo":{"text":"@rotten_caRot"},"navigation":{"ctaButton":{"label":"Resume","openNewTab":true,"url":"/Rotunno_Christopher_Resume.pdf"},"footer":[{"label":"Privacy","url":"/privacy"},{"label":"Imprint","url":"/imprint"}],"header":[{"label":"About","url":"/#about"},{"label":"Blog","url":"/#blog"},{"label":"Tools","url":"/#tools"},{"label":"Interests","url":"/#interests"},{"label":"Contact","url":"/#contact"}]}}}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/1764120992.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/1764120992.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allAboutMarkdown":{"sections":[{"frontmatter":{"imageAlt":"About Gatsby Theme Portfolio Minimal","imageSrc":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAcIBgn/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwT/2gAMAwEAAhADEAAAAcoqenSiuJeKsDo//8QAGhAAAgMBAQAAAAAAAAAAAAAABgcDBAUCE//aAAgBAQABBQJlMNgYxuKm7BJ7c9/j1OluHluxiKUaGr02FiQ9/wD/xAAfEQABBAICAwAAAAAAAAAAAAABAgMRExIxAEEjQmH/2gAIAQMBAT8BaSL2y6tymxNobPkLZUMsM5QFhMhPrIEjZNiegY6mJj7rn//EACARAAICAAYDAAAAAAAAAAAAAAEDAhEABAUSIXEUJDH/2gAIAQIBAT8B1CRbpj1ZRa1Z7x/XfO4rGZgBJRcUmLiibBEPEJBklSmIkE8R3UNxF0LoGr4ugSTXZPZ+4//EACYQAAICAQMEAQUBAAAAAAAAAAIDAQQFABMhBhESFFEiIyQxcpH/2gAIAQEABj8C6uxdPqa6ijRy1oKFX1McakVPtMSsSZQYZCCnr7SRmXzPOshSJi+oCRSDIsFy8fRbWp17Sk3nJlK6nsTC7KzJX1nArkxHgtFzE9pmP38TOreRt4r1cm4xm3cq276ouRCFKjeqqtKr7kCpY7oAMyI9igp503IYl2Tq2zqvqk1dry/HseO8rxshZDwb4jBdxme0cTGts8eFghjlzdiGH/W3WAP8GNf/xAAbEAEBAAMBAQEAAAAAAAAAAAABEQAhQTFRYf/aAAgBAQABPyEHIxe1ECRK9vTxvtEbDBp2/CZUIIEUDEYnxFP3Dnr1pjJeghWOaCExkDdQEoD0ZCNgHcOzePOeUu3/2gAMAwEAAgADAAAAEMvv/8QAGBEBAQEBAQAAAAAAAAAAAAAAASERADH/2gAIAQMBAT8QAYRIpXqNQiks8FFtrRUM0YXGoApA0O//xAAXEQEBAQEAAAAAAAAAAAAAAAABESEA/9oACAECAQE/EKjmShLQIuW3PBvOyRxgBVggIKc//8QAFxABAQEBAAAAAAAAAAAAAAAAAREAQf/aAAgBAQABPxAW6FeA2nzCvwWZGt72GkV/CVo6rM04hFQBEQ3AFkdaoHUJ9Gjk6M3me3dGiriNtGlnlAiRQHH/2Q=="},"images":{"fallback":{"src":"/static/5a147418d33fc2b7c46b04381df53665/58b3a/clement-h-95YRwf6CNw8-unsplash.jpg","srcSet":"/static/5a147418d33fc2b7c46b04381df53665/a77c0/clement-h-95YRwf6CNw8-unsplash.jpg 100w,\\n/static/5a147418d33fc2b7c46b04381df53665/ac9f5/clement-h-95YRwf6CNw8-unsplash.jpg 200w,\\n/static/5a147418d33fc2b7c46b04381df53665/58b3a/clement-h-95YRwf6CNw8-unsplash.jpg 400w,\\n/static/5a147418d33fc2b7c46b04381df53665/91225/clement-h-95YRwf6CNw8-unsplash.jpg 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/5a147418d33fc2b7c46b04381df53665/64a37/clement-h-95YRwf6CNw8-unsplash.webp 100w,\\n/static/5a147418d33fc2b7c46b04381df53665/cb817/clement-h-95YRwf6CNw8-unsplash.webp 200w,\\n/static/5a147418d33fc2b7c46b04381df53665/d603c/clement-h-95YRwf6CNw8-unsplash.webp 400w,\\n/static/5a147418d33fc2b7c46b04381df53665/1a949/clement-h-95YRwf6CNw8-unsplash.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":267}}}},"html":"<p>🌟 I enjoy picking up new ideas and putting them into practice because they push the boundaries of my preconceived notions</p>\\n<p>📦 I put my ideas to the test by asking for other people\'s feedback in order to think beyond the box</p>\\n<p>💼 I have a wide range of expertise working with financials; I have worked in retail, corporate, and startup environments</p>\\n<p>🌎 My professional goal is to raise service standards so that the world is a better place</p>\\n<p>Photo by <a href=\\"https://unsplash.com/@clemhlrdt\\" target=\\"_blank\\" rel=\\"nofollow noopener noreferrer\\" aria-label=\\"External Link\\"><u>Clément H</u></a> on Unsplash</p>"}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/2442753764.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/2442753764.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allInterestsJson":{"sections":[{"button":{"initiallyShownInterests":5,"label":"+ Load More","visible":true},"interests":[{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACzUlEQVQ4y6XUXUiTURzH8fNM07mcujfd5jZnW3OpqJg10k0tVEqlWeSFepGQgZMog9Kg4llkWJAXYZpWakJhSrLCwnyZU+cLBbGrdMPMpmAXCqlYICS/IAhmPuVgf/jeHT4cDuccQnYeyhTol3c6kGV6WUJiiS/TEMI5cDOYPVYVFICKQH9Uy1lYvU++fG8gTWv1pAAthOsV1C4QRLbyeO0Pw0I260OCcTs4CFc5gbjA3gXnRQorteR3q7Vk41sN6Vo0Ew4j1COVcrrDxdc7ROHrT4VCPOHz8JgXigehXNRxOTDvZmO6jPq5dIXAs+VqYtqG9cvl0jeR8tlXkkh0R0jQGR6BZ0IR2gV8tPDC5ppDQ2rucrnaRRPlWCyn4NnXckJvA4cUqqoBmRK9kQr0SGSwiKU/usIjmjtEIgMIof6scxdTDncxBc8WihnAcaWGHolSwyqPRp8sCr1S2RmmY5kzUo7PRgqezR1nACfVCfREtBajUWoMKfZgQKbMZAJnsinHTDYFz2azmHaYkEmP79NhQhWHMaUGNqWaEXSlUw6XgcKW0hlA+8FTtD05F2NxBkzsTcKkWssIOtMohzONgmcuPQM4kl5Gj6SWYDTFiLGEI7DH630DbTmXaNvhcxjWl2JUVwh7Sr5voDX/Fm09dg1DWZWwZZyFTV/qGzhw8h49YLyDwTwzrDmXYcs8H+8T+LboUWVfYSP6C+rc1twbRf96516DXYXmgMHi1ixbaRt7LT77xFJMhmVepbM4o5Is4xKNpVsgtzRxhZYPKX4rXoGesxaf9XpZmwG3SodpRSLsYg1e8OVo5ArxLtkff4NOA8v0X3A9Lle8rM1om1fpNqcUiRgVa9DFl6GBK8T7reCGM43VuXCIBHn1L35S6fZ/VCSNDIs16OTL0CbkYSqV5XbpWc0ug1+BM83LD3bbHZXEHH0ukFcMxQbH7bT4Fw4GoMT/HF0zAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/7cc07612a38f31ea31a76194f4e21903/4eb25/Office.webp","srcSet":"/static/7cc07612a38f31ea31a76194f4e21903/ee0e4/Office.webp 5w,\\n/static/7cc07612a38f31ea31a76194f4e21903/8b4b1/Office.webp 10w,\\n/static/7cc07612a38f31ea31a76194f4e21903/4eb25/Office.webp 20w,\\n/static/7cc07612a38f31ea31a76194f4e21903/3a6ff/Office.webp 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[]},"width":20,"height":20}}}},"label":"Microsoft Office Suite"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAD40lEQVQ4y21U628UVRSfDxK0Jv4LJJj0QS2UZdvdrdtuutvtwz5s+mAxKNBABDVqVPRbtS+7hcQ0miKWJipsu91dTHgUS1pamgBJQSlKY0UDtqGEx8y2dTtzz7kzd3Z7zZ0F9IM3Jzczd+7v/M75nTNHQkSk1Nqozjk8fLD6/bGl/a/H68sUv1PxFShVxfEdNSutB7VLF6lpYjKJAGgtSSABqK7TVEqNDSnVHrkwWy7KUzw2xVeolDkUr10pzpcdObIrd+Wjt8jtP1E3EMECIwqkaSZ62mR7plKyVRBWFCmlBfLLebIrVynJFyflLqXcJedtiLc0p8OkiBJFoJyv9gblgizF7xJUpXbZkaNUupdaAkv734gHahT3Ftm9WXZvib/q027eQMbSkUuUc3XknFy0Sfguc6R5EgN9MH8HVVVkthTXpq8sv71HqfZov81SzhHI45x1YynxsVcutCnlTsWzVanzar/OiBuMie8AqOviNZEgC3/RVAoJSQtsgRe/NccktXWjXOKQ3TbtypS4qqnUSgyEMhSIkBQYEw9gnQASQMn4pYmNSeb0enI44+/O9wWSaPjvolZZKAIKZFply6NgNi5vZOMSm8gwpyT9fhgZR9QEJ2CSYfAMBPqgpR92f/PE+mFPP+w6CvsGQGKTz7OJdcIurKfKNBqcWt4BcM3E946DvRU8XVDc+T8msckMC/yMPvEsxq+hzhGFmMQCfxACVxv4g+DrBq9lvv+YxC5vYBckffK5tXEp9SBmMWtoSZKywEXt4O+BsiD4glAWJE+9lHaDZMzU6WMSn1o3NfLCV1d7OOMaqJYkoiILD2FuEW7dg7lFnH+Ep39Cd4dw5OmCxi9B0heO8jEp/GOubbgxPxqYffQ7N7lKNKv/kOmYNJAZqFPCORweAcdnUHFI7K0nQVoj97tHqzLDTY5oc364tubsgYWVezzJdaoTICohGgGDMr7GR2dYcZfq7RZZuNpg/CZK3OQDc+dyQpWuWKAw2pQ3VOs7tTv2x6i8Gk8ZSc7WKOrzy3d7r58o+eJGaQf3H1LdHbD3mKi5RCmmDHbwUk9WqNIZ214o+OtzBl+pOL3vzYlP353q3DX2SfHJndmDFfbhZs+R896uZOnncP0OctP6JQ3d0IC8c7H9xeP+bcMNzljAGdueH67PDlVlh6o2DVZvizS4Yjscsaa8iNd25OszPzOeAtGeVgODoTOktHfmO3ukMStUuTlcZ480OqLNjqiIxRZpeGmoJvNEZfmpveN3J3jSIPB0GDwZQzzJb8m326f7as8ecMYC9khj2kp+2Pna+Q8HZqNxdZkzTh5PIfwHLdVZLBKUhQkAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/7223264e557ae693dc066f7ef211e20e/7f8fa/Google.jpg","srcSet":"/static/7223264e557ae693dc066f7ef211e20e/cfdfb/Google.jpg 5w,\\n/static/7223264e557ae693dc066f7ef211e20e/f4570/Google.jpg 10w,\\n/static/7223264e557ae693dc066f7ef211e20e/7f8fa/Google.jpg 20w,\\n/static/7223264e557ae693dc066f7ef211e20e/b1fd8/Google.jpg 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/7223264e557ae693dc066f7ef211e20e/ee0e4/Google.webp 5w,\\n/static/7223264e557ae693dc066f7ef211e20e/8b4b1/Google.webp 10w,\\n/static/7223264e557ae693dc066f7ef211e20e/4eb25/Google.webp 20w,\\n/static/7223264e557ae693dc066f7ef211e20e/3a6ff/Google.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"Google Suite"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACFElEQVQ4y2NQ07MmGzEMA83q+jaahnaaBrYaBjYaBrbq+iBSTc9aAyRiq2loC+Fi0ayub6OsbSGlZCClZKCgaSavbqqiYymjaqSmZy2nZiKvbiqpqK+gYaqub4OuGaLT1NajoaWnpqHD2SvULzTewNwlNjlXXd8mLCbNJyi2s3dKcGSygoYZXD9cs7WytoWRlVtcSt7suYsXLl45a+7i1KziCxevhESnzl+0Yu/+wxW1rZYOPsraFuiaNfRt5NRNwmLSmjsmzJi9sGfCtNbOCfMXrZg4dfbyVRviU/L8wxIWLV1VUFKjqIlhs6ahnbiCblfflJlzFk2dMX/i1Nlp2aXHT5wJjEi6efuOmZ1XSFRKU/vENRt3yiN5GxFgqrqWaoZO6QV1EbHpts4+xpYuPkHRuib2gWHx6noWyRkFdQ0tTs4eCpoYzlYFudw6ydvQykhTUN5ESMlKUs1aXNlUTstGRNFUUt2OT9Y41kl5Zb5ylKexjKaNhj5ygOlZK+tY21pZTE7XW16g2RCjF+lh7OFg7mpnHuBilhVgMD1DpyHWqC5az8sBZKK6Plo861kraNvIaNoGuphMS9PaXaV6uE75UJ3y7krVBTlaST5GGvrWZmaWKrq4Uhg4zmQ0bcTUbOW0bLUMrHQMLZV0bMTVbKU0bFV1rZV1bQikbQ19a00DkEEqutYQezQNQAiSHIZbliRVMwBTABiVEec0EwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/379540eb7fc2c053b15364a9fc8d8a6f/7f8fa/AWS.jpg","srcSet":"/static/379540eb7fc2c053b15364a9fc8d8a6f/cfdfb/AWS.jpg 5w,\\n/static/379540eb7fc2c053b15364a9fc8d8a6f/f4570/AWS.jpg 10w,\\n/static/379540eb7fc2c053b15364a9fc8d8a6f/7f8fa/AWS.jpg 20w,\\n/static/379540eb7fc2c053b15364a9fc8d8a6f/b1fd8/AWS.jpg 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/379540eb7fc2c053b15364a9fc8d8a6f/ee0e4/AWS.webp 5w,\\n/static/379540eb7fc2c053b15364a9fc8d8a6f/8b4b1/AWS.webp 10w,\\n/static/379540eb7fc2c053b15364a9fc8d8a6f/4eb25/AWS.webp 20w,\\n/static/379540eb7fc2c053b15364a9fc8d8a6f/3a6ff/AWS.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"AWS"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7DAAAOwwHHb6hkAAADx0lEQVQ4y32Uf0yVVRjHv++9F73cC7fbLCBaq6jQTVdra47maLWyYrXVdJZz1SxctVEpf3SfA9MbNJi/8MdatdlmAyVdEyOXgCwFwsCkmlN5DpkYTKQl0S9/DLk/3qfd954LlzZ6t+/e877nPJ/zfZ7zA0g9SgPEKVkgdoPYA6XdUNpy+hVPj3G+08U+p38W4CyBnAnihVBcAuI3QbwFxAdAPAilm/8PeCeInwXx6yCuBfFhENdBcQUUC4gFSqcp8U8fd2L/A3QZ4G4nyAk0waQ7oXStaU9CcQSUkJ40E3TMdJhMz9RKN5jZJ0B8w7hqgeJq045AsZ2Ujhlg5xTQ5fIAZV1A+KKF90aAd083IHRWkjAdSbrVLVC6etqhjoN03OlPZnFsKuUE0C0CvPSZC2+0AzW/f4L1v8ysFXEXFG+crqFRqk26Ny1lC3NuLYAfwAOA21302p6M5TuPWuGhDSCuAvEmKH4FiougmEC8ForLHRGvg+IQiFdMAS3L5Rg19FoAErQw5l5aOYjwxfMInf0NxPVQXAbFwyDuh+KfofgciAegeATEe6eAGRlzISKOHlq8pPXRx0tk6WNPSMb9zwsqzwuoP5HaMSi90dQwrRRT7V6nhh7PHPh9mRBZ5RJ5EW+tKKg/88Vd8gHdHvUueDKOip+iBtiatsqJbRM3ippFS26bf/4YQW5unnHYgbVrnm45dWi59B2pjd193yIbq5vj2DAkCJ1pg9JVBjgBxTFnlUmngJ2Ow7ycmzHvlpxU/dYcaGqWiUmJi4i9ctlzgkBh1F3hpNQO6q+bmaazC2zzPmpq6E4tteeR4uKh8fExEYnFROL2ie96Y8Esn6CgeJvnsNyDdSeLQbwTxJ9D8Q8gPQbi68Zhn+MwP3deivjC9h0fSoJ27dpVWyRm2yLR+QsWCoBPUbgS+FiAynPmmDpH1Q/iQhA/A3IuDKC8rMBK0GpWY0/jrlAi1+iNiat2zBb7+vjJ6B35QcnLydq/KLFJi0IelPd5QAPWjKssXfJ9NgYbs3ZJX7YcqcNk3batMRGJJDT8rYrsfgcysC94SU4H5suvAYy251s567vT78bU3elOAq8EMbzP1/lXW0AiHZZ8+dFT0tl1QsLVm6Wq9DaRH33yd1uWjDZll14+5MefLX7XhcYgZn0GG3zo3uRdcrzOG+7ZkXnq/VWeNgCvAnj57RIc7NnuG/i6xvvg5a/8GNzvtdTDN+FSU2B2YPfWTHRv9uLCXh9EWnGlDXBbGU7f4nuTY77Z4kW0x2eJzEV9aQCjB2cH/gt4apEiFU+TRAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/5d8a9bf881ee0037441e1ff6aec15dd1/41fb7/WSL2.png","srcSet":"/static/5d8a9bf881ee0037441e1ff6aec15dd1/c2845/WSL2.png 5w,\\n/static/5d8a9bf881ee0037441e1ff6aec15dd1/f76db/WSL2.png 10w,\\n/static/5d8a9bf881ee0037441e1ff6aec15dd1/41fb7/WSL2.png 20w,\\n/static/5d8a9bf881ee0037441e1ff6aec15dd1/996dd/WSL2.png 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/5d8a9bf881ee0037441e1ff6aec15dd1/ee0e4/WSL2.webp 5w,\\n/static/5d8a9bf881ee0037441e1ff6aec15dd1/8b4b1/WSL2.webp 10w,\\n/static/5d8a9bf881ee0037441e1ff6aec15dd1/4eb25/WSL2.webp 20w,\\n/static/5d8a9bf881ee0037441e1ff6aec15dd1/3a6ff/WSL2.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"WSL2"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAPoAAAD6AG1e1JrAAACd0lEQVQ4y2NgIBGoJ6w/qVZy9D8Iq6dt/aoUuoqfgRKglrf/jmrrzf9qlaf/q1Wc+q8dOl+CcgO7H/xXbb5OvIEaUSt61XP33QTj1C031dO23YTxNeLX/oJ7OWUzcQaqZ2zfq9p5F+KKqjP/1arO/ldtv/0fJKZWeuy/ased/6p1F4l3IcTAe/9VW25ADKzGYmA9HgNVopfwqcetXq2etnUTGEevfK1WfPQ/CKtnbP+vnrXrP5wfvw7BTtn8Xz1pw06wnpTNmzSCF/mCDdQMnq8KijXVluv/QQGuVnYcTINcpVZ97r9a7fn/ql33IHIgF3bf/6/afA3sQpAvwGq7H/zXCFnYjTCw4tR/tZpz/1XbbkEMBHmx4QpYE1wjSA5kICjZgIICJF5/CSwOwhphC7sZNEMXe2uEL5mhnr4d4ZWkjQh25s7/6tm7sculbf2vln8Ayj/yXyNi6VkGtaIj31Smv/1PLcygVnz0M3UNzNt/naoGaiRtXI5PgfuKD/9dl38g3kD1kMWJqr2PcCroWn3t/+KDj4k3EJSo1YqPfsSlIGnTh//xG4l04aTn/yFZLXJZtWrPQ4jg1NfgrGVWc/x/4Nz7RLtMte/xf/WUTQfABhqnzWTVCF20u2DS0f+TVl38v+fU4//ff/75//HHv//eqwi4btqb/6rVZ/9oxKzs1g5dxQbPzzKhqzhdc9ZNX7ztxp/3n3/+hwGQoXm7PmO6qPcRKKf8Uk/asEotfImpWuhCaexlYcR8Bb3IZaWJLXs2Ncw5ebtv2bkvk1Ze/Jc6+cxv9eIjb9Ry957TSFi/QD14YZJy4CIxkB6FhPkcOhHzZEEGAAC1fAUT7ntM9AAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/53bd3dcb1c028e392d4161a4ef14f377/4eb25/Docker.webp","srcSet":"/static/53bd3dcb1c028e392d4161a4ef14f377/ee0e4/Docker.webp 5w,\\n/static/53bd3dcb1c028e392d4161a4ef14f377/8b4b1/Docker.webp 10w,\\n/static/53bd3dcb1c028e392d4161a4ef14f377/4eb25/Docker.webp 20w,\\n/static/53bd3dcb1c028e392d4161a4ef14f377/3a6ff/Docker.webp 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[]},"width":20,"height":20}}}},"label":"Docker"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADIElEQVQ4y61UTY8TRxDtX4eU/Aau5D8QCAdkjYQWSBBR9sQVYSOyRBEBKQkHImKGRGI5cNi1+VqyBmbG653+nHHPVEWvxl7bcMXSk3u6X72u6vpQzKzqulaxaVQ9n6t5jIK4wHweFXOrmGljf3U+F45zTkFLtURKa30qhHA5hHAxhNBbhw+hV1dVr64rWVdV1fuEA5vL0GiaRqmmbZUx5qqxjrWxjH/rHFvr2DnPdRXkG/tYY8+ucZY22pjvEYG4q7Xp4aDUpjLGRmtdjHWI3vvovI8Pnr0SOOeidy7OqxCttRFcrU0FW21MD1oqxkZpYxLcAoJz3e2//DMm7L2flnTt/i5fu79LWGPv7tMRgQMubBYeJp2HMSLkRMKwLgbv2XnP391OOZsZYiY+yI4FWGMPZ+CAC0/lST4VxC2xCvHndMTnBymd/ukhne0/4f5wn5hbQX84orO3nvDp7Yd0fpDynXTEXfidILIuqccHHhtvVhpHh0XJMNw7nBK1DfeHIwHWe4dHInpYlASuvLPzK0F4qLVJqiqIYDbTDG9uPt4nppYR5/YfLxiQH7V88/EePGZwvfMRttCQkFG0ztoE7/D78zfx+oPn8HAZIoTomxt/MQBRhA0xcMCFjSTI2gTFLx2AD7zhr/++jFfuPaM3H2eSjP5wDO/ozI1HDHSCYxF8/XFG4MIGtp0gn9Rh0hWti//lyGbLd9LxMmTe/nMzZDnjlsGFDWxLrRO070ZSpHB9oGlp6dwg5bdZKRL94Rieid7b7FjOwAHXOX9SNm3brgSRepTATjqSGkRpnNssG1l/2+/K5sLtlHYWZWMWZdNsCHa9GUtjuTjWDLGDbEbcNvwuPwaI2yh7OAOnNJZgA1t0StO0izdcaz3vpR558PceGef5w5GmH37bBfgDWs95Hgz3UX/AqvW0Tuax2RwO+mQ4WBkAXdG6zeHgfezC7IYDBkoptroX11rv8/HlVuNLvF+Mr+XYWo60tfF1VbJ8NJupyWTyVV4UP+ZFcSkviq0liqLYyvJiazqdCrI8PznL8w5ZLjbXJ5PJ16XWSsb2l8T/MhhrHR20NS4AAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/e5b669d77a36446d77fb7e4dbc6db4db/41fb7/tab.png","srcSet":"/static/e5b669d77a36446d77fb7e4dbc6db4db/c2845/tab.png 5w,\\n/static/e5b669d77a36446d77fb7e4dbc6db4db/f76db/tab.png 10w,\\n/static/e5b669d77a36446d77fb7e4dbc6db4db/41fb7/tab.png 20w,\\n/static/e5b669d77a36446d77fb7e4dbc6db4db/996dd/tab.png 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/e5b669d77a36446d77fb7e4dbc6db4db/ee0e4/tab.webp 5w,\\n/static/e5b669d77a36446d77fb7e4dbc6db4db/8b4b1/tab.webp 10w,\\n/static/e5b669d77a36446d77fb7e4dbc6db4db/4eb25/tab.webp 20w,\\n/static/e5b669d77a36446d77fb7e4dbc6db4db/3a6ff/tab.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"Tableau"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEaElEQVQ4y21UXWxURRQ+e3eVHwNRI4iJgEDvbCm2lALFBhBobAvdnm+3kCJiQboVwk+BCOxMKRGKGh4ahWBEDDDXAEYfxBT1QX2RIDEEQ2K0xsREIcEHA0qFGfAnqNfMvbsREif5cudm5nznzPn5qCPfMWpVRz7szHd8+e2WaWSkqDRSnDZKhBGkH32tdPBDq2IYKU6F6r6JZ2QDzSkcoQMyTy/JjUTrOldSV+eKSmrsv+fv7gn1xhk6IyluWOkPWCk+tUr0OxjpnzJSDBgpbhZJw2sy3RCqMTQoy5M/yqlE32ypSX64cT6F28fVFMnOWSVWWSUmW+kPMdInK32Kvkq4Fww1UlRY5eetEufjV4iZJj7zaFCm6but1SOuS3HSKr/dKmcYGxeJPCuF5y7/2V3mhS8+ROHOcXRditI95/w9I/1hzind6i6jq4X0lKuFdNnv3WV0ck2tN7C5MnUsX5d6YfkCb0m2JZEFJ3JgWpxtSRCFRDPW0Nmu6tTRfJ0X9kyiX6Xwfy6kK8JdY4lo2jratXwBHeuso/AK0ROZHLWCiRnEzAQggtsX/1MAj3UO6jM5InqLPl47gzYvbaB5za1ELYwRWfBji7MtVcwYA3AlM09i5iYA6wHUMvNsZh4BoIKZWwH0A7gf4FnMyLa3No8EOMOMRc7rWIC3gvlZZnYGbcycBdAHYAIABaALwEoAa5l5BjMrZq4CsA/AFoCfAXgPA5OpGNUGgJcz8zJm7gHQDGAXM48H0AtgNDMfZ2YGMBLAbmaeDkADmA9wBcCSGZ4jLAO4d/WShcOZ3RO5DcBEAAdKERVzuJeZxxTz+DTgnHE9M55clsuMBnNtC+MuAnhZhjFzT/t8oqouasjkKMMYDiBXKgQzNzLzwpiME65gS3MZmruolVzVv95USStam4lIE51aX+P6yv+lkK4OeybS1MY2L9w5Lumqf6hjtrexrdFrbMm64lFf+7zElW3liROrZ6V+eG5K6t7H2xO3tk9yPVntWu+m8onC14fQV5uqhljl9xsptg4W0uQOwufHR40b9hP9tK3c+2DNzGS4fziVGt/IaDLISlGwMmrsZNTYJp4CMkpMMVL8Y5X43iqxzSpRa5R44L+JiMfPKDHKSlFrlShYJS5YKf6yUpTbmNyjC731dHlHTTLsupsGtz9aZ5T4wxYVxihx0Sj/vFXiTBFufzEShkiB/BtW+dOLY5p0gdHbh/bT+6/tpt53z9KZl9dSuCHxoHHq4qTqNpjb97GcnbDSf9hG4iGSpRTQ8cMHSQeBw7o39eGjfe98MuFc3yq61j15jlX+XqvEZ0aJAavEgFHitFXiFaOEewndQabi1JDWmgKtnwq0DnUQhIE+MvDRqz2pyztq6LfCI6W8DbMxYgVyUqX8hI2VqFgcn6LlCLXW67XWYZH00tEjbwwNiejSzrkpI/1E7D1CIsqVEl6xCBHuWEEQOAzVWh/UWn8RBEGTS0Ggtdf0eRiLqiNSIlES21KU/7f+BUO1cFv/xQN4AAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/411385cebecca5857d894e0a84f8729e/41fb7/jupyter.png","srcSet":"/static/411385cebecca5857d894e0a84f8729e/c2845/jupyter.png 5w,\\n/static/411385cebecca5857d894e0a84f8729e/f76db/jupyter.png 10w,\\n/static/411385cebecca5857d894e0a84f8729e/41fb7/jupyter.png 20w,\\n/static/411385cebecca5857d894e0a84f8729e/996dd/jupyter.png 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/411385cebecca5857d894e0a84f8729e/ee0e4/jupyter.webp 5w,\\n/static/411385cebecca5857d894e0a84f8729e/8b4b1/jupyter.webp 10w,\\n/static/411385cebecca5857d894e0a84f8729e/4eb25/jupyter.webp 20w,\\n/static/411385cebecca5857d894e0a84f8729e/3a6ff/jupyter.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"Python"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAARlAAAEZQAGA43XUAAACTUlEQVQ4y+1VS2sTYRTN3xBrax8RFxmatpOHgYqdmATTzCtmUfFBQdxoFz52ggguxB9Q0bqQisRAFSqIUlxE1J2bUKrYmEmbR9MsbJNp2qYPEo7cL1WTaGjALF1cGO797plz7rkzn0GP+dGaUKFrARjy3yS0KgjUoMdktCL+AzY6IP9l8I1z+zL8ebg+txqt5Nc0GbmoxEKP/QPDnbTCnr9/lVBMKigmlOYkF+IysnMizp+x4fqYA6vzEjYWZTy5L0Ac5jF0oh83xhz48tGL9QXq2QdwPS5jaVYE19sLj3sAW0kFb0IudPZwcAr9ODdixYFDJty5OYjtlIxcM4CZWRFWmxmSj0cpo+De7eM42G7Cq6ALyPnx9rkb6YiINU1CPtYkoMViZhJpdsEJAW2HTQioFgZK89tdUvaMqQOsNoIOVAMqIs9yK/MSrl1xMNkdXSbIPh7haQ+2knWSq1eEGgtaZS3SER8DVCULVsjVhILtlILXIRcujdphPMrBbu/D5w9ebCb8f0omYGpIRXxMIoFbrRWGVCeTIuFTbH7Q/bh7axBtHSY8fSCgnD1dy5CayclnEwLsx/owOT7EovsIh4sX7IzxSMCKAd6MyXEB7156MHrWhvZOMukkdjM1gPIvwJkpF5NBc+rq4cBbzJiZcqOUURF8KPyuGTl0GzlcvVzZUV1Ta3+w9PkQKEnVPg0j9MjJpMy996KYqLyQHKXai8dOxj487WbMC3Gp8WLnojI2FhSUllWUl1VsLiosV1PLqChnVeykVeT3FNJV8AOkh4PX/674EQAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/08b5a7e360844c819927244588de490d/41fb7/js.png","srcSet":"/static/08b5a7e360844c819927244588de490d/c2845/js.png 5w,\\n/static/08b5a7e360844c819927244588de490d/f76db/js.png 10w,\\n/static/08b5a7e360844c819927244588de490d/41fb7/js.png 20w,\\n/static/08b5a7e360844c819927244588de490d/996dd/js.png 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/08b5a7e360844c819927244588de490d/ee0e4/js.webp 5w,\\n/static/08b5a7e360844c819927244588de490d/8b4b1/js.webp 10w,\\n/static/08b5a7e360844c819927244588de490d/4eb25/js.webp 20w,\\n/static/08b5a7e360844c819927244588de490d/3a6ff/js.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"Javascript"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACd0lEQVQ4y5VUW1PaQBTm59aKRCAkrXVqx7YPOn0uPHR64RJyKZYBOnSmD9FWcdoHBjqjze6GBDUQBG8IGHAUO5slAdQ+uLOzO5vzfbsn53zneG6ccT3E63B4ozWtXKkVkY2VfHUlX43IRq7U0prWcDiGkeEhGzHsH/fDshHgoTcOKA76eTwpDh8DPAzLxv6x5YJHZHIoqGe0AH0cYCTESoiRECPa0zn6OEALsKCeuRTPtcP0cSAkIlZSaQHRAgqJKMDDAA8Z+2PIWX0cIPzrof2yfmTRIkYzEqJFtJBSGRu3lNZepDUqCfz2FQQQEjFGP7JGbodlYy4BiG/zSfhxq640eqDR+1vvosOeYvbefNubT0LCZCU0lwBh2cDkSvMCX2wbyN3zSfCl2ISN3rNUZSGlfi0fGSd9YnUxfh5qzQtPrtzyxvGzxMBKyBsHnwr14t75bFyhOBxn82ywnNECjvMEkyu3PJF1g7Ij7JLnEiC+be7Uuuxn9DSlboBTxez5kyMmeZniQGTd8Kzmq248XPL7zXqnf1XcO29bV38OOs/TWnACw4jY7dV89R6yNwFi2+ZuvetPwl9a+yc8fRRVSJ5uk++6PRtXogWztN+ZiSmshBrtwYfN+uOYco/btwJmGyD/+3Cn1n0iqRQH38rGcffydVYPiVNBxQHTJlJF8hTdMmunfbM9KB10XmX1mZjyffek1bl896NGsj1O1aRIsHoEtLhWWc7oS2ltOaOztuaCAnyZ1RfXKrSARToWyUiewlh9QQGrOihgYbv/EuAhLTjyFBx53i0MgiZzUlX3F4ZbksGHluR0M7Ae3AzutqHsdBvK/qcN/QMsJ4z/DRpsKwAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/b418020090e95378fff1c51ae8def4d6/41fb7/r.png","srcSet":"/static/b418020090e95378fff1c51ae8def4d6/c2845/r.png 5w,\\n/static/b418020090e95378fff1c51ae8def4d6/f76db/r.png 10w,\\n/static/b418020090e95378fff1c51ae8def4d6/41fb7/r.png 20w,\\n/static/b418020090e95378fff1c51ae8def4d6/996dd/r.png 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/b418020090e95378fff1c51ae8def4d6/ee0e4/r.webp 5w,\\n/static/b418020090e95378fff1c51ae8def4d6/8b4b1/r.webp 10w,\\n/static/b418020090e95378fff1c51ae8def4d6/4eb25/r.webp 20w,\\n/static/b418020090e95378fff1c51ae8def4d6/3a6ff/r.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"R"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACJklEQVQ4y5VUu4oVQRSsudddH+xGBsp6TQTX9QtMNFHhimIiirguCIKJKApbx40UUVhR8BQamPvAwA/YxEAWTEQwMBL0H/wFme6enp7xXi8ONPPoM9VVdR6A+QuYtkB3mO+FCaADFGA+DHemb/XezIt6C9M8zB+A+hQOoN8DfQXmDdggAqb3GYCPQV1KwYdhOg7zW6Bvg/4MVJXYDUOMzWJKzYF6DdNSkjcuZD5MrA8GkACqGYDRs1VQt+OzroDaX/h2DtQ3UIcS2CDFTWVYrxFMr3Iywt0rmM8lkDFMX2Hak96r6YDNieabMD+ZfBq24MGS+r4B07u0P4hVoImAVQJcgukNqN2th2mFmAC0DdPprnTvAzaZ80XQX4LaWchuQFM9+hpMH9LelARlyToB+t18ahNcFnaU/xnUSvbyL5a1X5HhedBvpOdRBu2zNF8vEjjfKmnq03IXnAX9OkwjUD9ALfZ8bNYCTN9hOlKwH2TQ2Alh4yio+zC/CPpvUKvp+47ErFVDXYX5F1A3QV/oeIqN8FNTrITpJ+iXQT0JrRhBqwK0rQrqDkzvYX4q93rXeO0CdQHrwY8DoK7lgdDExV6uiolU1+RTUGuRYb/mylEVfRx1M+6ln2dgegSqnlAfYb6vzGKbzcwit1nVTZAPInOvh8ovWOr9enhMHhb9GuyzL8aY6TnMt0At/3tgmCYUd0dyk5x6jcF6MGsZ/31Z77BGfkzOsT8XpHhqn/QKYgAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/a41f2061186139958ff5624173c3594a/41fb7/sql.png","srcSet":"/static/a41f2061186139958ff5624173c3594a/c2845/sql.png 5w,\\n/static/a41f2061186139958ff5624173c3594a/f76db/sql.png 10w,\\n/static/a41f2061186139958ff5624173c3594a/41fb7/sql.png 20w,\\n/static/a41f2061186139958ff5624173c3594a/996dd/sql.png 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/a41f2061186139958ff5624173c3594a/ee0e4/sql.webp 5w,\\n/static/a41f2061186139958ff5624173c3594a/8b4b1/sql.webp 10w,\\n/static/a41f2061186139958ff5624173c3594a/4eb25/sql.webp 20w,\\n/static/a41f2061186139958ff5624173c3594a/3a6ff/sql.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"MySQL"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPklEQVQ4y42T72sScRzH/YfKWMh5d3r3/Z6ebqDndEPXoB4URNCjEYwe9SB60pMeFIzQnbrUbY7d7UzdjCAyK/qxEYSN1oMVGyZCNXBOyun3G54g7rxbfZ8d38/r+773+/P5mLDe6aA2xniz9mqv/lX97OiWmfTIbun7WsmXJW+VZhFCCKP/gnvkzq9P0wU+tAHohPne27sYY13+BNyraKP2TPGKkCWnC67RZTsRO/NkN9/3Ygi31eun3/Iu2TK1wYfWOfeSjVmwTMnjjVZjWN+kkcUY3yheG5WJ4LojmOf4FM0n7YR4Vvks9V/Xg1W3lcP9QIb3KkwgBydzHJ+0ORfstHh+pnBdo3EC7r1a3H/GrRA+BfizcCIHnQkaxik2Zh1LcrVGTdXQhTvHGOPVnTS1aPYp0JcB/ixwPKJgjIRREojEh+qWpueDcFc5sR0jU2ZBgYLC+h8DZ5yC8yQXpW1hy+u9lxrbWlj6smJNmb1yF/ZlgCNOgwgJ50kmQmxVNg2Ve218V33DLhFjEutRGEFhuSgFIhQTtvIi+71e6ec6nHY3iWbrKJQdd6RJj8J61xgo0iBsI+ZGrsqXT0u7/0vxskgvjggK55EYGKG5MGN5cG6tLPWtnTaejVbjYj4I04QgQWeEsdw3X1q+cKz2wnDCBsXLPz66V5mA7HI/ZMEctV0r6y6m4UqWKs/vvJi9nbtZ3C0arbRJd1F74R3Uq83mT81U/RtW7eE/raPfrUOEDY/J+Aoj1EZDOzwI/wVNOO4ZlrZEWgAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/9b024a605e8b2d0ed4d3f60aa9d0804f/7f8fa/mongo.jpg","srcSet":"/static/9b024a605e8b2d0ed4d3f60aa9d0804f/cfdfb/mongo.jpg 5w,\\n/static/9b024a605e8b2d0ed4d3f60aa9d0804f/f4570/mongo.jpg 10w,\\n/static/9b024a605e8b2d0ed4d3f60aa9d0804f/7f8fa/mongo.jpg 20w,\\n/static/9b024a605e8b2d0ed4d3f60aa9d0804f/b1fd8/mongo.jpg 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/9b024a605e8b2d0ed4d3f60aa9d0804f/ee0e4/mongo.webp 5w,\\n/static/9b024a605e8b2d0ed4d3f60aa9d0804f/8b4b1/mongo.webp 10w,\\n/static/9b024a605e8b2d0ed4d3f60aa9d0804f/4eb25/mongo.webp 20w,\\n/static/9b024a605e8b2d0ed4d3f60aa9d0804f/3a6ff/mongo.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"MongoDB"},{"image":{"alt":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC2klEQVQ4y3VVPWtVQRC9NzdREwU/I5gzggmIyrOzFkmhhaCFpHCmUAgoiIhoYas/QBTyA1SQQBQ1IFYKNkHBRrAQg0jCTFLEoESxeWji092dfe/GjwvDhb27Z86cObO3KP54TKgwQVd4K6OhjAVjzBpj0BiFMbqUwzcqLIQMpHcMFH89YVEFXSoIgBMm1IrBeBqBhEp/h+QBvPL9Zfj2T0CPtcY0rYJWDmOICUIFaxywSODwoNVgmjaUXtKAJmYzyhgPLJUxq0J9fjgkPGCMC8b0WJmmTXC60JNRM2cVS6kisNBwAFTBlDL6lDEfQYUmjGlMmWZSEmrVqhjPIKUJkhacEqjQaALALRd81MIhhoNEsFcmUGe/oIzB1DXJIBFoqwqOKtOUA1xOulFpTBMq9FCZzqrQDmWMKGPFmR+KGjpIf6jfmO4r05KlBoRYMcZw7Dy3O1+4xvtVqBkZC05557sDM1ahL7kcYyyp0DMVumiMvSbZInU70aAyzRvHsq+5D6vM8K0lTb4r440JhgMLczbJvG5kyev0PFYgmEyMUebEYfM5y11KmxZN8MAEx5WptzMFQUP0uJ7XvRGvldHroDGps8BBYzwywbJyxwrGGHMLdceRjMwjeL8JLTrLS65plQFLH7dwsGHBJoJmADXGjWT2mHS7MY6oYKM36UyqiOZMaJMnLj1juAxQuUbrTPAxMcV5n54+E3qROkqmQneVcUUFn5IfcTU3pqjdHKUvDhnTkmt6zNk9SQ6gb9lSbuxmKps+mFCP5Vn2kksf8j0qaBrTT2NqKNNNn+mXxtilQieM6XYYvTQ1EfCen+3cNtG4SZt9ylhWoc+a9AyH3inTNuPaRDFtUKbDxjSiQuvbGnYA27fM7lCaCn44szkT7HR9u+sz37aLe3DV9RUvzrS4WYW+uiffG2PIvVe1D3IOVDFqa6vuQssbhe6o0KQJtnhTqvqFavKf+P0L+AXX5HoBJrZHeAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/008192e6ac2d313cbcd2006fad3492a1/41fb7/spark.png","srcSet":"/static/008192e6ac2d313cbcd2006fad3492a1/c2845/spark.png 5w,\\n/static/008192e6ac2d313cbcd2006fad3492a1/f76db/spark.png 10w,\\n/static/008192e6ac2d313cbcd2006fad3492a1/41fb7/spark.png 20w,\\n/static/008192e6ac2d313cbcd2006fad3492a1/996dd/spark.png 40w","sizes":"(min-width: 20px) 20px, 100vw"},"sources":[{"srcSet":"/static/008192e6ac2d313cbcd2006fad3492a1/ee0e4/spark.webp 5w,\\n/static/008192e6ac2d313cbcd2006fad3492a1/8b4b1/spark.webp 10w,\\n/static/008192e6ac2d313cbcd2006fad3492a1/4eb25/spark.webp 20w,\\n/static/008192e6ac2d313cbcd2006fad3492a1/3a6ff/spark.webp 40w","type":"image/webp","sizes":"(min-width: 20px) 20px, 100vw"}]},"width":20,"height":20}}}},"label":"Apache Spark"}]}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/2572006233.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/2572006233.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allContactJson":{"sections":[{"description":"I check my inbox frequently, reach out with any questions, comments, or concerns or just want to say hi :)","email":"christopherrotunno@gmail.com","image":{"alt":"Gatsby Logo","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEVklEQVQ4y23PyVNTBwAG8PwDtYcWe2i99NSDop0qraWEAEkkhKyQjawQTAiCC0tQMRBegpQtCwkhCSTkJe+9JG9NHiFJdeIyVuzUEVstB6qjrVWrzgB1bMfO9NKhcOzMd/3N932MQrFEL+Upit5JJkPjKD5oHWjkcI+Ul3+2/8AY4KAzNAwhUAKKxcCF+YXZ2cD01DQwNMQoFktLS4X/ZJbK0AROKsTSsnf2bGfPu/vKPjhyoNza0wtDMATBIBiPRKKBwJxr2gUM2xnF4pUdTJKZ3HLB5/Z++N77n+z7iHXoYDOnbqa/a8Ks/nhv2QmTGUXxWAyMRKLBuaDb5QbsI9uYpgskmSVwKr9c6LZ0sQ/uB3vab/ntT4rI27tX/7lJ2jSSZrEUx4md5mAw5HF7nCPA9myazhNEBsPIXC5v1LV2Cdgr0+eeYf7X14k3ty+/XcnSo72nLCcIkgJjYHQHe7wOAGAUiqVMdhnHKRQls9mc6+LY+ElT4LSRcPY9z8dvxnwxe39h4lzEPYmksDgYj0aioWDI6/E6AQcjX7hMUUsoRqXTOEpkyegCBJy1KsVWleSG1565OJC4cOoXPFDCkAScghLQ4mIsHArPeGdGHU5GbvkbkqRTaSKZwpJpEoOT2MTIasj5OO3/PjC6dQXduka+ugQXk/EEgu7i8PwuXsoVcTyLJDEESSMImkIpxO+57h36dtZJ2c+sE5H70MyjbISGwf9pppcKGEbBcCoBITCUxMgsElkgxs7O93eAVstKeHJlfvIeGqbSaQhOgWA8Gl0MhcK7nzPZZRQlESQFI0kITnrcXsBmD9j6Caf10tSFB1R0DQ3Fxx2DA+chCIZhZGEhMjcX9Lg9DsDBoDK5eByZnJgaOmczqLTMwxUWY4dveNBzsu025Psu4b9boAIuT9Ox+s42o887E48nwuF5t8u9jUmKtp0fbmsxNDeIuF+xWJ8fBYZHr5ZuXGjXTXbqV69f29z60zFos+j0Ui5XxGZ3m8xTE1N+/+z27GQS0yu1coG0qUHIr6njsWpxLFu6esugMQwPAq823tz/8V6Pydyh0Yk5XGEdm1fF5DGZx/V62/lBRsAfbG6UqiVyuUDMrWSetnSvrT9dzpdMutb7aw9/e7Y55/FZNFqzWiPnNwrr2E31PD6rpraiQt3UzOjt7hWyG9RShVIo4bNqIqHFlxt/j3/tatO2Pfj58eNfX1i7TnbqDB1anYIvkDXw1WKJRiKtZ1bLRRKGTqnlsThKkVQllKhEkjurP935Yb1FKj/T1fPk+ealYqlDo+3UGcxqbatMYZDJ25UtKpGEfbSyoZbDENcL2JVMGV8kaxB0GU0vN/6a9QUNcsX02PjTF394J91tcrlZo+3UGzo0unaVxiBTCNkcTmUV83AFg1tVU13xhaSe31TPG7U7nr143Xd6oFWhAiPgw0e/93V2G2QKk1rX3Wo8rtIYlSo5X3CsqprHZH156NN/AVoCXT8DeBWPAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/f7241d51f2d060743c6ad5a8b7cfb9ba/fdb6c/profile.png","srcSet":"/static/f7241d51f2d060743c6ad5a8b7cfb9ba/39585/profile.png 35w,\\n/static/f7241d51f2d060743c6ad5a8b7cfb9ba/1ed9f/profile.png 70w,\\n/static/f7241d51f2d060743c6ad5a8b7cfb9ba/fdb6c/profile.png 140w,\\n/static/f7241d51f2d060743c6ad5a8b7cfb9ba/5b84a/profile.png 280w","sizes":"(min-width: 140px) 140px, 100vw"},"sources":[{"srcSet":"/static/f7241d51f2d060743c6ad5a8b7cfb9ba/53f45/profile.webp 35w,\\n/static/f7241d51f2d060743c6ad5a8b7cfb9ba/3e8d2/profile.webp 70w,\\n/static/f7241d51f2d060743c6ad5a8b7cfb9ba/540fd/profile.webp 140w,\\n/static/f7241d51f2d060743c6ad5a8b7cfb9ba/484bf/profile.webp 280w","type":"image/webp","sizes":"(min-width: 140px) 140px, 100vw"}]},"width":140,"height":135}}}},"name":"Chris Rotunno","socialProfiles":{"from":["LinkedIn","Medium","Github","Mail"],"showIcons":true}}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/3525841079.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/3525841079.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allHeroJson":{"sections":[{"description":"Personal landing page and blog","heroPhoto":{"src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAADIElEQVQ4y8WUX2gTBxzHv3eXXO5yd0kuye1yf5JrddU5RSqa+aA4wQpTB5NNBXHWsq4dK6hr2TqaahexaonTgqYLLVZGu7JRnWuxiWWlonPqSrepnYpaJ7IFRNmDgjJ8+kn7ONuy+uIXfvzg9/Dh9x94mQrFQxPaC0sackEa5sa99xqL4AcByMd5cASAAOWI8P9hStYD6awL0jkXpAscxLMsvDdZRj7Gj8MiYmR6QH2WDqXHA+UHD5Scx/K1ikH5jBvyCV5VcjwjD7gRhDY1ZIap4lTCwPlaC+lKHW+eFDjPdUD8nVknXmTmykOu1fIJ/lXpVxeUDgF+BCeHrS72g3oLMZqOYrDeZIiKUfQJj9I1cKmXvC3+q8Ih72W2UrrObZRGuC3ygHuRm6bI7sedFu63O7j8pc321BhjISaJYjceoCp01/tAHwlU8H9iodIrGOpxSfClRZ9cKzATwuJFKjq3GRhqstlzjTb2vf9KNN/mDD7+pvDeljPKeTxCAR4C4h0Wcg+PwEkRvowIuVp8HqZpGihbiPr3NKxbGsPNliJPLmEMP+xw6NZhm/L7nYvtpKKcBHbekIdV2gVY1RH4U15ISc9/+rYohF/2WridtjGw0+QGv7Cwaak651Fnwb/UN/PpyEGbGjYGm+rnKsi8G2YbEn6sGi5BsFV5PrOobaG5TMfppIn+HSbXsTWCto/01+4fdUafdBXQ1Wab/mp1ugEX07DeQF+dhWzCnHwIVW+FsKo4gO+qDaZs+dg5ufk/mqO1j7sK6Lf90bKmTdoaAHzN22Ec+TjCZBMWej+fArh5mQ9r3wiAaDEoV4grB+zcna+iNJqOfUu0EAdKwyAiJDeEmUyFjly9hVQqNTmwYoUf+TaHzbc5+Gm3VXY3E/snXa6VEs0BUTe6ayKuyhIVlSUBpDZriMfjU1/F/BnqWJnj+9Zepa9v+dDQsnUREC1A13ZzrBW4sMeazi9Zib+/nocbmdno32Ggc7uJnxtN7tN3dHz/mY2+OhOxmDMd4BL0N76OU7tmobc2wp5O2gwNF4Hys1G+Ijz9X2dZ1oT20vUM4Xnv9J2hTAQAAAAASUVORK5CYII="},"images":{"fallback":{"src":"/static/75315790ff013140e66e9c928af8c841/ca275/rotten_carot.png","srcSet":"/static/75315790ff013140e66e9c928af8c841/ccc8a/rotten_carot.png 150w,\\n/static/75315790ff013140e66e9c928af8c841/67d4a/rotten_carot.png 300w,\\n/static/75315790ff013140e66e9c928af8c841/ca275/rotten_carot.png 600w","sizes":"(min-width: 600px) 600px, 100vw"},"sources":[{"srcSet":"/static/75315790ff013140e66e9c928af8c841/3554d/rotten_carot.webp 150w,\\n/static/75315790ff013140e66e9c928af8c841/c437f/rotten_carot.webp 300w,\\n/static/75315790ff013140e66e9c928af8c841/bcf7f/rotten_carot.webp 600w","type":"image/webp","sizes":"(min-width: 600px) 600px, 100vw"}]},"width":600,"height":600}}},"alt":"My Photo"},"image":{"alt":"","src":null},"intro":"","socialProfiles":{"from":["LinkedIn","Medium","Github","Mail"],"showIcons":false},"calendly":{"label":"Schedule Free Zoom Appointment","username":"christopher-a-rotunno","colorText":"#FFFFFF","colorButton":"#0069FF"},"subtitle":{"highlight":"Business Strategist","prefix":"","suffix":""},"title":"Chris Rotunno"}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/4239582004.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/4239582004.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allSettingsJson":{"settings":[{"siteMetadata":{"author":"Konstantin Münster","avatar":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADlklEQVQ4y31V60sUURQf/ROEPgdFpSbquo7a6kpKggYiBK0ZvvKxO7YqiqaYRCS4WFmar92d3bVVl81XFkWRVCSU+aGHBUb2IaQP0kOXUlFxdO6N392ZzQXpw9m9c+89vznnd37nDGfU2jlYeZyNmVFrD2XPGhtn1jnDzDqn3qxzGhTTVya7wnCm+IWq/qrtfggpPtrLmeLtnIkX+YpEh6dMY1sqiuyh+Ye7mGGNPZwJvMjjLnzgGwBUogopjbVydScGAGYpj7PRgiPd1Ki109aCCepsfi7DLIUT1BRvZ2e4I/CipS5jkIOvCspQi6N6VTBvaYyVlsZYyUj7tLTq25AppWRnW2aG9drvTXm8c0Yq19hISXQfXuCtTu1XA2OAoUqaFoCZdU5p/s0igOiL0TnSVnyP1KS5KQxr7OHs68cfcm26WyqNtQLUonLKUMEZUkBkANuWdmjLmTGSd6CT8aZEzdbYu3x6lEhbO3R2akEuiuwhoMEYb+eNWpufQ5AM0r1tLyW8vSVvnJw9eItWJDqoiRcZlzCssZd/qIteOjVMWvPv0pLoPkk597CUK1NcYaickCBS8DM5+IHk7u+g5485GfEqGEx9xl3wV3y0F9HJytmSUWsP44QEUQ8eqvT9dNW3QRbmfpKKJAdzQEQqSOBfw6iBfGAENGFPuaNHygY4Fkb0yI1ZHsbNt/klltpeoIiuKsVFK1NcLIjq1H5SkeiQlTsG8GcA2e3GB3Jzzh1W0W2Afg4GhUF/jqZnoJmicFub21Ta2iHW+km5ILwbCjFwlckufWF4N70pPASHpCFziNSmu5nDblCVt6ZsLx1omaL2xqf0cf97pk0IHkGhNQEYKMrK8rq8uS6RC5lD9H+gcM7Zd40+cr4j8AEdwEDvc2Uav2yQzljHDJPNyvI6aTzp2RPUrHOy1K/kjjGBj9x4LUFywMDQYMIWEkQelTLxIlG7ZMW3wUADnKJQSQ4KSUHY4O/L20WZVTmO+fJBrSckiBZEUJvmDrQeCL+Y7SU1x29jTRc+/SJP3LMsMtxBm0JCaFtgsNYrj/OPoPqMQU7gRa/S8GT4+rTk+74mb6xtEUTUkOUhiHrtz6bsvfoKQEQB82KwAANY7CcwvvygQeOr7dx9KAA9K0N3KAw4U9K0AOzf+LLtPWAFZcCinYoielhVoUN0lDpgTeqAjfIPWCWwIMCgsb77EwDxo6PQpuh9dfbt9Qn4C1JSZAGQ4CHnAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/05712cc0881a7e09b19bf39b77fdd28a/90cd3/gatsby.png","srcSet":"/static/05712cc0881a7e09b19bf39b77fdd28a/d06fd/gatsby.png 25w,\\n/static/05712cc0881a7e09b19bf39b77fdd28a/5861f/gatsby.png 50w,\\n/static/05712cc0881a7e09b19bf39b77fdd28a/90cd3/gatsby.png 100w,\\n/static/05712cc0881a7e09b19bf39b77fdd28a/614dc/gatsby.png 200w","sizes":"(min-width: 100px) 100px, 100vw"},"sources":[{"srcSet":"/static/05712cc0881a7e09b19bf39b77fdd28a/78997/gatsby.webp 25w,\\n/static/05712cc0881a7e09b19bf39b77fdd28a/9afd2/gatsby.webp 50w,\\n/static/05712cc0881a7e09b19bf39b77fdd28a/e64f1/gatsby.webp 100w,\\n/static/05712cc0881a7e09b19bf39b77fdd28a/8b00d/gatsby.webp 200w","type":"image/webp","sizes":"(min-width: 100px) 100px, 100vw"}]},"width":100,"height":100}}},"bio":"This biography will be used in the footer area of an article and can contain some more details about the author.","description":"A Gatsby Theme to create a clean one-page portfolio with Markdown content.","language":"en","siteUrl":"https://gatsby-theme-portfolio-minimal.netlify.app/","thumbnail":{"childImageSharp":{"original":{"src":"/static/clement-h-95YRwf6CNw8-unsplash-5a147418d33fc2b7c46b04381df53665.jpg"}}},"title":"Gatsby Theme Portfolio Minimal","social":{"behance":"https://behance.com","github":"https://github.com/towardsuffering","linkedin":"https://www.linkedin.com/in/rotten-carot/","mail":"mailto:christopherrotunno@gmail.com","medium":"https://rotten-carot.medium.com","twitter":"","hashnode":null},"titleTemplate":"%s · A Gatsby Theme"}}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/513457919.json":
-/*!**********************************************!*\
-  !*** ./public/page-data/sq/d/513457919.json ***!
-  \**********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allProjectsJson":{"sections":[{"button":{"label":"Visit Me on Github","url":"https://github.com/towardsuffering","visible":true},"projects":[{"category":"🪙 TRANSACTIONS, CASH FLOW, DEBT & TAXES","description":"Including the practice of statistical methods, insights engines, decision science, disparate data, descriptive, predictive, and prescriptive analytics, target market selection, new product introductions, customer retention, pricing, segmentation, promotion, data warehouses, data lakes, cloud computing, machine learning and artifical intelligence","image":{"alt":"Quick Setup","linkTo":"","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgARCAAeABQDASIAAhEBAxEB/8QAGgAAAgIDAAAAAAAAAAAAAAAAAAcFCQYICv/EABkBAAIDAQAAAAAAAAAAAAAAAAUGAQMEB//aAAwDAQACEAMQAAABrfTfSzV71lPrDH0DND3XmkklFEiYGLZr/8QAHRAAAgMAAwEBAAAAAAAAAAAABAUCAwYAAQcRE//aAAgBAQABBQJziClsbkd0OSWfOwdLVtEGyZq5XEd0St8b9KLz+m9HfmC6a08mydLUkebV+Y3O/effP//EACQRAAIABgEDBQAAAAAAAAAAAAECAAMEERIhBRMxQSJCYdHw/9oACAEDAQE/ARMm0ygpPzVtpkLMfHgkagV86w+4HEch1U9SCnVzMAz3dgAy69psG32N7dzC0QAAxT9b4j//xAAjEQACAQMDBAMAAAAAAAAAAAABAhEAAwQFIkEGEiFRE2Hw/9oACAECAQE/AWwMbMa4LmOMa5ZhbgVxcQGAR5Ko0MDMlfY4ptFx5O7n0fqm6l074Hhr5ymtraLBDDIhJSSY3L3sJ5BEnaKbVpYnvveT+5r/xAAoEAACAgEDBAAGAwAAAAAAAAABAgMEEQASQQUhIjETFDJRgZGhsdH/2gAIAQEABj8CEcsMhmz3VEbcnPmpXnXlGfyjD+xr1/B1cuGnUuXaHw5hmtXlkesxCzKymMsVTxfdwN3fHcTMaEMQ3OpxCIth4+gBPXrOPt30THA209x4t/munQ3S9mhcnSjPFvxmO2flnwScZ2ynaScA4117p9S4ZatbqdqGJztk8YZmRSjOpPGmdpWLMck5OkkiCK8bK6N5ZVlIZT74Izq31CxHXjlu2JbMqwrIIxJMxd9geR2CliTgsffvXH61/8QAHxABAAIBBAMBAAAAAAAAAAAAAQARITFBUWFxkfCB/9oACAEBAAE/IWCrR9qlW4uATtiaFDmDyUnuOp9PyXbpgnSqyHaBQyURQ2WFOFCAsIwuMFGUbl99qie7XdUAg5kiQzEt086ewitOl3iKSwhlVtdeZlL1SHGjkw7JQYIOZdw5csYRdf17n//aAAwDAQACAAMAAAAQ6MYz/8QAHREBAAICAgMAAAAAAAAAAAAAAREhADFRYUFxgf/aAAgBAwEBPxBTj4lJSNshmtM1ceWaOHFb9n3rCFLcyJYJSgpKMAYIR0AWJstdnTffRn//xAAbEQEBAQADAQEAAAAAAAAAAAABESExQYFRcf/aAAgBAgEBPxCmmHBJjMIACdBccAoI5LwaXlmfPbQVOtNmpOBGTHSoRqx1unfn39z/xAAcEAEBAAMBAQEBAAAAAAAAAAABEQAhQTGhUYH/2gAIAQEAAT8QHTQEOMXNphZBgopSJofy1B7sXx7jNInITaeEc5MDHqA81fLVAtsB8oEiyAlA6DBvsgEkSItBoRSJidswv+quprA8Uzo/G6VwllA3uP8AI3jkaypZy/zHG9EUx17mKQo7pnO+JzsuDFgEtEP4afU/c//Z"},"images":{"fallback":{"src":"/static/f18ba4a18292870a0887e7e70c91eca1/f0d75/brandon-morgan-3qucB7U2l7I-unsplash.jpg","srcSet":"/static/f18ba4a18292870a0887e7e70c91eca1/16c14/brandon-morgan-3qucB7U2l7I-unsplash.jpg 100w,\\n/static/f18ba4a18292870a0887e7e70c91eca1/71b49/brandon-morgan-3qucB7U2l7I-unsplash.jpg 200w,\\n/static/f18ba4a18292870a0887e7e70c91eca1/f0d75/brandon-morgan-3qucB7U2l7I-unsplash.jpg 400w,\\n/static/f18ba4a18292870a0887e7e70c91eca1/8e9f0/brandon-morgan-3qucB7U2l7I-unsplash.jpg 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/f18ba4a18292870a0887e7e70c91eca1/61b56/brandon-morgan-3qucB7U2l7I-unsplash.webp 100w,\\n/static/f18ba4a18292870a0887e7e70c91eca1/2d058/brandon-morgan-3qucB7U2l7I-unsplash.webp 200w,\\n/static/f18ba4a18292870a0887e7e70c91eca1/c628a/brandon-morgan-3qucB7U2l7I-unsplash.webp 400w,\\n/static/f18ba4a18292870a0887e7e70c91eca1/2d69f/brandon-morgan-3qucB7U2l7I-unsplash.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":604}}}},"links":[],"tags":["Data Analytics","Experimental Design","Business Strategy","Interactive Reporting","CRISP-DM Model"],"title":"Business Intelligence","visible":true},{"category":"🌐 SENDING & RECEIVING INFORMATION","description":"Including the practice of software engineering, coding infrastructure, downloading/uploading, cryptography, data communications, blockchains, open-source software, software as a service (SaaS), content management, user interfaces, client-side scripting, server-side scripting, network connectivity, network security, web mail, e-commerce, progressive web applications, short-term memory, long-term memory, storage and cloud services","image":{"alt":"Extendable Layout","linkTo":null,"src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAgFBwn/xAAUAQEAAAAAAAAAAAAAAAAAAAAG/9oADAMBAAIQAxAAAAFRXUxkssY+XMiheP8A/8QAGhAAAgMBAQAAAAAAAAAAAAAABAYDBQcBAv/aAAgBAQABBQLMs6oWGNyxJcrF+2GgBsF1tt6LvvSmyQUsqecj/8QAIREAAgIABwADAAAAAAAAAAAAAQMCEQAEBRMhIjEyUbH/2gAIAQMBAT8B07PaXDKqUxFkhhfSVz3AIX85VJZHvXcvyo3eGyVusK6EDORgCvkRvqDz9fmP/8QAHhEAAgICAwEBAAAAAAAAAAAAAQIDEgURBCEiABP/2gAIAQIBAT8ByOIzs/PPK4+T/OENEYY7yJT2C6lUBSQFfPdNbtttVMYcIl2s9VuR0C2hsga6BP3/xAAmEAACAQMEAQMFAAAAAAAAAAABAgMEERIAEyExIgUjQTJhcZGh/9oACAEBAAY/AoquomWdiyq0EsUgWPLi8hxsFHy+TD7jUvqBWgUrGm2KKNpp82Fl9uDJzz9XjqqpbyNsysl9pl6JHT4t/BrKhnZG6DBrFbg9cH9daqVn9TqJ0fbBjdxh55eXCA5jHhrj8akmldmeRizG/wAnnX//xAAaEAEBAAMBAQAAAAAAAAAAAAABEQAxQSFh/9oACAEBAAE/IatRu4i01KS26svZSTDGhiare5m7srdrGA88vyMXbfLEq+C0VvmDxDQU1aVFIXCqWK6qq87wD5n/2gAMAwEAAgADAAAAEKMf/8QAGREBAQADAQAAAAAAAAAAAAAAAREAITHR/9oACAEDAQE/EHBigVaRZVKCiNA8B7MptHaSPrP/xAAZEQEAAwEBAAAAAAAAAAAAAAABABEhQVH/2gAIAQIBAT8QtMuOXkPO1VCtwCiEsR8oAocGvZ//xAAZEAEBAQEBAQAAAAAAAAAAAAABESExAEH/2gAIAQEAAT8QLL6oS4oaSwImvx6bqo3UPNaoJxj6JunVx0RhqirC67YqCcuitL6h5/U1uIxr1Jq8As0sQRIoqR8NX//Z"},"images":{"fallback":{"src":"/static/de793cbaa3ebcfc1db0a7995b63fef02/58b3a/joshua-sortino-LqKhnDzSF-8-unsplash.jpg","srcSet":"/static/de793cbaa3ebcfc1db0a7995b63fef02/a77c0/joshua-sortino-LqKhnDzSF-8-unsplash.jpg 100w,\\n/static/de793cbaa3ebcfc1db0a7995b63fef02/b8aa4/joshua-sortino-LqKhnDzSF-8-unsplash.jpg 200w,\\n/static/de793cbaa3ebcfc1db0a7995b63fef02/58b3a/joshua-sortino-LqKhnDzSF-8-unsplash.jpg 400w,\\n/static/de793cbaa3ebcfc1db0a7995b63fef02/2b424/joshua-sortino-LqKhnDzSF-8-unsplash.jpg 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/de793cbaa3ebcfc1db0a7995b63fef02/64a37/joshua-sortino-LqKhnDzSF-8-unsplash.webp 100w,\\n/static/de793cbaa3ebcfc1db0a7995b63fef02/70449/joshua-sortino-LqKhnDzSF-8-unsplash.webp 200w,\\n/static/de793cbaa3ebcfc1db0a7995b63fef02/d603c/joshua-sortino-LqKhnDzSF-8-unsplash.webp 400w,\\n/static/de793cbaa3ebcfc1db0a7995b63fef02/9298b/joshua-sortino-LqKhnDzSF-8-unsplash.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":267}}}},"links":[],"tags":["Full Stack Dev","Blockchain","Dev Sec Ops","OSI Model"],"title":"Information Technology ","visible":true},{"category":"🧑🏻 SELF-AWARENESS & AWARENESS OF OTHERS","description":"Including the study of self-awareness and introspection, motivation, empathy, social skills, stress, communication, individual, team, and organizational conflict, new languages, and spirituality","image":{"alt":"Extendable Layout","linkTo":null,"src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACjklEQVQ4y1WUa0uyQRCGn/8PfhHBP6CCEIqRgpjnMs9a5qnyWB5L86xJMHENrC/vh3Wf3Zm5Z+57ZrVGo5GMx2OZTCby8fGhazab6RkbO+f5fC7T6VSGw6H6YHt/f9fFmb3f74uFAUcCASb48fFRnQD5+vpS506no3buG43G5UyCwWCgPr1eTyxTHaAAkMVms0k2m5Xtditvb2+STCYlkUjI3d2drNdrcTgc4vF4NBlgxFAY3xdAQzGXy0m73ZZ4PK4O5XJZqtWqNJtNtUWjUbm+vhav16sJKIK4C6ABwlCpVCQSicj397fSvr29VUqAQxE5/H6/Vv/09KT33BlAaFtQ5bBcLuX5+VncbrdSocpisajL5/OpPnwHg0FJpVJSKBT03gDClP3SFEBWq5WEQiE1fn5+6n0+n9dEpVJJWq2WNsRut4vL5VLtFouF+rGIUw1ZVPjy8vKfXoBCjx3NaAyJHx4eJBAIaMM2m82loVRr8UEAmXC+ublRHdlrtZoC/v7+SiaTUf3whzJM0JBY4thZFj84MSJUSAevrq5UK8Cg+fPzo82BOolJGA6HtTF0GqkMjjYFumiJkda/vr5KvV6X+/t7te33e+08ckCRRPhiQ2OmY7fb/aOMAc0YDXShm7FYTGmeTicFYadaFhpDm8TEMvhmUiwykxEQukY3u92upNNpDaY6XsfhcNBnx6BTBH7MKlUxf/gjh8UYUA2d5pv5A4QAdKE6ANGYxb15biRkx4+CKMxCXBygiuiUDTijAQAMAGQdj0f1gQFJqcjMKy+OsbLoFE5Op1PH4nw+azboQJMOGkCEp9vQJhnjAmUzh/r0GBVKBxQDAIiMXtDlTJUs8033zV8bgDCCOs36A66XvI6FK4YWAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/ca6268392497e3bea0e2fff5fc2d4cc0/7118c/walk.png","srcSet":"/static/ca6268392497e3bea0e2fff5fc2d4cc0/30c2e/walk.png 100w,\\n/static/ca6268392497e3bea0e2fff5fc2d4cc0/a862b/walk.png 200w,\\n/static/ca6268392497e3bea0e2fff5fc2d4cc0/7118c/walk.png 400w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/ca6268392497e3bea0e2fff5fc2d4cc0/a2626/walk.webp 100w,\\n/static/ca6268392497e3bea0e2fff5fc2d4cc0/0ddfe/walk.webp 200w,\\n/static/ca6268392497e3bea0e2fff5fc2d4cc0/18843/walk.webp 400w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":338}}}},"links":[],"tags":["Emotional Quotient","Disagreeing Agreeably","Debate","Perspective"],"title":"Emotional Intelligence","visible":true},{"category":"🎵 Vibrations & Frequency","description":"Including the practice of song and dance, music composition and performance, passively listening to music, going to concerts and festivals, jamming with others, and sharing life through music","image":{"alt":"Extendable Layout","linkTo":null,"src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAYIBwn/xAAVAQEBAAAAAAAAAAAAAAAAAAAEBv/aAAwDAQACEAMQAAABesrlZbhLO8zlKPJ//8QAHBAAAwABBQAAAAAAAAAAAAAAAwQFBwAGExQW/9oACAEBAAEFAo9Be7s03bkTvZSk9KMshx8WzSrZQpcgXv/EACIRAAIBAgUFAAAAAAAAAAAAAAECAwUSABEVISIEEzFRcf/aAAgBAwEBPwGGm6dVab0vcu1CVZQQFzSNuKLeUuRxcb7OLbDa3MyUaVHdRMmQYjw/v6Mf/8QAIREAAgEEAQUBAAAAAAAAAAAAAQIDBAUREgATFSIyQVH/2gAIAQIBAT8BqrtFcrHfKkwEdsSanbck9SSMEu2gchkJVSm52XyznYjkV4gaONjFJlkRvWP6qn95/8QAJRAAAgIBAwMEAwAAAAAAAAAAAgMBBAUREhMAISIGFCMxJTND/9oACAEBAAY/Aroqv8rLWKfjWZB65pfkFDNS24wWMEkBfqe9QRGz9Y6zEdHh0ZipaYOTr0lWZav2QY2tz3mpJB1yuPb7l6UWq6CewZJJeDFWxHir4b1HmA3vkreGwTrtOGRYatiOaCDRyiX8i9PDUe869ZOVWbK5bWyzGbbDo3GzyM5jfpuIvKZ+93f76yFa/Y5q+HVaVjEQlCFUwBdXTiCupQ8k/wBGlua2e7DOengmzdUHxHtVeuLHcxCjMtAfEbjMpIp+5me/X//EABoQAQEAAgMAAAAAAAAAAAAAAAERACEQMYH/2gAIAQEAAT8hPBtLyTMtWTxj5s+nOJYxZZVSae/AVB6UMn/BIeGNnjBdsDkBupQy0A0VRwq2TlGxjsoE1lOf/9oADAMBAAIAAwAAABA83//EABkRAQEBAAMAAAAAAAAAAAAAAAERIQAxkf/aAAgBAwEBPxCQRC4mABc2EUhjhAjVVYYqWc7hfJ//xAAaEQACAgMAAAAAAAAAAAAAAAABEQAxIXGx/9oACAECAQE/EDgIaABgRZlIyIGPZFaYsu3vH//EABgQAQEBAQEAAAAAAAAAAAAAAAERACEx/9oACAEBAAE/EDFHbmu/KVZKmZ8K8s5N0UO5DMbdyy+JuA9yEGOWlqVJ1lEc49oSPyAnPG8uBArUFQM0EO//2Q=="},"images":{"fallback":{"src":"/static/b12e35370632dbadf42f1be32c82a622/e8044/singing.jpg","srcSet":"/static/b12e35370632dbadf42f1be32c82a622/51e1c/singing.jpg 100w,\\n/static/b12e35370632dbadf42f1be32c82a622/b3172/singing.jpg 200w,\\n/static/b12e35370632dbadf42f1be32c82a622/e8044/singing.jpg 400w,\\n/static/b12e35370632dbadf42f1be32c82a622/a8c31/singing.jpg 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/b12e35370632dbadf42f1be32c82a622/e52fc/singing.webp 100w,\\n/static/b12e35370632dbadf42f1be32c82a622/e8411/singing.webp 200w,\\n/static/b12e35370632dbadf42f1be32c82a622/a29e4/singing.webp 400w,\\n/static/b12e35370632dbadf42f1be32c82a622/6606c/singing.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":225}}}},"links":[],"tags":["Dub","Americana","Reggae","Hip Hop","EDM","Rock","Alternative","Country","Genre Defying"],"title":"Music","visible":true},{"category":"🏠 Family & Home","description":"Including the daily care for beings outside of myself, walking the dog, changing the the cat box, feeding, bathing, nurturing, cuddling, and teaching tricks","image":{"alt":"Extendable Layout","linkTo":null,"src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAcGCAn/xAAWAQEBAQAAAAAAAAAAAAAAAAAHAgT/2gAMAwEAAhADEAAAAXPl7chGkKesSem6/wD/xAAaEAADAAMBAAAAAAAAAAAAAAAEBQYBAgMH/9oACAEBAAEFAqb0xgFpTAO6tp27bHYaUicU3vQZYsKM9eKz/8QAIxEAAQMCBQUAAAAAAAAAAAAAAQIDERIjAAUTFCEEFjEyQf/aAAgBAwEBPwFOQZeb+zctQ5qErLYCR5IdVS5SeYAUkfRjtnpXr22XchcjTSDMGqkAAVe3AA5nH//EACERAAIBAwQDAQAAAAAAAAAAAAECAwQREgAFBhMUIzFB/9oACAECAQE/AU5LvUS+LT1irFL2RBGCpIzOyZYvEC8WQCqHLq9jZfp0Oa79EBGaiiPWAnsUSOAtlVC8rGQ4KAgyJIUAfmv/xAAjEAACAgEEAgIDAAAAAAAAAAABAgMEEQAFEhMhIiMyBhRh/9oACAEBAAY/Aj1bNYpDl1DvaCxM7nypJjzXijZPZcuzMQR/dW/yi2i7irfN+ktc5iWpDFWgQhSEfKczxRW45aX2PjVea/Ts3JRVrqnZdu1jWj6w5qca80COIZnl+Upzfl5JwNPHu9yQ0y5zWrU5Zy/FzGI4kl6IVkYnzM8iKrAvxf0GqdHb4IY6ti7XqA3AV6Y29O0JVHxsV8yKjTYGViIzp6se3vuElaNYbVo25q3ZaUuZOMZOeKgooJznH2b7H//EABgQAQEBAQEAAAAAAAAAAAAAAAERIQAx/9oACAEBAAE/IdAZqLesXqO7Jze6Yee3MwssDOtDaosLM13qm49by7oPrUtkdXWYntFkjCGNLOMDC4BGi9zG58f/2gAMAwEAAgADAAAAEPff/8QAGBEBAQEBAQAAAAAAAAAAAAAAAREAITH/2gAIAQMBAT8QDC3r/JopimgGgG5wgYM2gqgqosAM3//EABcRAQEBAQAAAAAAAAAAAAAAAAERIQD/2gAIAQIBAT8QGaoCFLW3TLx178CFOAJsMkU7/8QAFxABAQEBAAAAAAAAAAAAAAAAAREAIf/aAAgBAQABPxANaznqQXgoCCz/ALKkG8A0wTkUFDZwVhkBOmgDQnGM+ogzaMe2JJNplCUWDA3BgAHvDeuRv//Z"},"images":{"fallback":{"src":"/static/a21d6187958eac14120c968a392dbfca/34e0f/animalfriends.jpg","srcSet":"/static/a21d6187958eac14120c968a392dbfca/b96c0/animalfriends.jpg 100w,\\n/static/a21d6187958eac14120c968a392dbfca/ba9a6/animalfriends.jpg 200w,\\n/static/a21d6187958eac14120c968a392dbfca/34e0f/animalfriends.jpg 400w,\\n/static/a21d6187958eac14120c968a392dbfca/42055/animalfriends.jpg 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/a21d6187958eac14120c968a392dbfca/790c7/animalfriends.webp 100w,\\n/static/a21d6187958eac14120c968a392dbfca/4c856/animalfriends.webp 200w,\\n/static/a21d6187958eac14120c968a392dbfca/4dac1/animalfriends.webp 400w,\\n/static/a21d6187958eac14120c968a392dbfca/d0f18/animalfriends.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":300}}}},"links":[],"tags":["Sandy the Golden Retriever","Honey the Tabby"],"title":"Cats & Dogs","visible":true}]}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/540466502.json":
-/*!**********************************************!*\
-  !*** ./public/page-data/sq/d/540466502.json ***!
-  \**********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allArticle":{"articles":[{"categories":["Setup","Tutorial"],"date":"2021-05-28 00:00:00","slug":"/my-first-article/","title":"This is an exemplary article for the blog.","readingTime":{"text":"3 min read"}}]}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/597217301.json":
-/*!**********************************************!*\
-  !*** ./public/page-data/sq/d/597217301.json ***!
-  \**********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"allLegalSection":{"sections":[{"html":"<h4>Information pursuant to § 5 TMG</h4>\\n<p>CHRISTOPHER A. ROTUNNO<br />\\nNASHVILLE<br />\\nTENNESSEE<br />\\nUSA</p>\\n<p>E-Mail Address: <u><a href=\\"mailto:CHRISTOPHERROTUNNO@GMAIL.COM\\">CHRISTOPHERROTUNNO@GMAIL.COM</a></u></p>\\n<hr>\\n<h4>Liability for Contents</h4>\\n<p>As service providers, we are liable for own contents of these websites according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However, according to Sec. 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.</p>\\n<p>Legal obligations to removing information or to blocking the use of information remain unchallenged. In this case, liability is only possible at the time of knowledge about a specific violation of law. Illegal contents will be removed immediately at the time we get knowledge of them.</p>\\n<hr>\\n<h4>Liability for Links</h4>\\n<p>Our offer includes links to external third party websites. We have no influence on the contents of those websites, therefore we cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.</p>\\n<p>The linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.</p>\\n<hr>\\n<h4>Copyright</h4>\\n<p>Contents and compilations published on these websites by the providers are subject to German copyright laws. Reproduction, editing, distribution as well as the use of any kind outside the scope of the copyright law require a written permission of the author or originator. Downloads and copies of these websites are permitted for private use only. The commercial use of our contents without permission of the originator is prohibited.</p>\\n<p>Copyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately.</p>","frontmatter":{"sectionId":"imprint"}},{"html":"<p>Your privacy is important to me. It is my, CHRISTOPHER A. ROTUNNO, policy to respect your privacy regarding any information I may collect from you across my website, rotten-carot.dev.</p>\\n<p>I only ask for personal information when I truly need it to provide a service to you. I collect it by fair and lawful means, with your knowledge and consent. I also let you know why I am collecting it and how it will be used.</p>\\n<p>I only retain collected information for as long as necessary to provide you with your requested service. What data I store, I\'ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.</p>\\n<p>I don’t share any personally identifying information publicly or with third-parties, except when required to by law.</p>\\n<p>My website may link to external sites that are not operated by me. Please be aware that I have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>\\n<p>You are free to refuse my request for your personal information, with the understanding that I may be unable to provide you with some of your desired services.</p>\\n<p>Your continued use of my website will be regarded as acceptance of my practices around privacy and personal information. If you have any questions about how I handle user data and personal information, feel free to contact me.</p>\\n<p>This policy is effective as of 22 September 2019. It has been generated with the help of GetTerms.io.</p>","frontmatter":{"sectionId":"privacy"}}]}}}');
-
-/***/ }),
-
-/***/ "../node_modules/tr46/lib/mappingTable.json":
-/*!**************************************************!*\
-  !*** ../node_modules/tr46/lib/mappingTable.json ***!
-  \**************************************************/
+/***/ 7873:
 /***/ ((module) => {
 
 "use strict";
